@@ -1,0 +1,34 @@
+[
+  {
+    "config": "c:\\Projects\\Diploma\\configs\\mvp.yaml",
+    "run_dir": "c:\\Projects\\Diploma\\runs\\geometry_compare_seq\\01_mvp",
+    "status": "ok",
+    "error": "",
+    "backend": "homography_baseline",
+    "rectification_score": 0.5459,
+    "manhattan_ratio": 0.9286,
+    "coverage": 0.3,
+    "rotation_deg": 0.0,
+    "reprojection_error": 0.0,
+    "num_attempts": 24,
+    "total_time_sec": 2.9876,
+    "geometry_time_sec": 2.2185,
+    "svg_path": "c:\\Projects\\Diploma\\runs\\geometry_compare_seq\\01_mvp\\40_vector\\result.svg"
+  },
+  {
+    "config": "c:\\Projects\\Diploma\\configs\\mvp_a1_pycolmap.yaml",
+    "run_dir": "c:\\Projects\\Diploma\\runs\\geometry_compare_seq\\02_mvp_a1_pycolmap",
+    "status": "ok",
+    "error": "",
+    "backend": "pycolmap",
+    "rectification_score": 0.7737,
+    "manhattan_ratio": 0.9,
+    "coverage": 0.5455,
+    "rotation_deg": -18.0,
+    "reprojection_error": 0.1336,
+    "num_attempts": 1,
+    "total_time_sec": 34.0813,
+    "geometry_time_sec": 32.9728,
+    "svg_path": "c:\\Projects\\Diploma\\runs\\geometry_compare_seq\\02_mvp_a1_pycolmap\\40_vector\\result.svg"
+  }
+]

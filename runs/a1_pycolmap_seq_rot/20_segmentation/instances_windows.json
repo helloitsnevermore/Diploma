@@ -1,0 +1,97 @@
+{
+  "format_version": "mvp-0.1",
+  "image_width": 1073,
+  "image_height": 1149,
+  "instances": [
+    {
+      "bbox": [
+        108,
+        0,
+        131,
+        91
+      ],
+      "polygon": [
+        [
+          108,
+          0
+        ],
+        [
+          239,
+          0
+        ],
+        [
+          239,
+          91
+        ],
+        [
+          108,
+          91
+        ]
+      ],
+      "confidence": 0.6497,
+      "area_ratio": 0.002894,
+      "id": "window_0001",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        0,
+        3,
+        845,
+        981
+      ],
+      "polygon": [
+        [
+          0,
+          3
+        ],
+        [
+          845,
+          3
+        ],
+        [
+          845,
+          984
+        ],
+        [
+          0,
+          984
+        ]
+      ],
+      "confidence": 0.5125,
+      "area_ratio": 0.016782,
+      "id": "window_0002",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        0,
+        87,
+        494,
+        462
+      ],
+      "polygon": [
+        [
+          0,
+          87
+        ],
+        [
+          494,
+          87
+        ],
+        [
+          494,
+          549
+        ],
+        [
+          0,
+          549
+        ]
+      ],
+      "confidence": 0.521,
+      "area_ratio": 0.007775,
+      "id": "window_0003",
+      "type": "window"
+    }
+  ]
+}

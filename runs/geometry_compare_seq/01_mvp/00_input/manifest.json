@@ -1,0 +1,17 @@
+{
+  "input": "C:\\Projects\\Diploma\\tmp_colmap_seq",
+  "kind": "images_dir",
+  "fps": 2.0,
+  "max_frames": 120,
+  "frames": [
+    "frame_00000.png",
+    "frame_00001.png",
+    "frame_00002.png",
+    "frame_00003.png",
+    "frame_00004.png",
+    "frame_00005.png",
+    "frame_00006.png",
+    "frame_00007.png"
+  ],
+  "num_frames": 8
+}

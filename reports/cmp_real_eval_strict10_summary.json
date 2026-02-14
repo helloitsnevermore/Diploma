@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "num_ok": 6,
+  "num_failed": 4,
+  "avg_rectification_score": 0.54845,
+  "avg_runtime_sec": 0.58665,
+  "avg_window_iou": 0.12696844595207796,
+  "avg_door_iou": 0.18414949999634198,
+  "avg_window_count_abs_error": 15,
+  "avg_door_count_abs_error": 6,
+  "avg_line_manhattan_ratio": 0.9296906531429823,
+  "source": {
+    "dataset": "CMP Facade Database (base split)",
+    "url": "https://cmp.felk.cvut.cz/~tylecr1/facade/",
+    "evaluated_images": 10,
+    "limit": 10,
+    "outdir_root": "C:\\Projects\\Diploma\\runs\\cmp_real_strict10"
+  }
+}

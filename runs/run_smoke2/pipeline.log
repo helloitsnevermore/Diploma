@@ -1,0 +1,8 @@
+2026-02-14 23:56:29 | INFO | Pipeline start: input=c:\Projects\Diploma\test_input outdir=c:\Projects\Diploma\runs\run_smoke2 config=c:\Projects\Diploma\configs\mvp.yaml device=cpu
+2026-02-14 23:56:29 | INFO | Seed set to 42
+2026-02-14 23:56:29 | INFO | Collecting 3 images (of 3 found)
+2026-02-14 23:56:29 | INFO | Geometry stage: evaluating 3 frames with 3 Canny variants
+2026-02-14 23:56:30 | INFO | Segmentation stage: windows=32 doors=0
+2026-02-14 23:56:30 | INFO | Lines stage: 136 segments
+2026-02-14 23:56:30 | INFO | Vectorization stage: windows=32 doors=0 lines=136
+2026-02-14 23:56:30 | INFO | Pipeline finished successfully in 0.49 sec

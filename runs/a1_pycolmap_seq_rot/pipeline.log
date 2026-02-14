@@ -1,0 +1,7 @@
+2026-02-15 00:33:22 | INFO | Pipeline start: input=c:\Projects\Diploma\tmp_colmap_seq outdir=c:\Projects\Diploma\runs\a1_pycolmap_seq_rot config=c:\Projects\Diploma\configs\mvp_a1_pycolmap.yaml device=cpu
+2026-02-15 00:33:22 | INFO | Seed set to 42
+2026-02-15 00:33:22 | INFO | Collecting 8 images (of 8 found)
+2026-02-15 00:33:54 | INFO | Segmentation stage: windows=3 doors=0
+2026-02-15 00:33:54 | INFO | Lines stage: 369 segments
+2026-02-15 00:33:54 | INFO | Vectorization stage: windows=3 doors=0 lines=369
+2026-02-15 00:33:55 | INFO | Pipeline finished successfully in 32.13 sec

@@ -1,0 +1,50 @@
+{
+  "backend": "pycolmap",
+  "status": "ok",
+  "rectification_score": 0.6891,
+  "sharpness": 337.3112,
+  "coverage": 0.6861,
+  "manhattan_ratio": 0.0,
+  "reprojection_error": 0.1328,
+  "reprojection_score": 0.9567,
+  "registration_ratio": 1.0,
+  "selected_variant": "v1_fast",
+  "num_input_frames": 4,
+  "num_reg_images": 4,
+  "num_points3D": 5290,
+  "output_width": 1031,
+  "output_height": 1216,
+  "num_attempts": 2,
+  "attempts": [
+    {
+      "name": "v1_fast",
+      "status": "ok",
+      "num_input_frames": 4,
+      "num_reg_images": 4,
+      "num_points3D": 5290,
+      "reprojection_error": 0.1328,
+      "plane_inlier_ratio": 0.9981,
+      "coverage": 0.6861,
+      "manhattan_ratio": 0.0,
+      "sharpness": 337.3112,
+      "score": 0.6891,
+      "output_width": 1031,
+      "output_height": 1216
+    },
+    {
+      "name": "v2_dense",
+      "status": "ok",
+      "num_input_frames": 8,
+      "num_reg_images": 8,
+      "num_points3D": 11003,
+      "reprojection_error": 0.1938,
+      "plane_inlier_ratio": 0.999,
+      "coverage": 0.2876,
+      "manhattan_ratio": 0.3333,
+      "sharpness": 173.8733,
+      "score": 0.6399,
+      "output_width": 1272,
+      "output_height": 1308
+    }
+  ]
+}

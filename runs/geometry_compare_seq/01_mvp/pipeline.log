@@ -1,0 +1,8 @@
+2026-02-15 00:34:44 | INFO | Pipeline start: input=c:\Projects\Diploma\tmp_colmap_seq outdir=c:\Projects\Diploma\runs\geometry_compare_seq\01_mvp config=c:\Projects\Diploma\configs\mvp.yaml device=cpu
+2026-02-15 00:34:44 | INFO | Seed set to 42
+2026-02-15 00:34:44 | INFO | Collecting 8 images (of 8 found)
+2026-02-15 00:34:45 | INFO | Geometry stage (homography): evaluating 8 frames with 3 Canny variants
+2026-02-15 00:34:47 | INFO | Segmentation stage: windows=12 doors=17
+2026-02-15 00:34:47 | INFO | Lines stage: 737 segments
+2026-02-15 00:34:47 | INFO | Vectorization stage: windows=12 doors=17 lines=737
+2026-02-15 00:34:47 | INFO | Pipeline finished successfully in 2.99 sec

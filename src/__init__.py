@@ -1,0 +1,2 @@
+"""Facade vectorization MVP package."""
+

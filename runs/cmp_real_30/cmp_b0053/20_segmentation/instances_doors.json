@@ -1,0 +1,37 @@
+{
+  "format_version": "mvp-0.1",
+  "image_width": 1024,
+  "image_height": 1015,
+  "instances": [
+    {
+      "bbox": [
+        716,
+        466,
+        80,
+        153
+      ],
+      "polygon": [
+        [
+          716,
+          466
+        ],
+        [
+          796,
+          466
+        ],
+        [
+          796,
+          619
+        ],
+        [
+          716,
+          619
+        ]
+      ],
+      "confidence": 0.6913,
+      "area_ratio": 0.004506,
+      "id": "door_0001",
+      "type": "door"
+    }
+  ]
+}

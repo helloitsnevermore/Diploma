@@ -1,0 +1,12 @@
+2026-02-15 00:09:35 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0168.jpg outdir=c:\Projects\Diploma\runs\cmp_real_strict10\cmp_b0168 config=c:\Projects\Diploma\configs\mvp.yaml device=cpu
+2026-02-15 00:09:35 | INFO | Seed set to 42
+2026-02-15 00:09:35 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 00:09:36 | INFO | Geometry stage: evaluating 1 frames with 3 Canny variants
+2026-02-15 00:09:36 | ERROR | Pipeline failed: Geometry stage failed quality gate: rectification_score=0.372 < 0.450
+Traceback (most recent call last):
+  File "C:\Projects\Diploma\src\pipeline.py", line 68, in run_pipeline
+    geometry_result = run_geometry(
+                      ^^^^^^^^^^^^^
+  File "C:\Projects\Diploma\src\geometry\baseline.py", line 111, in run_geometry
+    raise RuntimeError(
+RuntimeError: Geometry stage failed quality gate: rectification_score=0.372 < 0.450

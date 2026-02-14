@@ -1,0 +1,8 @@
+2026-02-15 00:08:51 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0040.jpg outdir=c:\Projects\Diploma\runs\cmp_real_30\cmp_b0040 config=c:\Projects\Diploma\configs\mvp_real_eval.yaml device=cpu
+2026-02-15 00:08:51 | INFO | Seed set to 42
+2026-02-15 00:08:51 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 00:08:51 | INFO | Geometry stage: evaluating 1 frames with 3 Canny variants
+2026-02-15 00:08:52 | INFO | Segmentation stage: windows=21 doors=9
+2026-02-15 00:08:52 | INFO | Lines stage: 731 segments
+2026-02-15 00:08:52 | INFO | Vectorization stage: windows=21 doors=9 lines=731
+2026-02-15 00:08:52 | INFO | Pipeline finished successfully in 0.54 sec

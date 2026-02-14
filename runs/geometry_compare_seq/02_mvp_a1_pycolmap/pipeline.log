@@ -1,0 +1,7 @@
+2026-02-15 00:34:47 | INFO | Pipeline start: input=c:\Projects\Diploma\tmp_colmap_seq outdir=c:\Projects\Diploma\runs\geometry_compare_seq\02_mvp_a1_pycolmap config=c:\Projects\Diploma\configs\mvp_a1_pycolmap.yaml device=cpu
+2026-02-15 00:34:48 | INFO | Seed set to 42
+2026-02-15 00:34:48 | INFO | Collecting 8 images (of 8 found)
+2026-02-15 00:35:21 | INFO | Segmentation stage: windows=2 doors=0
+2026-02-15 00:35:22 | INFO | Lines stage: 357 segments
+2026-02-15 00:35:22 | INFO | Vectorization stage: windows=2 doors=0 lines=357
+2026-02-15 00:35:22 | INFO | Pipeline finished successfully in 34.08 sec

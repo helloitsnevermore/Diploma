@@ -1,0 +1,11 @@
+image,status,error,rectification_score,runtime_sec,gt_windows_count,pred_windows_count,window_count_abs_error,window_iou,gt_doors_count,pred_doors_count,door_count_abs_error,door_iou,line_count,line_manhattan_ratio,image_width,image_height,image_path
+cmp_b0001.jpg,failed,Geometry stage failed quality gate: rectification_score=0.341 < 0.450,0.0,0.0,0,0,0,0.0,0,0,0,0.0,0,0.0,0,0,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0001.jpg
+cmp_b0042.jpg,ok,,0.5328,0.8148,54,18,36,0.1695979164504166,1,14,13,0.04064933271697955,736,0.9375,933,1024,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0042.jpg
+cmp_b0084.jpg,ok,,0.4508,0.6102,12,25,13,0.13793988977669214,2,9,7,0.014992226253053973,817,0.8849449204406364,1024,995,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0084.jpg
+cmp_b0126.jpg,ok,,0.4762,0.5237,33,7,26,0.10287008677244348,0,0,0,1.0,629,0.9491255961844197,1024,752,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0126.jpg
+cmp_b0168.jpg,failed,Geometry stage failed quality gate: rectification_score=0.372 < 0.450,0.0,0.0,0,0,0,0.0,0,0,0,0.0,0,0.0,0,0,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0168.jpg
+cmp_b0210.jpg,ok,,0.6032,0.8364,21,12,9,0.03491546945416824,1,6,5,0.0,404,0.9306930693069307,1024,594,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0210.jpg
+cmp_b0252.jpg,failed,Geometry stage failed quality gate: rectification_score=0.446 < 0.450,0.0,0.0,0,0,0,0.0,0,0,0,0.0,0,0.0,0,0,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0252.jpg
+cmp_b0294.jpg,ok,,0.7015,0.3196,28,24,4,0.17008634504909628,2,5,3,0.049255441008018326,166,0.8855421686746988,487,321,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0294.jpg
+cmp_b0336.jpg,ok,,0.5262,0.4152,22,24,2,0.14640096820965093,0,8,8,0.0,207,0.9903381642512077,631,458,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0336.jpg
+cmp_b0378.jpg,failed,Geometry stage failed quality gate: rectification_score=0.375 < 0.450,0.0,0.0,0,0,0,0.0,0,0,0,0.0,0,0.0,0,0,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0378.jpg

@@ -1,0 +1,303 @@
+{
+  "backend": "homography_baseline",
+  "rectification_score": 0.5459,
+  "sharpness": 749.1214,
+  "coverage": 0.3,
+  "manhattan_ratio": 0.9286,
+  "selected_frame": "frame_00003.png",
+  "selected_canny": [
+    50,
+    150
+  ],
+  "num_attempts": 24,
+  "attempts": [
+    {
+      "frame": "frame_00007.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.536,
+      "sharpness": 792.9434,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8533,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00007.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.536,
+      "sharpness": 792.9434,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8533,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00007.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.536,
+      "sharpness": 792.9434,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8533,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00006.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.4911,
+      "sharpness": 778.6001,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7403,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00006.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.4911,
+      "sharpness": 778.6001,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7403,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00006.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.4911,
+      "sharpness": 778.6001,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7403,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00005.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.4954,
+      "sharpness": 764.0959,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7683,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00005.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.4954,
+      "sharpness": 764.0959,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7683,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00005.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.4954,
+      "sharpness": 764.0959,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7683,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00004.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.5348,
+      "sharpness": 752.7181,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8929,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00004.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.5348,
+      "sharpness": 752.7181,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8929,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00004.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.5348,
+      "sharpness": 752.7181,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8929,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00003.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.5459,
+      "sharpness": 749.1214,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.9286,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00003.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.5459,
+      "sharpness": 749.1214,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.9286,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00003.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.5459,
+      "sharpness": 749.1214,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.9286,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00002.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.4843,
+      "sharpness": 730.7346,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7722,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00002.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.4843,
+      "sharpness": 730.7346,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7722,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00002.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.4843,
+      "sharpness": 730.7346,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7722,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00001.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.4751,
+      "sharpness": 719.3274,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7581,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00001.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.4751,
+      "sharpness": 719.3274,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7581,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00001.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.4751,
+      "sharpness": 719.3274,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.7581,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.4711,
+      "sharpness": 707.8817,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.759,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.4711,
+      "sharpness": 707.8817,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.759,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.4711,
+      "sharpness": 707.8817,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.759,
+      "had_quad": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "rectification_score": 0.4762,
+  "sharpness": 513.377,
+  "coverage": 0.3,
+  "manhattan_ratio": 0.982,
+  "selected_frame": "frame_00000.png",
+  "selected_canny": [
+    50,
+    150
+  ],
+  "num_attempts": 3,
+  "attempts": [
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.4762,
+      "sharpness": 513.377,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.982,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.4762,
+      "sharpness": 513.377,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.982,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.4762,
+      "sharpness": 513.377,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.982,
+      "had_quad": false
+    }
+  ]
+}

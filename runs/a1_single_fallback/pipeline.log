@@ -1,0 +1,10 @@
+2026-02-15 00:24:30 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0042.jpg outdir=c:\Projects\Diploma\runs\a1_single_fallback config=c:\Projects\Diploma\configs\mvp_a1_pycolmap.yaml device=cpu
+2026-02-15 00:24:31 | INFO | Seed set to 42
+2026-02-15 00:24:31 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 00:24:31 | INFO | Skip PyCOLMAP backend: not enough frames for pycolmap: 1 < 4
+2026-02-15 00:24:31 | INFO | Geometry fallback: using homography baseline
+2026-02-15 00:24:31 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 00:24:31 | INFO | Segmentation stage: windows=18 doors=14
+2026-02-15 00:24:31 | INFO | Lines stage: 736 segments
+2026-02-15 00:24:31 | INFO | Vectorization stage: windows=18 doors=14 lines=736
+2026-02-15 00:24:31 | INFO | Pipeline finished successfully in 0.80 sec

@@ -1,0 +1,37 @@
+{
+  "backend": "pycolmap",
+  "status": "ok",
+  "rectification_score": 0.7737,
+  "sharpness": 132.2918,
+  "coverage": 0.5455,
+  "manhattan_ratio": 0.9,
+  "rotation_deg": -18.0,
+  "reprojection_error": 0.1336,
+  "reprojection_score": 0.9564,
+  "registration_ratio": 1.0,
+  "selected_variant": "v1_fast",
+  "num_input_frames": 4,
+  "num_reg_images": 4,
+  "num_points3D": 5289,
+  "output_width": 1102,
+  "output_height": 1164,
+  "num_attempts": 1,
+  "attempts": [
+    {
+      "name": "v1_fast",
+      "status": "ok",
+      "num_input_frames": 4,
+      "num_reg_images": 4,
+      "num_points3D": 5289,
+      "reprojection_error": 0.1336,
+      "plane_inlier_ratio": 0.9981,
+      "coverage": 0.5455,
+      "manhattan_ratio": 0.9,
+      "rotation_deg": -18.0,
+      "sharpness": 132.2918,
+      "score": 0.7737,
+      "output_width": 1102,
+      "output_height": 1164
+    }
+  ]
+}

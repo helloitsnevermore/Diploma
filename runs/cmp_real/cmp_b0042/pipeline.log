@@ -1,0 +1,16 @@
+2026-02-15 00:07:00 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0042.jpg outdir=c:\Projects\Diploma\runs\cmp_real\cmp_b0042 config=c:\Projects\Diploma\configs\mvp.yaml device=cpu
+2026-02-15 00:07:00 | INFO | Seed set to 42
+2026-02-15 00:07:00 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 00:07:00 | INFO | Geometry stage: evaluating 1 frames with 3 Canny variants
+2026-02-15 00:07:00 | INFO | Segmentation stage: windows=18 doors=14
+2026-02-15 00:07:00 | INFO | Lines stage: 736 segments
+2026-02-15 00:07:00 | INFO | Vectorization stage: windows=18 doors=14 lines=736
+2026-02-15 00:07:00 | INFO | Pipeline finished successfully in 0.78 sec
+2026-02-15 00:08:17 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0042.jpg outdir=c:\Projects\Diploma\runs\cmp_real\cmp_b0042 config=c:\Projects\Diploma\configs\mvp.yaml device=cpu
+2026-02-15 00:08:17 | INFO | Seed set to 42
+2026-02-15 00:08:17 | INFO | Input stage cache hit: reuse 1 frames
+2026-02-15 00:08:17 | INFO | Geometry stage: evaluating 1 frames with 3 Canny variants
+2026-02-15 00:08:18 | INFO | Segmentation stage: windows=18 doors=14
+2026-02-15 00:08:18 | INFO | Lines stage: 736 segments
+2026-02-15 00:08:18 | INFO | Vectorization stage: windows=18 doors=14 lines=736
+2026-02-15 00:08:18 | INFO | Pipeline finished successfully in 0.75 sec
