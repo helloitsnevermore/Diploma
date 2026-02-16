@@ -1,0 +1,31 @@
+image,status,error,rectification_score,runtime_sec,gt_windows_count,pred_windows_count,window_count_abs_error,window_iou,gt_doors_count,pred_doors_count,door_count_abs_error,door_iou,line_count,line_manhattan_ratio,image_width,image_height,image_path
+cmp_b0001.jpg,ok,,0.3412,3.4984,74,120,46,0.18359114684626118,5,0,5,0.0,410,0.9804878048780488,543,1024,data\cmp_facade_base\base\cmp_b0001.jpg
+cmp_b0014.jpg,ok,,0.5742,1.3313,21,29,8,0.06850705581339375,1,0,1,0.0,593,0.954468802698145,753,1024,data\cmp_facade_base\base\cmp_b0014.jpg
+cmp_b0027.jpg,ok,,0.707,1.0718,38,3,35,0.04194107452339688,0,0,0,1.0,552,0.9293478260869565,745,1024,data\cmp_facade_base\base\cmp_b0027.jpg
+cmp_b0040.jpg,ok,,0.6186,1.1324,22,11,11,0.0663574949790031,1,0,1,0.0,731,0.9110807113543091,687,1024,data\cmp_facade_base\base\cmp_b0040.jpg
+cmp_b0053.jpg,ok,,0.6015,1.2441,14,3,11,0.010713634486069297,2,0,2,0.0,628,0.9506369426751592,1024,1015,data\cmp_facade_base\base\cmp_b0053.jpg
+cmp_b0066.jpg,ok,,0.6382,2.1707,270,21,249,0.007747356727185827,0,0,0,1.0,482,0.983402489626556,616,1024,data\cmp_facade_base\base\cmp_b0066.jpg
+cmp_b0079.jpg,ok,,0.4999,1.4043,82,120,38,0.17542044894799802,0,0,0,1.0,417,0.8848920863309353,601,1024,data\cmp_facade_base\base\cmp_b0079.jpg
+cmp_b0092.jpg,ok,,0.3061,1.0225,26,31,5,0.144873040835439,1,0,1,0.0,435,0.967816091954023,844,1024,data\cmp_facade_base\base\cmp_b0092.jpg
+cmp_b0105.jpg,ok,,0.7037,0.8671,39,35,4,0.06029208258111649,0,0,0,1.0,518,0.9227799227799228,1024,507,data\cmp_facade_base\base\cmp_b0105.jpg
+cmp_b0118.jpg,ok,,0.484,0.9028,21,0,21,0.0,1,0,1,0.0,622,0.9035369774919614,1024,704,data\cmp_facade_base\base\cmp_b0118.jpg
+cmp_b0131.jpg,ok,,0.4745,0.9399,27,0,27,0.0,1,0,1,0.0,682,0.9633431085043989,851,1024,data\cmp_facade_base\base\cmp_b0131.jpg
+cmp_b0144.jpg,ok,,0.5049,0.8768,14,0,14,0.0,1,0,1,0.0,648,0.8996913580246914,1024,677,data\cmp_facade_base\base\cmp_b0144.jpg
+cmp_b0157.jpg,ok,,0.484,0.9267,31,10,21,0.030046089434612813,3,0,3,0.0,649,0.9861325115562404,768,1024,data\cmp_facade_base\base\cmp_b0157.jpg
+cmp_b0170.jpg,ok,,0.471,1.0548,40,8,32,0.03504893612919395,1,0,1,0.0,945,0.9746031746031746,858,1024,data\cmp_facade_base\base\cmp_b0170.jpg
+cmp_b0183.jpg,ok,,0.4236,0.8625,8,3,5,0.07441514799017707,1,0,1,0.0,557,0.9353680430879713,720,1024,data\cmp_facade_base\base\cmp_b0183.jpg
+cmp_b0196.jpg,ok,,0.4261,0.6332,40,1,39,0.0,2,0,2,0.0,363,0.8925619834710744,1024,468,data\cmp_facade_base\base\cmp_b0196.jpg
+cmp_b0209.jpg,ok,,0.4694,1.0178,12,51,39,0.1487531724122914,2,0,2,0.0,456,1.0,1024,558,data\cmp_facade_base\base\cmp_b0209.jpg
+cmp_b0222.jpg,ok,,0.4822,1.0281,41,23,18,0.039478213444318774,1,0,1,0.0,580,0.9327586206896552,768,1024,data\cmp_facade_base\base\cmp_b0222.jpg
+cmp_b0235.jpg,ok,,0.3861,1.2114,36,120,84,0.05147615045177558,2,0,2,0.0,321,0.9314641744548287,768,1024,data\cmp_facade_base\base\cmp_b0235.jpg
+cmp_b0248.jpg,ok,,0.5985,1.1157,47,100,53,0.11031676364744246,3,0,3,0.0,645,0.9457364341085271,1024,648,data\cmp_facade_base\base\cmp_b0248.jpg
+cmp_b0261.jpg,ok,,0.5284,1.1439,41,4,37,0.033018188197407414,2,0,2,0.0,1139,0.9666374012291484,1024,943,data\cmp_facade_base\base\cmp_b0261.jpg
+cmp_b0274.jpg,ok,,0.673,1.0402,40,37,3,0.07186204172974396,1,0,1,0.0,670,0.9746268656716418,680,1024,data\cmp_facade_base\base\cmp_b0274.jpg
+cmp_b0287.jpg,ok,,0.4574,0.4411,18,12,6,0.08257765024567779,0,0,0,1.0,186,0.9623655913978495,507,474,data\cmp_facade_base\base\cmp_b0287.jpg
+cmp_b0300.jpg,ok,,0.5943,0.5059,12,6,6,0.005082848053648336,0,0,0,1.0,239,0.899581589958159,595,441,data\cmp_facade_base\base\cmp_b0300.jpg
+cmp_b0313.jpg,ok,,0.3824,0.4754,31,0,31,0.0,7,0,7,0.0,164,0.9817073170731707,573,362,data\cmp_facade_base\base\cmp_b0313.jpg
+cmp_b0326.jpg,failed,Homography geometry failed quality gate: rectification_score=0.288 < 0.300,0.0,0.0,0,0,0,0.0,0,0,0,0.0,0,0.0,0,0,data\cmp_facade_base\base\cmp_b0326.jpg
+cmp_b0339.jpg,ok,,0.3981,0.7684,23,2,21,0.01896657781423006,0,0,0,1.0,313,0.8913738019169329,1011,578,data\cmp_facade_base\base\cmp_b0339.jpg
+cmp_b0352.jpg,failed,Homography geometry failed quality gate: rectification_score=0.268 < 0.300,0.0,0.0,0,0,0,0.0,0,0,0,0.0,0,0.0,0,0,data\cmp_facade_base\base\cmp_b0352.jpg
+cmp_b0365.jpg,ok,,0.5749,0.437,28,5,23,0.0,4,0,4,0.0,213,0.9577464788732394,529,365,data\cmp_facade_base\base\cmp_b0365.jpg
+cmp_b0378.jpg,ok,,0.3754,0.441,10,24,14,0.18330615354586038,0,0,0,1.0,122,0.9836065573770492,538,408,data\cmp_facade_base\base\cmp_b0378.jpg

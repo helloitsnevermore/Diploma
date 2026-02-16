@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "num_ok": 28,
+  "num_failed": 2,
+  "avg_rectification_score": 0.5063785714285715,
+  "avg_runtime_sec": 0.46671071428571426,
+  "avg_window_iou": 0.13973144129572246,
+  "avg_door_iou": 0.01909024187072324,
+  "avg_window_iou_nonempty_gt": 0.13973144129572246,
+  "avg_door_iou_nonempty_gt": 0.026726338619012538,
+  "avg_window_count_abs_error": 22.178571428571427,
+  "avg_door_count_abs_error": 3,
+  "door_presence_recall_nonempty_gt": 0.95,
+  "avg_vector_line_count": 510,
+  "avg_vector_line_manhattan_ratio": 0.9456108498760308,
+  "source": {
+    "dataset": "CMP Facade Database (base split)",
+    "url": "https://cmp.felk.cvut.cz/~tylecr1/facade/",
+    "evaluated_images": 30,
+    "limit": 30,
+    "outdir_root": "C:\\Projects\\Diploma\\runs\\cmp_vector_strict30"
+  }
+}

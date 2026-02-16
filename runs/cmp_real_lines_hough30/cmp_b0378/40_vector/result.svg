@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 538 408" width="538" height="408">
+  <rect x="0" y="0" width="538" height="408" fill="#fff"/>
+  <g id="facade_outline">
+    <polygon id="facade_0001" points="0,0 538,0 538,408 0,408" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+  <g id="openings_windows">
+    <rect id="window_0001" x="408" y="108" width="12" height="28" stroke="#000" stroke-width="1" fill="none" data-conf="0.9117" data-type="window"/>
+    <rect id="window_0002" x="428" y="108" width="16" height="28" stroke="#000" stroke-width="1" fill="none" data-conf="0.9132" data-type="window"/>
+    <rect id="window_0003" x="156" y="184" width="380" height="224" stroke="#000" stroke-width="1" fill="none" data-conf="0.5461" data-type="window"/>
+    <rect id="window_0004" x="0" y="252" width="200" height="152" stroke="#000" stroke-width="1" fill="none" data-conf="0.5901" data-type="window"/>
+    <rect id="window_0005" x="316" y="272" width="20" height="24" stroke="#000" stroke-width="1" fill="none" data-conf="0.8646" data-type="window"/>
+    <rect id="window_0006" x="340" y="276" width="44" height="20" stroke="#000" stroke-width="1" fill="none" data-conf="0.8468" data-type="window"/>
+    <rect id="window_0007" x="256" y="376" width="32" height="24" stroke="#000" stroke-width="1" fill="none" data-conf="0.8017" data-type="window"/>
+  </g>
+  <g id="openings_doors">
+    <rect id="door_0001" x="52" y="248" width="12" height="48" stroke="#000" stroke-width="1" fill="none" data-conf="0.9558" data-type="door"/>
+    <rect id="door_0002" x="72" y="248" width="16" height="48" stroke="#000" stroke-width="1" fill="none" data-conf="0.9493" data-type="door"/>
+    <rect id="door_0003" x="96" y="248" width="16" height="48" stroke="#000" stroke-width="1" fill="none" data-conf="0.7426" data-type="door"/>
+    <rect id="door_0004" x="136" y="248" width="16" height="48" stroke="#000" stroke-width="1" fill="none" data-conf="0.9249" data-type="door"/>
+    <rect id="door_0005" x="160" y="248" width="16" height="48" stroke="#000" stroke-width="1" fill="none" data-conf="0.9352" data-type="door"/>
+    <rect id="door_0006" x="184" y="248" width="16" height="48" stroke="#000" stroke-width="1" fill="none" data-conf="0.6950" data-type="door"/>
+    <rect id="door_0007" x="224" y="256" width="20" height="40" stroke="#000" stroke-width="1" fill="none" data-conf="0.8808" data-type="door"/>
+    <rect id="door_0008" x="248" y="256" width="20" height="40" stroke="#000" stroke-width="1" fill="none" data-conf="0.9093" data-type="door"/>
+    <rect id="door_0009" x="272" y="256" width="20" height="40" stroke="#000" stroke-width="1" fill="none" data-conf="0.8954" data-type="door"/>
+    <rect id="door_0010" x="112" y="364" width="16" height="32" stroke="#000" stroke-width="1" fill="none" data-conf="0.8945" data-type="door"/>
+  </g>
+  <g id="lines">
+    <line id="line_0001" x1="184" y1="308" x2="456" y2="308" stroke="#000" stroke-width="1" data-conf="0.4014"/>
+    <line id="line_0002" x1="36" y1="84" x2="256" y2="84" stroke="#000" stroke-width="1" data-conf="0.3288"/>
+    <line id="line_0003" x1="64" y1="56" x2="284" y2="56" stroke="#000" stroke-width="1" data-conf="0.3258"/>
+    <line id="line_0004" x1="56" y1="52" x2="276" y2="52" stroke="#000" stroke-width="1" data-conf="0.3243"/>
+    <line id="line_0005" x1="108" y1="4" x2="316" y2="4" stroke="#000" stroke-width="1" data-conf="0.3110"/>
+    <line id="line_0006" x1="228" y1="304" x2="432" y2="304" stroke="#000" stroke-width="1" data-conf="0.3051"/>
+    <line id="line_0007" x1="92" y1="144" x2="280" y2="144" stroke="#000" stroke-width="1" data-conf="0.2829"/>
+    <line id="line_0008" x1="96" y1="144" x2="284" y2="144" stroke="#000" stroke-width="1" data-conf="0.2770"/>
+    <line id="line_0009" x1="240" y1="208" x2="400" y2="208" stroke="#000" stroke-width="1" data-conf="0.2399"/>
+    <line id="line_0010" x1="296" y1="88" x2="456" y2="88" stroke="#000" stroke-width="1" data-conf="0.2385"/>
+    <line id="line_0011" x1="512" y1="404" x2="512" y2="252" stroke="#000" stroke-width="1" data-conf="0.2266"/>
+    <line id="line_0012" x1="96" y1="208" x2="240" y2="208" stroke="#000" stroke-width="1" data-conf="0.2133"/>
+    <line id="line_0013" x1="224" y1="0" x2="360" y2="0" stroke="#000" stroke-width="1" data-conf="0.1985"/>
+    <line id="line_0014" x1="312" y1="400" x2="432" y2="400" stroke="#000" stroke-width="1" data-conf="0.1763"/>
+    <line id="line_0015" x1="520" y1="396" x2="520" y2="284" stroke="#000" stroke-width="1" data-conf="0.1695"/>
+    <line id="line_0016" x1="376" y1="56" x2="488" y2="56" stroke="#000" stroke-width="1" data-conf="0.1674"/>
+    <line id="line_0017" x1="12" y1="44" x2="120" y2="44" stroke="#000" stroke-width="1" data-conf="0.1555"/>
+    <line id="line_0018" x1="348" y1="364" x2="452" y2="364" stroke="#000" stroke-width="1" data-conf="0.1512"/>
+    <line id="line_0019" x1="216" y1="392" x2="316" y2="392" stroke="#000" stroke-width="1" data-conf="0.1483"/>
+    <line id="line_0020" x1="272" y1="144" x2="368" y2="144" stroke="#000" stroke-width="1" data-conf="0.1422"/>
+    <line id="line_0021" x1="288" y1="216" x2="288" y2="304" stroke="#000" stroke-width="1" data-conf="0.1333"/>
+    <line id="line_0022" x1="508" y1="64" x2="508" y2="152" stroke="#000" stroke-width="1" data-conf="0.1289"/>
+    <line id="line_0023" x1="356" y1="8" x2="444" y2="8" stroke="#000" stroke-width="1" data-conf="0.1289"/>
+    <line id="line_0024" x1="336" y1="60" x2="424" y2="60" stroke="#000" stroke-width="1" data-conf="0.1289"/>
+    <line id="line_0025" x1="216" y1="376" x2="300" y2="376" stroke="#000" stroke-width="1" data-conf="0.1274"/>
+    <line id="line_0026" x1="40" y1="40" x2="128" y2="40" stroke="#000" stroke-width="1" data-conf="0.1259"/>
+    <line id="line_0027" x1="284" y1="148" x2="368" y2="148" stroke="#000" stroke-width="1" data-conf="0.1244"/>
+    <line id="line_0028" x1="216" y1="396" x2="300" y2="396" stroke="#000" stroke-width="1" data-conf="0.1230"/>
+    <line id="line_0029" x1="144" y1="300" x2="224" y2="300" stroke="#000" stroke-width="1" data-conf="0.1229"/>
+    <line id="line_0030" x1="368" y1="148" x2="448" y2="148" stroke="#000" stroke-width="1" data-conf="0.1214"/>
+    <line id="line_0031" x1="372" y1="48" x2="448" y2="48" stroke="#000" stroke-width="1" data-conf="0.1155"/>
+    <line id="line_0032" x1="16" y1="340" x2="92" y2="340" stroke="#000" stroke-width="1" data-conf="0.1155"/>
+    <line id="line_0033" x1="228" y1="44" x2="304" y2="44" stroke="#000" stroke-width="1" data-conf="0.1111"/>
+    <line id="line_0034" x1="352" y1="360" x2="424" y2="360" stroke="#000" stroke-width="1" data-conf="0.1068"/>
+    <line id="line_0035" x1="404" y1="376" x2="476" y2="376" stroke="#000" stroke-width="1" data-conf="0.1052"/>
+    <line id="line_0036" x1="128" y1="100" x2="200" y2="100" stroke="#000" stroke-width="1" data-conf="0.1037"/>
+    <line id="line_0037" x1="136" y1="44" x2="208" y2="44" stroke="#000" stroke-width="1" data-conf="0.1022"/>
+    <line id="line_0038" x1="400" y1="100" x2="468" y2="100" stroke="#000" stroke-width="1" data-conf="0.1022"/>
+    <line id="line_0039" x1="312" y1="276" x2="380" y2="276" stroke="#000" stroke-width="1" data-conf="0.1022"/>
+    <line id="line_0040" x1="44" y1="100" x2="112" y2="100" stroke="#000" stroke-width="1" data-conf="0.1007"/>
+    <line id="line_0041" x1="116" y1="304" x2="184" y2="304" stroke="#000" stroke-width="1" data-conf="0.0992"/>
+    <line id="line_0042" x1="132" y1="216" x2="200" y2="216" stroke="#000" stroke-width="1" data-conf="0.0977"/>
+    <line id="line_0043" x1="400" y1="280" x2="400" y2="212" stroke="#000" stroke-width="1" data-conf="0.0977"/>
+    <line id="line_0044" x1="400" y1="296" x2="468" y2="296" stroke="#000" stroke-width="1" data-conf="0.0963"/>
+    <line id="line_0045" x1="224" y1="216" x2="288" y2="216" stroke="#000" stroke-width="1" data-conf="0.0963"/>
+    <line id="line_0046" x1="316" y1="216" x2="380" y2="216" stroke="#000" stroke-width="1" data-conf="0.0948"/>
+    <line id="line_0047" x1="48" y1="92" x2="112" y2="92" stroke="#000" stroke-width="1" data-conf="0.0948"/>
+    <line id="line_0048" x1="276" y1="52" x2="340" y2="52" stroke="#000" stroke-width="1" data-conf="0.0933"/>
+    <line id="line_0049" x1="440" y1="24" x2="500" y2="24" stroke="#000" stroke-width="1" data-conf="0.0905"/>
+    <line id="line_0050" x1="172" y1="304" x2="228" y2="304" stroke="#000" stroke-width="1" data-conf="0.0829"/>
+    <line id="line_0051" x1="220" y1="280" x2="220" y2="224" stroke="#000" stroke-width="1" data-conf="0.0829"/>
+    <line id="line_0052" x1="36" y1="144" x2="88" y2="144" stroke="#000" stroke-width="1" data-conf="0.0815"/>
+    <line id="line_0053" x1="380" y1="272" x2="380" y2="216" stroke="#000" stroke-width="1" data-conf="0.0815"/>
+    <line id="line_0054" x1="352" y1="368" x2="408" y2="368" stroke="#000" stroke-width="1" data-conf="0.0802"/>
+    <line id="line_0055" x1="200" y1="16" x2="256" y2="16" stroke="#000" stroke-width="1" data-conf="0.0800"/>
+    <line id="line_0056" x1="472" y1="348" x2="472" y2="404" stroke="#000" stroke-width="1" data-conf="0.0800"/>
+    <line id="line_0057" x1="352" y1="368" x2="404" y2="368" stroke="#000" stroke-width="1" data-conf="0.0786"/>
+    <line id="line_0058" x1="36" y1="296" x2="88" y2="296" stroke="#000" stroke-width="1" data-conf="0.0770"/>
+    <line id="line_0059" x1="424" y1="208" x2="476" y2="208" stroke="#000" stroke-width="1" data-conf="0.0755"/>
+    <line id="line_0060" x1="328" y1="96" x2="380" y2="96" stroke="#000" stroke-width="1" data-conf="0.0755"/>
+    <line id="line_0061" x1="296" y1="16" x2="344" y2="16" stroke="#000" stroke-width="1" data-conf="0.0755"/>
+    <line id="line_0062" x1="424" y1="300" x2="476" y2="300" stroke="#000" stroke-width="1" data-conf="0.0741"/>
+    <line id="line_0063" x1="16" y1="344" x2="64" y2="344" stroke="#000" stroke-width="1" data-conf="0.0741"/>
+    <line id="line_0064" x1="424" y1="368" x2="472" y2="368" stroke="#000" stroke-width="1" data-conf="0.0741"/>
+    <line id="line_0065" x1="264" y1="368" x2="312" y2="368" stroke="#000" stroke-width="1" data-conf="0.0741"/>
+    <line id="line_0066" x1="36" y1="144" x2="84" y2="144" stroke="#000" stroke-width="1" data-conf="0.0726"/>
+    <line id="line_0067" x1="284" y1="56" x2="336" y2="56" stroke="#000" stroke-width="1" data-conf="0.0726"/>
+    <line id="line_0068" x1="176" y1="140" x2="228" y2="140" stroke="#000" stroke-width="1" data-conf="0.0726"/>
+    <line id="line_0069" x1="424" y1="368" x2="472" y2="368" stroke="#000" stroke-width="1" data-conf="0.0726"/>
+    <line id="line_0070" x1="112" y1="360" x2="160" y2="360" stroke="#000" stroke-width="1" data-conf="0.0715"/>
+    <line id="line_0071" x1="372" y1="144" x2="416" y2="144" stroke="#000" stroke-width="1" data-conf="0.0696"/>
+    <line id="line_0072" x1="76" y1="352" x2="120" y2="352" stroke="#000" stroke-width="1" data-conf="0.0681"/>
+    <line id="line_0073" x1="344" y1="348" x2="388" y2="348" stroke="#000" stroke-width="1" data-conf="0.0667"/>
+    <line id="line_0074" x1="152" y1="240" x2="200" y2="240" stroke="#000" stroke-width="1" data-conf="0.0667"/>
+    <line id="line_0075" x1="408" y1="208" x2="452" y2="208" stroke="#000" stroke-width="1" data-conf="0.0666"/>
+    <line id="line_0076" x1="352" y1="360" x2="396" y2="360" stroke="#000" stroke-width="1" data-conf="0.0652"/>
+    <line id="line_0077" x1="68" y1="96" x2="112" y2="96" stroke="#000" stroke-width="1" data-conf="0.0622"/>
+    <line id="line_0078" x1="64" y1="296" x2="108" y2="296" stroke="#000" stroke-width="1" data-conf="0.0622"/>
+    <line id="line_0079" x1="212" y1="372" x2="256" y2="372" stroke="#000" stroke-width="1" data-conf="0.0622"/>
+    <line id="line_0080" x1="248" y1="296" x2="248" y2="256" stroke="#000" stroke-width="1" data-conf="0.0622"/>
+    <line id="line_0081" x1="132" y1="216" x2="176" y2="216" stroke="#000" stroke-width="1" data-conf="0.0622"/>
+    <line id="line_0082" x1="96" y1="352" x2="136" y2="352" stroke="#000" stroke-width="1" data-conf="0.0594"/>
+    <line id="line_0083" x1="44" y1="248" x2="84" y2="248" stroke="#000" stroke-width="1" data-conf="0.0593"/>
+    <line id="line_0084" x1="208" y1="40" x2="248" y2="40" stroke="#000" stroke-width="1" data-conf="0.0592"/>
+    <line id="line_0085" x1="364" y1="376" x2="404" y2="376" stroke="#000" stroke-width="1" data-conf="0.0578"/>
+    <line id="line_0086" x1="48" y1="16" x2="88" y2="16" stroke="#000" stroke-width="1" data-conf="0.0563"/>
+    <line id="line_0087" x1="160" y1="296" x2="200" y2="296" stroke="#000" stroke-width="1" data-conf="0.0563"/>
+    <line id="line_0088" x1="376" y1="352" x2="408" y2="352" stroke="#000" stroke-width="1" data-conf="0.0533"/>
+    <line id="line_0089" x1="312" y1="276" x2="348" y2="276" stroke="#000" stroke-width="1" data-conf="0.0518"/>
+    <line id="line_0090" x1="84" y1="352" x2="120" y2="352" stroke="#000" stroke-width="1" data-conf="0.0490"/>
+    <line id="line_0091" x1="444" y1="352" x2="476" y2="352" stroke="#000" stroke-width="1" data-conf="0.0489"/>
+    <line id="line_0092" x1="432" y1="280" x2="468" y2="280" stroke="#000" stroke-width="1" data-conf="0.0489"/>
+    <line id="line_0093" x1="72" y1="356" x2="104" y2="356" stroke="#000" stroke-width="1" data-conf="0.0474"/>
+    <line id="line_0094" x1="384" y1="368" x2="416" y2="368" stroke="#000" stroke-width="1" data-conf="0.0474"/>
+    <line id="line_0095" x1="440" y1="360" x2="472" y2="360" stroke="#000" stroke-width="1" data-conf="0.0459"/>
+    <line id="line_0096" x1="112" y1="304" x2="144" y2="304" stroke="#000" stroke-width="1" data-conf="0.0459"/>
+  </g>
+  <g id="metadata" data-source="pipeline" data-ortho-width="538" data-ortho-height="408" data-units="px" data-rectification-score="0.3754"/>
+</svg>

@@ -1,0 +1,3 @@
+image,status,error,runtime_sec,svg_expected,dxf_expected,pdf_expected,svg_valid,dxf_valid,pdf_valid,export_valid_all,svg_size_bytes,dxf_size_bytes,pdf_size_bytes,svg_error,dxf_error,pdf_error
+cmp_b0001.jpg,ok,,0.4587,True,True,True,True,True,True,True,53510,48618,83079,,,
+cmp_b0378.jpg,ok,,0.1635,True,True,True,True,True,True,True,16799,15220,33954,,,

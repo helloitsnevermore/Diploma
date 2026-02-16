@@ -1,0 +1,8 @@
+2026-02-15 01:38:47 | INFO | Pipeline start: input=data\cmp_facade_base\base\cmp_b0040.jpg outdir=runs\cmp_export_svg_only30\cmp_b0040 config=configs/mvp_e_svg_only.yaml device=cpu
+2026-02-15 01:38:47 | INFO | Seed set to 42
+2026-02-15 01:38:47 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:38:48 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:38:48 | INFO | Segmentation stage (contour): windows=21 doors=9
+2026-02-15 01:38:48 | INFO | Lines stage (lsd): 731 segments
+2026-02-15 01:38:48 | INFO | Vectorization stage: windows=21 doors=9 lines=731 (snap=9.00 angle=18.00 strength=1.50)
+2026-02-15 01:38:48 | INFO | Pipeline finished successfully in 0.53 sec

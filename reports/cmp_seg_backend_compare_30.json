@@ -1,0 +1,45 @@
+{
+  "winner": "contour",
+  "selection_rule": "max door_presence_recall_nonempty_gt, then max avg_door_iou_nonempty_gt, then max avg_window_iou_nonempty_gt, then min avg_runtime_sec, then min avg_window_count_abs_error, then min avg_door_count_abs_error",
+  "rows": [
+    {
+      "label": "contour",
+      "path": "reports\\cmp_real_eval_contour_relaxed30_v2_summary.json",
+      "status": "ok",
+      "num_ok": 28,
+      "num_failed": 2,
+      "avg_window_iou_nonempty_gt": 0.13948622448822412,
+      "avg_door_iou_nonempty_gt": 0.026666917349050356,
+      "door_presence_recall_nonempty_gt": 0.95,
+      "avg_window_count_abs_error": 22.178571428571427,
+      "avg_door_count_abs_error": 3.0,
+      "avg_runtime_sec": 0.5829535714285714
+    },
+    {
+      "label": "yolo_det",
+      "path": "reports\\cmp_real_eval_yolo_det30_summary.json",
+      "status": "ok",
+      "num_ok": 28,
+      "num_failed": 2,
+      "avg_window_iou_nonempty_gt": 0.035605648009871045,
+      "avg_door_iou_nonempty_gt": 0.0,
+      "door_presence_recall_nonempty_gt": 0.0,
+      "avg_window_count_abs_error": 29.821428571428573,
+      "avg_door_count_abs_error": 1.5,
+      "avg_runtime_sec": 0.7877535714285714
+    },
+    {
+      "label": "yolo_seg",
+      "path": "reports\\cmp_real_eval_yolo_seg30_summary.json",
+      "status": "ok",
+      "num_ok": 28,
+      "num_failed": 2,
+      "avg_window_iou_nonempty_gt": 0.05870683102986584,
+      "avg_door_iou_nonempty_gt": 0.0,
+      "door_presence_recall_nonempty_gt": 0.0,
+      "avg_window_count_abs_error": 32.17857142857143,
+      "avg_door_count_abs_error": 1.5,
+      "avg_runtime_sec": 1.0559
+    }
+  ]
+}

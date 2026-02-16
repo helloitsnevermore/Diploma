@@ -1,0 +1,39 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "yolo_seg",
+  "image_width": 1024,
+  "image_height": 468,
+  "instances": [
+    {
+      "bbox": [
+        269,
+        408,
+        88,
+        21
+      ],
+      "polygon": [
+        [
+          269,
+          408
+        ],
+        [
+          269,
+          429
+        ],
+        [
+          356,
+          429
+        ],
+        [
+          356,
+          408
+        ]
+      ],
+      "confidence": 0.0305,
+      "area_ratio": 0.003856,
+      "source": "yolo_seg",
+      "id": "window_0001",
+      "type": "window"
+    }
+  ]
+}

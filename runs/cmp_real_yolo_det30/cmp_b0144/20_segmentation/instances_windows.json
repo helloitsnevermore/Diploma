@@ -1,0 +1,132 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "yolo_det",
+  "image_width": 1024,
+  "image_height": 677,
+  "instances": [
+    {
+      "bbox": [
+        341,
+        150,
+        136,
+        40
+      ],
+      "polygon": [
+        [
+          341,
+          150
+        ],
+        [
+          477,
+          150
+        ],
+        [
+          477,
+          190
+        ],
+        [
+          341,
+          190
+        ]
+      ],
+      "confidence": 0.0313,
+      "area_ratio": 0.007847,
+      "source": "yolo_det",
+      "id": "window_0001",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        342,
+        167,
+        134,
+        38
+      ],
+      "polygon": [
+        [
+          342,
+          167
+        ],
+        [
+          476,
+          167
+        ],
+        [
+          476,
+          205
+        ],
+        [
+          342,
+          205
+        ]
+      ],
+      "confidence": 0.0369,
+      "area_ratio": 0.007345,
+      "source": "yolo_det",
+      "id": "window_0002",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        212,
+        534,
+        138,
+        41
+      ],
+      "polygon": [
+        [
+          212,
+          534
+        ],
+        [
+          350,
+          534
+        ],
+        [
+          350,
+          575
+        ],
+        [
+          212,
+          575
+        ]
+      ],
+      "confidence": 0.0339,
+      "area_ratio": 0.008162,
+      "source": "yolo_det",
+      "id": "window_0003",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        340,
+        550,
+        140,
+        41
+      ],
+      "polygon": [
+        [
+          340,
+          550
+        ],
+        [
+          480,
+          550
+        ],
+        [
+          480,
+          591
+        ],
+        [
+          340,
+          591
+        ]
+      ],
+      "confidence": 0.0306,
+      "area_ratio": 0.00828,
+      "source": "yolo_det",
+      "id": "window_0004",
+      "type": "window"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+2026-02-15 00:59:34 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0042.jpg outdir=c:\Projects\Diploma\runs\yolo_seg_single_test config=c:\Projects\Diploma\configs\mvp_b_yolo_cmp.yaml device=cpu
+2026-02-15 00:59:35 | INFO | Seed set to 42
+2026-02-15 00:59:35 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 00:59:35 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 00:59:40 | INFO | Segmentation stage (yolo): windows=0 doors=0
+2026-02-15 00:59:40 | INFO | Lines stage: 736 segments
+2026-02-15 00:59:40 | INFO | Vectorization stage: windows=0 doors=0 lines=736
+2026-02-15 00:59:40 | INFO | Pipeline finished successfully in 5.70 sec

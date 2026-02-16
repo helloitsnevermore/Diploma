@@ -281,6 +281,15 @@ def summarize(rows: list[dict[str, Any]]) -> dict[str, Any]:
             "num_failed": len(rows),
         }
 
+    window_nonempty = [row for row in ok_rows if int(row["gt_windows_count"]) > 0]
+    door_nonempty = [row for row in ok_rows if int(row["gt_doors_count"]) > 0]
+    door_presence_rows = door_nonempty
+    door_presence_recall = (
+        mean(1.0 if int(row["pred_doors_count"]) > 0 else 0.0 for row in door_presence_rows)
+        if door_presence_rows
+        else 1.0
+    )
+
     return {
         "status": "ok",
         "num_ok": len(ok_rows),
@@ -289,8 +298,16 @@ def summarize(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "avg_runtime_sec": mean(row["runtime_sec"] for row in ok_rows),
         "avg_window_iou": mean(row["window_iou"] for row in ok_rows),
         "avg_door_iou": mean(row["door_iou"] for row in ok_rows),
+        "avg_window_iou_nonempty_gt": (
+            mean(row["window_iou"] for row in window_nonempty) if window_nonempty else 1.0
+        ),
+        "avg_door_iou_nonempty_gt": (
+            mean(row["door_iou"] for row in door_nonempty) if door_nonempty else 1.0
+        ),
         "avg_window_count_abs_error": mean(row["window_count_abs_error"] for row in ok_rows),
         "avg_door_count_abs_error": mean(row["door_count_abs_error"] for row in ok_rows),
+        "door_presence_recall_nonempty_gt": door_presence_recall,
+        "avg_line_count": mean(row["line_count"] for row in ok_rows),
         "avg_line_manhattan_ratio": mean(row["line_manhattan_ratio"] for row in ok_rows),
     }
 
@@ -311,8 +328,12 @@ def build_markdown(rows: list[dict[str, Any]], summary: dict[str, Any]) -> str:
                 f"- avg_runtime_sec: {summary['avg_runtime_sec']:.4f}",
                 f"- avg_window_iou: {summary['avg_window_iou']:.4f}",
                 f"- avg_door_iou: {summary['avg_door_iou']:.4f}",
+                f"- avg_window_iou_nonempty_gt: {summary['avg_window_iou_nonempty_gt']:.4f}",
+                f"- avg_door_iou_nonempty_gt: {summary['avg_door_iou_nonempty_gt']:.4f}",
                 f"- avg_window_count_abs_error: {summary['avg_window_count_abs_error']:.4f}",
                 f"- avg_door_count_abs_error: {summary['avg_door_count_abs_error']:.4f}",
+                f"- door_presence_recall_nonempty_gt: {summary['door_presence_recall_nonempty_gt']:.4f}",
+                f"- avg_line_count: {summary['avg_line_count']:.4f}",
                 f"- avg_line_manhattan_ratio: {summary['avg_line_manhattan_ratio']:.4f}",
             ]
         )

@@ -1,0 +1,51 @@
+{
+  "backend": "homography_baseline",
+  "rectification_score": 0.4822,
+  "sharpness": 631.7359,
+  "coverage": 0.3,
+  "manhattan_ratio": 0.8723,
+  "selected_frame": "frame_00000.png",
+  "selected_canny": [
+    50,
+    150
+  ],
+  "num_attempts": 3,
+  "attempts": [
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.4822,
+      "sharpness": 631.7359,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8723,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.4822,
+      "sharpness": 631.7359,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8723,
+      "had_quad": false
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.4822,
+      "sharpness": 631.7359,
+      "coverage": 0.3,
+      "manhattan_ratio": 0.8723,
+      "had_quad": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "contour_baseline",
+  "image_width": 573,
+  "image_height": 362,
+  "instances": [
+    {
+      "bbox": [
+        528,
+        19,
+        45,
+        239
+      ],
+      "polygon": [
+        [
+          528,
+          19
+        ],
+        [
+          573,
+          19
+        ],
+        [
+          573,
+          258
+        ],
+        [
+          528,
+          258
+        ]
+      ],
+      "confidence": 0.6108,
+      "area_ratio": 0.011493,
+      "source": "contour",
+      "id": "door_0001",
+      "type": "door"
+    }
+  ]
+}

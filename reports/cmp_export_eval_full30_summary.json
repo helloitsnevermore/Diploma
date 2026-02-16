@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "num_ok": 28,
+  "num_failed": 2,
+  "expect_svg": true,
+  "expect_dxf": true,
+  "expect_pdf": true,
+  "expected_outputs_count": 3,
+  "export_valid_rate": 1.0,
+  "svg_valid_rate_expected": 1.0,
+  "dxf_valid_rate_expected": 1.0,
+  "pdf_valid_rate_expected": 1.0,
+  "avg_runtime_sec": 0.38035,
+  "avg_svg_size_kb": 60.996512276785715,
+  "avg_dxf_size_kb": 54.673793247767854,
+  "avg_pdf_size_kb": 90.90984235491071,
+  "avg_total_export_size_kb": 206.58014787946428,
+  "source": {
+    "dataset": "CMP Facade Database (base split)",
+    "url": "https://cmp.felk.cvut.cz/~tylecr1/facade/",
+    "evaluated_images": 30,
+    "limit": 30,
+    "outdir_root": "C:\\Projects\\Diploma\\runs\\cmp_export_full30",
+    "config": "C:\\Projects\\Diploma\\configs\\mvp_e_full.yaml"
+  }
+}

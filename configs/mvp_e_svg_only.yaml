@@ -1,0 +1,43 @@
+input:
+  mode: auto
+  fps: 2.0
+  max_frames: 120
+  image_extensions: [".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff"]
+
+geometry:
+  backend: homography_baseline
+  sampling_top_k: 12
+  canny_variants:
+    - [50, 150]
+    - [30, 120]
+    - [80, 200]
+  line_angle_tolerance_deg: 10.0
+  min_rectification_score: 0.30
+
+segmentation:
+  backend: contour_baseline
+  min_area_ratio: 0.0015
+  max_area_ratio: 0.2
+  window_aspect_min: 0.35
+  window_aspect_max: 2.2
+  door_aspect_min: 1.8
+  door_bottom_zone: 0.55
+  min_confidence: 0.2
+
+lines:
+  backend: lsd
+  min_length_px: 30
+  max_lines: 1500
+
+vectorize:
+  manhattan_snap_tolerance_px: 6.0
+  line_angle_tolerance_deg: 12.0
+  regularization_strength: 1.5
+
+export:
+  write_svg: true
+  write_dxf: false
+  write_pdf_preview: false
+  stroke_width_outline: 2
+  stroke_width_detail: 1
+  padding_px: 0

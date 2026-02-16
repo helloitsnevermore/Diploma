@@ -1,0 +1,15 @@
+{
+  "method": "homography_baseline",
+  "normal": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "point": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "confidence": 0.6382,
+  "selected_frame": "frame_00000.png"
+}

@@ -1,0 +1,8 @@
+2026-02-15 01:23:54 | INFO | Pipeline start: input=data\cmp_facade_base\base\cmp_b0261.jpg outdir=runs\cmp_real_lines_lsd30\cmp_b0261 config=configs/mvp_real_eval.yaml device=cpu
+2026-02-15 01:23:54 | INFO | Seed set to 42
+2026-02-15 01:23:54 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:23:54 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:23:54 | INFO | Segmentation stage (contour): windows=24 doors=3
+2026-02-15 01:23:54 | INFO | Lines stage (lsd): 1139 segments
+2026-02-15 01:23:54 | INFO | Vectorization stage: windows=24 doors=3 lines=1139
+2026-02-15 01:23:54 | INFO | Pipeline finished successfully in 0.89 sec

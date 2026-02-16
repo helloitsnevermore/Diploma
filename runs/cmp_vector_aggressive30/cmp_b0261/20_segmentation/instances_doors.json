@@ -1,0 +1,101 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "contour_baseline",
+  "image_width": 1024,
+  "image_height": 943,
+  "instances": [
+    {
+      "bbox": [
+        795,
+        781,
+        29,
+        80
+      ],
+      "polygon": [
+        [
+          795,
+          781
+        ],
+        [
+          824,
+          781
+        ],
+        [
+          824,
+          861
+        ],
+        [
+          795,
+          861
+        ]
+      ],
+      "confidence": 0.8862,
+      "area_ratio": 0.001856,
+      "source": "contour",
+      "id": "door_0001",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        533,
+        782,
+        43,
+        96
+      ],
+      "polygon": [
+        [
+          533,
+          782
+        ],
+        [
+          576,
+          782
+        ],
+        [
+          576,
+          878
+        ],
+        [
+          533,
+          878
+        ]
+      ],
+      "confidence": 0.8543,
+      "area_ratio": 0.003029,
+      "source": "contour",
+      "id": "door_0002",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        936,
+        784,
+        47,
+        119
+      ],
+      "polygon": [
+        [
+          936,
+          784
+        ],
+        [
+          983,
+          784
+        ],
+        [
+          983,
+          903
+        ],
+        [
+          936,
+          903
+        ]
+      ],
+      "confidence": 0.9012,
+      "area_ratio": 0.004647,
+      "source": "contour",
+      "id": "door_0003",
+      "type": "door"
+    }
+  ]
+}

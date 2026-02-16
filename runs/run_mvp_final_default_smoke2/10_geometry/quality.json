@@ -1,0 +1,123 @@
+{
+  "backend": "homography_baseline",
+  "rectification_score": 0.9327,
+  "sharpness": 1732.2949,
+  "coverage": 0.6633,
+  "manhattan_ratio": 1.0,
+  "selected_frame": "frame_00000.png",
+  "selected_canny": [
+    50,
+    150
+  ],
+  "num_attempts": 9,
+  "attempts": [
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    },
+    {
+      "frame": "frame_00000.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    },
+    {
+      "frame": "frame_00001.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    },
+    {
+      "frame": "frame_00001.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    },
+    {
+      "frame": "frame_00001.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    },
+    {
+      "frame": "frame_00002.png",
+      "canny": [
+        50,
+        150
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    },
+    {
+      "frame": "frame_00002.png",
+      "canny": [
+        30,
+        120
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    },
+    {
+      "frame": "frame_00002.png",
+      "canny": [
+        80,
+        200
+      ],
+      "score": 0.9327,
+      "sharpness": 1732.2949,
+      "coverage": 0.6633,
+      "manhattan_ratio": 1.0,
+      "had_quad": true
+    }
+  ]
+}

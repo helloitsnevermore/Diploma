@@ -1,0 +1,16 @@
+2026-02-15 01:12:07 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0126.jpg outdir=c:\Projects\Diploma\runs\cmp_real_yolo_det10\cmp_b0126 config=c:\Projects\Diploma\configs\mvp_b_yolo_det_cmp.yaml device=cpu
+2026-02-15 01:12:07 | INFO | Seed set to 42
+2026-02-15 01:12:07 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:12:08 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:12:08 | INFO | Segmentation stage (yolo_det): windows=28 doors=0
+2026-02-15 01:12:08 | INFO | Lines stage: 629 segments
+2026-02-15 01:12:08 | INFO | Vectorization stage: windows=28 doors=0 lines=629
+2026-02-15 01:12:08 | INFO | Pipeline finished successfully in 0.85 sec
+2026-02-15 01:13:28 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0126.jpg outdir=c:\Projects\Diploma\runs\cmp_real_yolo_det10\cmp_b0126 config=c:\Projects\Diploma\configs\mvp_b_yolo_det_cmp.yaml device=cpu
+2026-02-15 01:13:28 | INFO | Seed set to 42
+2026-02-15 01:13:28 | INFO | Input stage cache hit: reuse 1 frames
+2026-02-15 01:13:28 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:13:29 | INFO | Segmentation stage (yolo_det): windows=28 doors=0
+2026-02-15 01:13:29 | INFO | Lines stage: 629 segments
+2026-02-15 01:13:29 | INFO | Vectorization stage: windows=28 doors=0 lines=629
+2026-02-15 01:13:29 | INFO | Pipeline finished successfully in 0.87 sec

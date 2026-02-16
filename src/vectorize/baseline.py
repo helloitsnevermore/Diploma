@@ -26,6 +26,10 @@ def run_vectorization(
 
     snap_tol = float(cfg.get("manhattan_snap_tolerance_px", 4.0))
     angle_tol = float(cfg.get("line_angle_tolerance_deg", 10.0))
+    regularization_strength = float(cfg.get("regularization_strength", 1.0))
+    regularization_strength = max(regularization_strength, 0.1)
+    effective_snap_tol = max(snap_tol * regularization_strength, 1e-6)
+    effective_angle_tol = max(angle_tol * regularization_strength, 1e-6)
     outline_sw = int(export_cfg.get("stroke_width_outline", 2))
     detail_sw = int(export_cfg.get("stroke_width_detail", 1))
     padding = int(export_cfg.get("padding_px", 0))
@@ -37,9 +41,14 @@ def run_vectorization(
         [padding, max(height - padding, padding)],
     ]
 
-    windows = [_regularize_bbox(item, width, height, snap_tol) for item in segmentation_result.get("windows", [])]
-    doors = [_regularize_bbox(item, width, height, snap_tol) for item in segmentation_result.get("doors", [])]
-    lines = [_regularize_line(item, width, height, snap_tol, angle_tol) for item in lines_result.get("lines", [])]
+    windows = [
+        _regularize_bbox(item, width, height, effective_snap_tol) for item in segmentation_result.get("windows", [])
+    ]
+    doors = [_regularize_bbox(item, width, height, effective_snap_tol) for item in segmentation_result.get("doors", [])]
+    lines = [
+        _regularize_line(item, width, height, effective_snap_tol, effective_angle_tol)
+        for item in lines_result.get("lines", [])
+    ]
 
     svg_content = _render_svg(
         width=width,
@@ -70,10 +79,13 @@ def run_vectorization(
     cv2.imwrite(str(preview_path), preview)
 
     logger.info(
-        "Vectorization stage: windows=%d doors=%d lines=%d",
+        "Vectorization stage: windows=%d doors=%d lines=%d (snap=%.2f angle=%.2f strength=%.2f)",
         len(windows),
         len(doors),
         len(lines),
+        effective_snap_tol,
+        effective_angle_tol,
+        regularization_strength,
     )
     return {
         "svg_path": str(svg_path),
@@ -214,4 +226,3 @@ def _snap(value: float, tol: float) -> int:
 
 def _clamp(value: int, min_value: int, max_value: int) -> int:
     return max(min_value, min(value, max_value))
-

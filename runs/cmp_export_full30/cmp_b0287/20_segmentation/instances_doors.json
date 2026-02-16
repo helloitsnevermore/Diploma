@@ -1,0 +1,194 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "contour_baseline",
+  "image_width": 507,
+  "image_height": 474,
+  "instances": [
+    {
+      "bbox": [
+        0,
+        98,
+        45,
+        351
+      ],
+      "polygon": [
+        [
+          0,
+          98
+        ],
+        [
+          45,
+          98
+        ],
+        [
+          45,
+          449
+        ],
+        [
+          0,
+          449
+        ]
+      ],
+      "confidence": 0.5767,
+      "area_ratio": 0.01008,
+      "source": "contour",
+      "id": "door_0001",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        80,
+        213,
+        16,
+        61
+      ],
+      "polygon": [
+        [
+          80,
+          213
+        ],
+        [
+          96,
+          213
+        ],
+        [
+          96,
+          274
+        ],
+        [
+          80,
+          274
+        ]
+      ],
+      "confidence": 0.782,
+      "area_ratio": 0.002291,
+      "source": "contour",
+      "id": "door_0002",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        167,
+        214,
+        17,
+        61
+      ],
+      "polygon": [
+        [
+          167,
+          214
+        ],
+        [
+          184,
+          214
+        ],
+        [
+          184,
+          275
+        ],
+        [
+          167,
+          275
+        ]
+      ],
+      "confidence": 0.7662,
+      "area_ratio": 0.002297,
+      "source": "contour",
+      "id": "door_0003",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        258,
+        215,
+        17,
+        62
+      ],
+      "polygon": [
+        [
+          258,
+          215
+        ],
+        [
+          275,
+          215
+        ],
+        [
+          275,
+          277
+        ],
+        [
+          258,
+          277
+        ]
+      ],
+      "confidence": 0.7972,
+      "area_ratio": 0.002607,
+      "source": "contour",
+      "id": "door_0004",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        372,
+        217,
+        18,
+        61
+      ],
+      "polygon": [
+        [
+          372,
+          217
+        ],
+        [
+          390,
+          217
+        ],
+        [
+          390,
+          278
+        ],
+        [
+          372,
+          278
+        ]
+      ],
+      "confidence": 0.7388,
+      "area_ratio": 0.002183,
+      "source": "contour",
+      "id": "door_0005",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        263,
+        314,
+        10,
+        45
+      ],
+      "polygon": [
+        [
+          263,
+          314
+        ],
+        [
+          273,
+          314
+        ],
+        [
+          273,
+          359
+        ],
+        [
+          263,
+          359
+        ]
+      ],
+      "confidence": 0.9233,
+      "area_ratio": 0.001585,
+      "source": "contour",
+      "id": "door_0006",
+      "type": "door"
+    }
+  ]
+}

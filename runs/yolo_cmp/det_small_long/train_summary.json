@@ -1,0 +1,12 @@
+{
+  "save_dir": "C:\\Projects\\Diploma\\runs\\yolo_cmp\\det_small_long",
+  "best_pt": "C:\\Projects\\Diploma\\runs\\yolo_cmp\\det_small_long\\weights\\best.pt",
+  "last_pt": "C:\\Projects\\Diploma\\runs\\yolo_cmp\\det_small_long\\weights\\last.pt",
+  "metrics": {
+    "metrics/precision(B)": 0.012453703703703703,
+    "metrics/recall(B)": 0.08671824629271438,
+    "metrics/mAP50(B)": 0.008068455317744326,
+    "metrics/mAP50-95(B)": 0.0019845779510388145,
+    "fitness": 0.0019845779510388145
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "yolo_seg",
+  "image_width": 1024,
+  "image_height": 752,
+  "instances": [
+    {
+      "bbox": [
+        361,
+        66,
+        122,
+        43
+      ],
+      "polygon": [
+        [
+          362,
+          66
+        ],
+        [
+          362,
+          108
+        ],
+        [
+          483,
+          108
+        ],
+        [
+          483,
+          66
+        ]
+      ],
+      "confidence": 0.0305,
+      "area_ratio": 0.006813,
+      "source": "yolo_seg",
+      "id": "window_0001",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        425,
+        66,
+        122,
+        43
+      ],
+      "polygon": [
+        [
+          426,
+          66
+        ],
+        [
+          426,
+          108
+        ],
+        [
+          547,
+          108
+        ],
+        [
+          547,
+          66
+        ]
+      ],
+      "confidence": 0.031,
+      "area_ratio": 0.006813,
+      "source": "yolo_seg",
+      "id": "window_0002",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        490,
+        66,
+        121,
+        43
+      ],
+      "polygon": [
+        [
+          491,
+          66
+        ],
+        [
+          491,
+          108
+        ],
+        [
+          610,
+          108
+        ],
+        [
+          610,
+          66
+        ]
+      ],
+      "confidence": 0.0305,
+      "area_ratio": 0.006757,
+      "source": "yolo_seg",
+      "id": "window_0003",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        812,
+        66,
+        118,
+        43
+      ],
+      "polygon": [
+        [
+          812,
+          67
+        ],
+        [
+          812,
+          108
+        ],
+        [
+          929,
+          108
+        ],
+        [
+          929,
+          67
+        ]
+      ],
+      "confidence": 0.0305,
+      "area_ratio": 0.006589,
+      "source": "yolo_seg",
+      "id": "window_0004",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        876,
+        66,
+        114,
+        44
+      ],
+      "polygon": [
+        [
+          877,
+          67
+        ],
+        [
+          877,
+          109
+        ],
+        [
+          990,
+          109
+        ],
+        [
+          990,
+          67
+        ]
+      ],
+      "confidence": 0.0302,
+      "area_ratio": 0.006514,
+      "source": "yolo_seg",
+      "id": "window_0005",
+      "type": "window"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+2026-02-15 01:45:45 | INFO | Pipeline start: input=test_input outdir=runs\run_mvp_final_quality_smoke2 config=C:\Projects\Diploma\configs\mvp_final_quality.yaml device=cpu
+2026-02-15 01:45:45 | INFO | Seed set to 42
+2026-02-15 01:45:45 | INFO | Collecting 3 images (of 3 found)
+2026-02-15 01:45:45 | INFO | Skip PyCOLMAP backend: not enough frames for pycolmap: 3 < 4
+2026-02-15 01:45:45 | INFO | Geometry fallback: using homography baseline
+2026-02-15 01:45:45 | INFO | Geometry stage (homography): evaluating 3 frames with 3 Canny variants
+2026-02-15 01:45:45 | INFO | Segmentation stage (contour): windows=32 doors=0
+2026-02-15 01:45:45 | INFO | Lines stage (lsd): 136 segments
+2026-02-15 01:45:45 | INFO | Vectorization stage: windows=32 doors=0 lines=136 (snap=9.00 angle=18.00 strength=1.50)
+2026-02-15 01:45:45 | INFO | Pipeline finished successfully in 0.41 sec

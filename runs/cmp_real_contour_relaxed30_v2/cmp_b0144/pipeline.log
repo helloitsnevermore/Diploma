@@ -1,0 +1,8 @@
+2026-02-15 01:19:02 | INFO | Pipeline start: input=data\cmp_facade_base\base\cmp_b0144.jpg outdir=runs\cmp_real_contour_relaxed30_v2\cmp_b0144 config=configs/mvp_real_eval.yaml device=cpu
+2026-02-15 01:19:02 | INFO | Seed set to 42
+2026-02-15 01:19:02 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:19:02 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:19:02 | INFO | Segmentation stage (contour): windows=24 doors=2
+2026-02-15 01:19:02 | INFO | Lines stage: 648 segments
+2026-02-15 01:19:02 | INFO | Vectorization stage: windows=24 doors=2 lines=648
+2026-02-15 01:19:02 | INFO | Pipeline finished successfully in 0.64 sec

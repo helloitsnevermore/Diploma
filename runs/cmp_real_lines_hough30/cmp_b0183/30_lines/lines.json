@@ -1,0 +1,7232 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "hough",
+  "requested_backend": "hough",
+  "num_lines": 602,
+  "lines": [
+    {
+      "coords": [
+        653,
+        1023,
+        699,
+        648
+      ],
+      "length": 377.811,
+      "angle_deg": -83.007,
+      "confidence": 0.3018,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        191,
+        80,
+        491,
+        80
+      ],
+      "length": 300.0,
+      "angle_deg": 0.0,
+      "confidence": 0.2397,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        491,
+        339,
+        491,
+        72
+      ],
+      "length": 267.0,
+      "angle_deg": -90.0,
+      "confidence": 0.2133,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        228,
+        113,
+        490,
+        113
+      ],
+      "length": 262.0,
+      "angle_deg": 0.0,
+      "confidence": 0.2093,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        225,
+        333,
+        468,
+        333
+      ],
+      "length": 243.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1941,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        483,
+        339,
+        483,
+        113
+      ],
+      "length": 226.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1805,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        440,
+        339,
+        440,
+        113
+      ],
+      "length": 226.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1805,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        278,
+        338,
+        278,
+        113
+      ],
+      "length": 225.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1797,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        227,
+        295,
+        227,
+        73
+      ],
+      "length": 222.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1773,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        24,
+        635,
+        24,
+        427
+      ],
+      "length": 208.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1662,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        281,
+        925,
+        281,
+        721
+      ],
+      "length": 204.0,
+      "angle_deg": -90.0,
+      "confidence": 0.163,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        437,
+        919,
+        437,
+        719
+      ],
+      "length": 200.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1598,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        405,
+        312,
+        405,
+        113
+      ],
+      "length": 199.0,
+      "angle_deg": -90.0,
+      "confidence": 0.159,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        190,
+        662,
+        372,
+        585
+      ],
+      "length": 197.618,
+      "angle_deg": -22.932,
+      "confidence": 0.1579,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        260,
+        330,
+        452,
+        330
+      ],
+      "length": 192.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1534,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        503,
+        75,
+        694,
+        75
+      ],
+      "length": 191.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1526,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        24,
+        74,
+        209,
+        74
+      ],
+      "length": 185.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1478,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        694,
+        696,
+        719,
+        513
+      ],
+      "length": 184.7,
+      "angle_deg": -82.221,
+      "confidence": 0.1475,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        352,
+        584,
+        514,
+        649
+      ],
+      "length": 174.554,
+      "angle_deg": 21.862,
+      "confidence": 0.1394,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        628,
+        902,
+        628,
+        730
+      ],
+      "length": 172.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1374,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        322,
+        614,
+        322,
+        442
+      ],
+      "length": 172.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1374,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        364,
+        339,
+        534,
+        339
+      ],
+      "length": 170.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1358,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        89,
+        906,
+        89,
+        738
+      ],
+      "length": 168.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1342,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        325,
+        677,
+        493,
+        675
+      ],
+      "length": 168.012,
+      "angle_deg": -0.682,
+      "confidence": 0.1342,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        432,
+        981,
+        432,
+        816
+      ],
+      "length": 165.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1318,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        524,
+        643,
+        688,
+        643
+      ],
+      "length": 164.0,
+      "angle_deg": 0.0,
+      "confidence": 0.131,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        394,
+        601,
+        394,
+        439
+      ],
+      "length": 162.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1294,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        528,
+        315,
+        687,
+        315
+      ],
+      "length": 159.0,
+      "angle_deg": 0.0,
+      "confidence": 0.127,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        541,
+        653,
+        700,
+        653
+      ],
+      "length": 159.0,
+      "angle_deg": 0.0,
+      "confidence": 0.127,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        627,
+        580,
+        627,
+        423
+      ],
+      "length": 157.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1254,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        41,
+        644,
+        197,
+        644
+      ],
+      "length": 156.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1246,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        337,
+        118,
+        492,
+        118
+      ],
+      "length": 155.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1238,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        43,
+        302,
+        197,
+        302
+      ],
+      "length": 154.0,
+      "angle_deg": 0.0,
+      "confidence": 0.123,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        43,
+        647,
+        196,
+        647
+      ],
+      "length": 153.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1222,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        45,
+        305,
+        197,
+        305
+      ],
+      "length": 152.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1214,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        41,
+        232,
+        192,
+        232
+      ],
+      "length": 151.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1206,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        320,
+        616,
+        320,
+        466
+      ],
+      "length": 150.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1198,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        284,
+        805,
+        433,
+        805
+      ],
+      "length": 149.0,
+      "angle_deg": 0.0,
+      "confidence": 0.119,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        448,
+        271,
+        448,
+        123
+      ],
+      "length": 148.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1182,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        542,
+        230,
+        690,
+        230
+      ],
+      "length": 148.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1182,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        199,
+        662,
+        333,
+        603
+      ],
+      "length": 146.414,
+      "angle_deg": -23.764,
+      "confidence": 0.117,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        91,
+        905,
+        91,
+        761
+      ],
+      "length": 144.0,
+      "angle_deg": -90.0,
+      "confidence": 0.115,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        555,
+        565,
+        555,
+        423
+      ],
+      "length": 142.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1134,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        234,
+        255,
+        234,
+        113
+      ],
+      "length": 142.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1134,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        228,
+        687,
+        368,
+        687
+      ],
+      "length": 140.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1118,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        524,
+        640,
+        663,
+        640
+      ],
+      "length": 139.0,
+      "angle_deg": 0.0,
+      "confidence": 0.111,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        58,
+        425,
+        197,
+        425
+      ],
+      "length": 139.0,
+      "angle_deg": 0.0,
+      "confidence": 0.111,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        25,
+        300,
+        25,
+        162
+      ],
+      "length": 138.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1102,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        56,
+        237,
+        193,
+        237
+      ],
+      "length": 137.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1094,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        165,
+        570,
+        165,
+        434
+      ],
+      "length": 136.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1086,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        529,
+        423,
+        664,
+        423
+      ],
+      "length": 135.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1078,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        321,
+        285,
+        321,
+        156
+      ],
+      "length": 129.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1031,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        229,
+        590,
+        357,
+        590
+      ],
+      "length": 128.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1023,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        5,
+        945,
+        133,
+        943
+      ],
+      "length": 128.016,
+      "angle_deg": -0.895,
+      "confidence": 0.1023,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        296,
+        693,
+        423,
+        693
+      ],
+      "length": 127.0,
+      "angle_deg": 0.0,
+      "confidence": 0.1015,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        162,
+        905,
+        162,
+        779
+      ],
+      "length": 126.0,
+      "angle_deg": -90.0,
+      "confidence": 0.1007,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        630,
+        246,
+        630,
+        121
+      ],
+      "length": 125.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0999,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        390,
+        475,
+        392,
+        600
+      ],
+      "length": 125.016,
+      "angle_deg": 89.083,
+      "confidence": 0.0999,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        308,
+        812,
+        433,
+        812
+      ],
+      "length": 125.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0999,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        6,
+        957,
+        130,
+        957
+      ],
+      "length": 124.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0991,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        513,
+        1018,
+        637,
+        1018
+      ],
+      "length": 124.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0991,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        592,
+        902,
+        592,
+        779
+      ],
+      "length": 123.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0983,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        581,
+        902,
+        581,
+        779
+      ],
+      "length": 123.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0983,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        589,
+        902,
+        589,
+        779
+      ],
+      "length": 123.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0983,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        619,
+        902,
+        619,
+        780
+      ],
+      "length": 122.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0975,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        69,
+        229,
+        191,
+        229
+      ],
+      "length": 122.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0975,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        525,
+        636,
+        646,
+        636
+      ],
+      "length": 121.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0967,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        5,
+        587,
+        5,
+        466
+      ],
+      "length": 121.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0967,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        131,
+        905,
+        131,
+        786
+      ],
+      "length": 119.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0951,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        537,
+        98,
+        654,
+        98
+      ],
+      "length": 117.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0935,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        67,
+        98,
+        184,
+        100
+      ],
+      "length": 117.017,
+      "angle_deg": 0.979,
+      "confidence": 0.0935,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        316,
+        814,
+        432,
+        814
+      ],
+      "length": 116.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0927,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        283,
+        800,
+        399,
+        800
+      ],
+      "length": 116.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0927,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        256,
+        87,
+        357,
+        31
+      ],
+      "length": 115.486,
+      "angle_deg": -29.006,
+      "confidence": 0.0923,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        68,
+        77,
+        183,
+        77
+      ],
+      "length": 115.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0919,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        358,
+        21,
+        459,
+        75
+      ],
+      "length": 114.529,
+      "angle_deg": 28.131,
+      "confidence": 0.0915,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        257,
+        77,
+        357,
+        22
+      ],
+      "length": 114.127,
+      "angle_deg": -28.811,
+      "confidence": 0.0912,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        574,
+        304,
+        688,
+        304
+      ],
+      "length": 114.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0911,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        266,
+        690,
+        379,
+        689
+      ],
+      "length": 113.004,
+      "angle_deg": -0.507,
+      "confidence": 0.0903,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        551,
+        939,
+        662,
+        939
+      ],
+      "length": 111.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0887,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        558,
+        880,
+        669,
+        880
+      ],
+      "length": 111.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0887,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        270,
+        263,
+        271,
+        152
+      ],
+      "length": 111.005,
+      "angle_deg": -89.484,
+      "confidence": 0.0887,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        62,
+        246,
+        172,
+        246
+      ],
+      "length": 110.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0879,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        383,
+        597,
+        493,
+        597
+      ],
+      "length": 110.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0879,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        559,
+        840,
+        559,
+        731
+      ],
+      "length": 109.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0871,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        248,
+        599,
+        354,
+        597
+      ],
+      "length": 106.019,
+      "angle_deg": -1.081,
+      "confidence": 0.0847,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        141,
+        838,
+        141,
+        734
+      ],
+      "length": 104.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0831,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        90,
+        246,
+        90,
+        143
+      ],
+      "length": 103.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0823,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        118,
+        735,
+        119,
+        838
+      ],
+      "length": 103.005,
+      "angle_deg": 89.444,
+      "confidence": 0.0823,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        632,
+        507,
+        633,
+        608
+      ],
+      "length": 101.005,
+      "angle_deg": 89.433,
+      "confidence": 0.0807,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        324,
+        284,
+        324,
+        183
+      ],
+      "length": 101.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0807,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        492,
+        590,
+        492,
+        490
+      ],
+      "length": 100.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0799,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        96,
+        585,
+        96,
+        485
+      ],
+      "length": 100.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0799,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        296,
+        83,
+        395,
+        83
+      ],
+      "length": 99.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0791,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        356,
+        85,
+        455,
+        85
+      ],
+      "length": 99.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0791,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        398,
+        734,
+        466,
+        666
+      ],
+      "length": 96.167,
+      "angle_deg": -45.0,
+      "confidence": 0.0768,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        620,
+        228,
+        623,
+        132
+      ],
+      "length": 96.047,
+      "angle_deg": -88.21,
+      "confidence": 0.0767,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        154,
+        256,
+        199,
+        340
+      ],
+      "length": 95.294,
+      "angle_deg": 61.821,
+      "confidence": 0.0761,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        396,
+        121,
+        491,
+        121
+      ],
+      "length": 95.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0759,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        544,
+        888,
+        639,
+        888
+      ],
+      "length": 95.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0759,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        20,
+        734,
+        114,
+        734
+      ],
+      "length": 94.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0751,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        445,
+        331,
+        538,
+        331
+      ],
+      "length": 93.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0743,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        102,
+        294,
+        195,
+        296
+      ],
+      "length": 93.022,
+      "angle_deg": 1.232,
+      "confidence": 0.0743,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        417,
+        78,
+        509,
+        78
+      ],
+      "length": 92.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0735,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        43,
+        658,
+        134,
+        658
+      ],
+      "length": 91.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0727,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        548,
+        294,
+        638,
+        294
+      ],
+      "length": 90.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0719,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        538,
+        239,
+        540,
+        327
+      ],
+      "length": 88.023,
+      "angle_deg": 88.698,
+      "confidence": 0.0703,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        106,
+        640,
+        194,
+        639
+      ],
+      "length": 88.006,
+      "angle_deg": -0.651,
+      "confidence": 0.0703,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        28,
+        786,
+        116,
+        787
+      ],
+      "length": 88.006,
+      "angle_deg": 0.651,
+      "confidence": 0.0703,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        38,
+        570,
+        125,
+        570
+      ],
+      "length": 87.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0695,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        414,
+        668,
+        501,
+        666
+      ],
+      "length": 87.023,
+      "angle_deg": -1.317,
+      "confidence": 0.0695,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        235,
+        132,
+        322,
+        133
+      ],
+      "length": 87.006,
+      "angle_deg": 0.659,
+      "confidence": 0.0695,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        561,
+        816,
+        561,
+        731
+      ],
+      "length": 85.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0679,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        395,
+        289,
+        395,
+        204
+      ],
+      "length": 85.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0679,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        214,
+        662,
+        291,
+        626
+      ],
+      "length": 85.0,
+      "angle_deg": -25.058,
+      "confidence": 0.0679,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        315,
+        136,
+        400,
+        136
+      ],
+      "length": 85.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0679,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        271,
+        325,
+        271,
+        241
+      ],
+      "length": 84.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0671,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        315,
+        284,
+        399,
+        284
+      ],
+      "length": 84.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0671,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        139,
+        838,
+        139,
+        754
+      ],
+      "length": 84.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0671,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        95,
+        820,
+        95,
+        737
+      ],
+      "length": 83.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0663,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        314,
+        277,
+        396,
+        276
+      ],
+      "length": 82.006,
+      "angle_deg": -0.699,
+      "confidence": 0.0655,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        557,
+        506,
+        632,
+        474
+      ],
+      "length": 81.541,
+      "angle_deg": -23.106,
+      "confidence": 0.0651,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        256,
+        338,
+        337,
+        338
+      ],
+      "length": 81.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0647,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        1,
+        882,
+        82,
+        882
+      ],
+      "length": 81.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0647,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        90,
+        891,
+        171,
+        891
+      ],
+      "length": 81.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0647,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        94,
+        111,
+        175,
+        111
+      ],
+      "length": 81.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0647,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        125,
+        815,
+        125,
+        735
+      ],
+      "length": 80.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0639,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        536,
+        79,
+        616,
+        79
+      ],
+      "length": 80.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0639,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        366,
+        379,
+        445,
+        379
+      ],
+      "length": 79.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0631,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        346,
+        595,
+        351,
+        673
+      ],
+      "length": 78.16,
+      "angle_deg": 86.332,
+      "confidence": 0.0624,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        111,
+        760,
+        112,
+        838
+      ],
+      "length": 78.006,
+      "angle_deg": 89.265,
+      "confidence": 0.0623,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        117,
+        585,
+        195,
+        585
+      ],
+      "length": 78.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0623,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        352,
+        595,
+        352,
+        517
+      ],
+      "length": 78.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0623,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        117,
+        642,
+        172,
+        587
+      ],
+      "length": 77.782,
+      "angle_deg": -45.0,
+      "confidence": 0.0621,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        490,
+        77,
+        490,
+        0
+      ],
+      "length": 77.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0615,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        553,
+        731,
+        630,
+        730
+      ],
+      "length": 77.006,
+      "angle_deg": -0.744,
+      "confidence": 0.0615,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        245,
+        126,
+        322,
+        128
+      ],
+      "length": 77.026,
+      "angle_deg": 1.488,
+      "confidence": 0.0615,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        255,
+        669,
+        309,
+        723
+      ],
+      "length": 76.368,
+      "angle_deg": 45.0,
+      "confidence": 0.061,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        88,
+        435,
+        164,
+        435
+      ],
+      "length": 76.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0607,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        398,
+        299,
+        398,
+        223
+      ],
+      "length": 76.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0607,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        557,
+        787,
+        633,
+        787
+      ],
+      "length": 76.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0607,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        378,
+        126,
+        453,
+        131
+      ],
+      "length": 75.166,
+      "angle_deg": 3.814,
+      "confidence": 0.06,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        321,
+        496,
+        396,
+        496
+      ],
+      "length": 75.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0599,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        349,
+        1009,
+        424,
+        1008
+      ],
+      "length": 75.007,
+      "angle_deg": -0.764,
+      "confidence": 0.0599,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        561,
+        432,
+        636,
+        431
+      ],
+      "length": 75.007,
+      "angle_deg": -0.764,
+      "confidence": 0.0599,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        618,
+        565,
+        693,
+        565
+      ],
+      "length": 75.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0599,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        228,
+        668,
+        230,
+        743
+      ],
+      "length": 75.027,
+      "angle_deg": 88.472,
+      "confidence": 0.0599,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        621,
+        312,
+        626,
+        238
+      ],
+      "length": 74.169,
+      "angle_deg": -86.135,
+      "confidence": 0.0593,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        322,
+        437,
+        396,
+        437
+      ],
+      "length": 74.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0591,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        125,
+        905,
+        126,
+        831
+      ],
+      "length": 74.007,
+      "angle_deg": -89.226,
+      "confidence": 0.0591,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        107,
+        656,
+        181,
+        655
+      ],
+      "length": 74.007,
+      "angle_deg": -0.774,
+      "confidence": 0.0591,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        432,
+        799,
+        432,
+        726
+      ],
+      "length": 73.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0583,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        164,
+        905,
+        164,
+        832
+      ],
+      "length": 73.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0583,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        91,
+        495,
+        164,
+        494
+      ],
+      "length": 73.007,
+      "angle_deg": -0.785,
+      "confidence": 0.0583,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        336,
+        728,
+        408,
+        728
+      ],
+      "length": 72.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0575,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        44,
+        640,
+        44,
+        568
+      ],
+      "length": 72.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0575,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        630,
+        635,
+        702,
+        635
+      ],
+      "length": 72.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0575,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        97,
+        900,
+        169,
+        900
+      ],
+      "length": 72.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0575,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        321,
+        489,
+        393,
+        489
+      ],
+      "length": 72.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0575,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        91,
+        131,
+        163,
+        131
+      ],
+      "length": 72.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0575,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        328,
+        669,
+        400,
+        669
+      ],
+      "length": 72.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0575,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        88,
+        1023,
+        142,
+        976
+      ],
+      "length": 71.589,
+      "angle_deg": -41.035,
+      "confidence": 0.0572,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        422,
+        668,
+        459,
+        729
+      ],
+      "length": 71.344,
+      "angle_deg": 58.761,
+      "confidence": 0.057,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        552,
+        738,
+        623,
+        738
+      ],
+      "length": 71.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0567,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        555,
+        192,
+        626,
+        192
+      ],
+      "length": 71.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0567,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        319,
+        442,
+        390,
+        442
+      ],
+      "length": 71.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0567,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        416,
+        667,
+        453,
+        727
+      ],
+      "length": 70.491,
+      "angle_deg": 58.339,
+      "confidence": 0.0563,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        349,
+        712,
+        417,
+        695
+      ],
+      "length": 70.093,
+      "angle_deg": -14.036,
+      "confidence": 0.056,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        545,
+        112,
+        615,
+        112
+      ],
+      "length": 70.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0559,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        396,
+        506,
+        396,
+        436
+      ],
+      "length": 70.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0559,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        545,
+        110,
+        615,
+        110
+      ],
+      "length": 70.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0559,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        556,
+        491,
+        626,
+        491
+      ],
+      "length": 70.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0559,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        196,
+        329,
+        200,
+        398
+      ],
+      "length": 69.116,
+      "angle_deg": 86.682,
+      "confidence": 0.0552,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        88,
+        195,
+        88,
+        126
+      ],
+      "length": 69.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0551,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        392,
+        212,
+        397,
+        144
+      ],
+      "length": 68.184,
+      "angle_deg": -85.795,
+      "confidence": 0.0545,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        126,
+        631,
+        194,
+        631
+      ],
+      "length": 68.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0543,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        232,
+        256,
+        232,
+        188
+      ],
+      "length": 68.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0543,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        107,
+        109,
+        175,
+        109
+      ],
+      "length": 68.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0543,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        426,
+        68,
+        426,
+        0
+      ],
+      "length": 68.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0543,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        148,
+        1023,
+        148,
+        956
+      ],
+      "length": 67.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0535,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        594,
+        548,
+        595,
+        481
+      ],
+      "length": 67.007,
+      "angle_deg": -89.145,
+      "confidence": 0.0535,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        632,
+        447,
+        633,
+        514
+      ],
+      "length": 67.007,
+      "angle_deg": 89.145,
+      "confidence": 0.0535,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        541,
+        324,
+        579,
+        270
+      ],
+      "length": 66.03,
+      "angle_deg": -54.866,
+      "confidence": 0.0527,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        557,
+        834,
+        623,
+        833
+      ],
+      "length": 66.008,
+      "angle_deg": -0.868,
+      "confidence": 0.0527,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        6,
+        952,
+        10,
+        1017
+      ],
+      "length": 65.123,
+      "angle_deg": 86.479,
+      "confidence": 0.052,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        122,
+        244,
+        122,
+        179
+      ],
+      "length": 65.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0519,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        391,
+        589,
+        456,
+        590
+      ],
+      "length": 65.008,
+      "angle_deg": 0.881,
+      "confidence": 0.0519,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        44,
+        275,
+        48,
+        339
+      ],
+      "length": 64.125,
+      "angle_deg": 86.424,
+      "confidence": 0.0512,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        387,
+        733,
+        388,
+        669
+      ],
+      "length": 64.008,
+      "angle_deg": -89.105,
+      "confidence": 0.0511,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        392,
+        200,
+        392,
+        136
+      ],
+      "length": 64.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0511,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        432,
+        950,
+        496,
+        950
+      ],
+      "length": 64.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0511,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        101,
+        137,
+        165,
+        137
+      ],
+      "length": 64.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0511,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        528,
+        350,
+        528,
+        286
+      ],
+      "length": 64.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0511,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        325,
+        486,
+        389,
+        486
+      ],
+      "length": 64.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0511,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        200,
+        999,
+        263,
+        994
+      ],
+      "length": 63.198,
+      "angle_deg": -4.538,
+      "confidence": 0.0505,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        209,
+        339,
+        272,
+        339
+      ],
+      "length": 63.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0503,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        170,
+        289,
+        207,
+        340
+      ],
+      "length": 63.008,
+      "angle_deg": 54.039,
+      "confidence": 0.0503,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        489,
+        734,
+        489,
+        671
+      ],
+      "length": 63.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0503,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        352,
+        545,
+        385,
+        598
+      ],
+      "length": 62.434,
+      "angle_deg": 58.092,
+      "confidence": 0.0499,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        258,
+        690,
+        302,
+        734
+      ],
+      "length": 62.225,
+      "angle_deg": 45.0,
+      "confidence": 0.0497,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        264,
+        690,
+        308,
+        734
+      ],
+      "length": 62.225,
+      "angle_deg": 45.0,
+      "confidence": 0.0497,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        259,
+        690,
+        303,
+        734
+      ],
+      "length": 62.225,
+      "angle_deg": 45.0,
+      "confidence": 0.0497,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        277,
+        1006,
+        339,
+        1003
+      ],
+      "length": 62.073,
+      "angle_deg": -2.77,
+      "confidence": 0.0496,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        574,
+        279,
+        636,
+        277
+      ],
+      "length": 62.032,
+      "angle_deg": -1.848,
+      "confidence": 0.0496,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        160,
+        659,
+        222,
+        660
+      ],
+      "length": 62.008,
+      "angle_deg": 0.924,
+      "confidence": 0.0495,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        2,
+        631,
+        2,
+        569
+      ],
+      "length": 62.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0495,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        230,
+        120,
+        292,
+        121
+      ],
+      "length": 62.008,
+      "angle_deg": 0.924,
+      "confidence": 0.0495,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        489,
+        894,
+        516,
+        949
+      ],
+      "length": 61.27,
+      "angle_deg": 63.853,
+      "confidence": 0.0489,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        67,
+        579,
+        71,
+        640
+      ],
+      "length": 61.131,
+      "angle_deg": 86.248,
+      "confidence": 0.0488,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        431,
+        123,
+        492,
+        122
+      ],
+      "length": 61.008,
+      "angle_deg": -0.939,
+      "confidence": 0.0487,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        659,
+        365,
+        660,
+        426
+      ],
+      "length": 61.008,
+      "angle_deg": 89.061,
+      "confidence": 0.0487,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        104,
+        485,
+        160,
+        507
+      ],
+      "length": 60.166,
+      "angle_deg": 21.448,
+      "confidence": 0.0481,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        362,
+        442,
+        366,
+        502
+      ],
+      "length": 60.133,
+      "angle_deg": 86.186,
+      "confidence": 0.048,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        625,
+        790,
+        625,
+        730
+      ],
+      "length": 60.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0479,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        608,
+        624,
+        608,
+        564
+      ],
+      "length": 60.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0479,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        108,
+        639,
+        108,
+        579
+      ],
+      "length": 60.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0479,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        323,
+        192,
+        383,
+        193
+      ],
+      "length": 60.008,
+      "angle_deg": 0.955,
+      "confidence": 0.0479,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        156,
+        256,
+        189,
+        306
+      ],
+      "length": 59.908,
+      "angle_deg": 56.575,
+      "confidence": 0.0479,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        94,
+        180,
+        154,
+        181
+      ],
+      "length": 60.008,
+      "angle_deg": 0.955,
+      "confidence": 0.0479,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        688,
+        656,
+        688,
+        596
+      ],
+      "length": 60.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0479,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        100,
+        165,
+        160,
+        165
+      ],
+      "length": 60.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0479,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        510,
+        676,
+        552,
+        634
+      ],
+      "length": 59.397,
+      "angle_deg": -45.0,
+      "confidence": 0.0474,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        108,
+        960,
+        110,
+        1019
+      ],
+      "length": 59.034,
+      "angle_deg": 88.059,
+      "confidence": 0.0472,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        297,
+        594,
+        356,
+        593
+      ],
+      "length": 59.008,
+      "angle_deg": -0.971,
+      "confidence": 0.0471,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        577,
+        540,
+        578,
+        481
+      ],
+      "length": 59.008,
+      "angle_deg": -89.029,
+      "confidence": 0.0471,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        136,
+        1002,
+        195,
+        1002
+      ],
+      "length": 59.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0471,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        558,
+        493,
+        617,
+        494
+      ],
+      "length": 59.008,
+      "angle_deg": 0.971,
+      "confidence": 0.0471,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        539,
+        238,
+        598,
+        238
+      ],
+      "length": 59.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0471,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        105,
+        487,
+        164,
+        487
+      ],
+      "length": 59.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0471,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        553,
+        311,
+        573,
+        256
+      ],
+      "length": 58.523,
+      "angle_deg": -70.017,
+      "confidence": 0.0468,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        521,
+        968,
+        579,
+        965
+      ],
+      "length": 58.078,
+      "angle_deg": -2.961,
+      "confidence": 0.0464,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        132,
+        237,
+        134,
+        179
+      ],
+      "length": 58.034,
+      "angle_deg": -88.025,
+      "confidence": 0.0464,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        151,
+        955,
+        155,
+        1013
+      ],
+      "length": 58.138,
+      "angle_deg": 86.055,
+      "confidence": 0.0464,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        588,
+        297,
+        646,
+        297
+      ],
+      "length": 58.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0463,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        0,
+        784,
+        58,
+        784
+      ],
+      "length": 58.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0463,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        630,
+        293,
+        671,
+        252
+      ],
+      "length": 57.983,
+      "angle_deg": -45.0,
+      "confidence": 0.0463,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        391,
+        681,
+        416,
+        733
+      ],
+      "length": 57.697,
+      "angle_deg": 64.323,
+      "confidence": 0.0461,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        80,
+        651,
+        137,
+        654
+      ],
+      "length": 57.079,
+      "angle_deg": 3.013,
+      "confidence": 0.0456,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        583,
+        314,
+        583,
+        257
+      ],
+      "length": 57.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0455,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        488,
+        732,
+        545,
+        731
+      ],
+      "length": 57.009,
+      "angle_deg": -1.005,
+      "confidence": 0.0455,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        352,
+        547,
+        381,
+        596
+      ],
+      "length": 56.939,
+      "angle_deg": 59.381,
+      "confidence": 0.0455,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        112,
+        786,
+        169,
+        786
+      ],
+      "length": 57.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0455,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        412,
+        667,
+        441,
+        716
+      ],
+      "length": 56.939,
+      "angle_deg": 59.381,
+      "confidence": 0.0455,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        566,
+        836,
+        566,
+        779
+      ],
+      "length": 57.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0455,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        523,
+        285,
+        545,
+        233
+      ],
+      "length": 56.462,
+      "angle_deg": -67.068,
+      "confidence": 0.0451,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        146,
+        1012,
+        146,
+        956
+      ],
+      "length": 56.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        3,
+        525,
+        3,
+        469
+      ],
+      "length": 56.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        240,
+        668,
+        296,
+        668
+      ],
+      "length": 56.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        353,
+        240,
+        354,
+        184
+      ],
+      "length": 56.009,
+      "angle_deg": -88.977,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        362,
+        424,
+        418,
+        424
+      ],
+      "length": 56.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        146,
+        763,
+        146,
+        819
+      ],
+      "length": 56.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        610,
+        301,
+        666,
+        301
+      ],
+      "length": 56.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        26,
+        884,
+        82,
+        884
+      ],
+      "length": 56.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        174,
+        1017,
+        230,
+        1017
+      ],
+      "length": 56.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        572,
+        101,
+        628,
+        101
+      ],
+      "length": 56.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        289,
+        795,
+        345,
+        794
+      ],
+      "length": 56.009,
+      "angle_deg": -1.023,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        321,
+        126,
+        377,
+        126
+      ],
+      "length": 56.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        156,
+        943,
+        212,
+        942
+      ],
+      "length": 56.009,
+      "angle_deg": -1.023,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        46,
+        640,
+        102,
+        640
+      ],
+      "length": 56.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0447,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        174,
+        229,
+        202,
+        277
+      ],
+      "length": 55.57,
+      "angle_deg": 59.744,
+      "confidence": 0.0444,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        521,
+        583,
+        576,
+        580
+      ],
+      "length": 55.082,
+      "angle_deg": -3.122,
+      "confidence": 0.044,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        557,
+        503,
+        607,
+        480
+      ],
+      "length": 55.036,
+      "angle_deg": -24.702,
+      "confidence": 0.044,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        532,
+        301,
+        535,
+        246
+      ],
+      "length": 55.082,
+      "angle_deg": -86.878,
+      "confidence": 0.044,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        526,
+        345,
+        549,
+        295
+      ],
+      "length": 55.036,
+      "angle_deg": -65.298,
+      "confidence": 0.044,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        576,
+        235,
+        578,
+        180
+      ],
+      "length": 55.036,
+      "angle_deg": -87.917,
+      "confidence": 0.044,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        279,
+        77,
+        334,
+        77
+      ],
+      "length": 55.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        281,
+        991,
+        281,
+        936
+      ],
+      "length": 55.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        150,
+        585,
+        151,
+        640
+      ],
+      "length": 55.009,
+      "angle_deg": 88.958,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        94,
+        969,
+        149,
+        970
+      ],
+      "length": 55.009,
+      "angle_deg": 1.042,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        139,
+        1011,
+        139,
+        956
+      ],
+      "length": 55.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        490,
+        780,
+        545,
+        780
+      ],
+      "length": 55.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        182,
+        734,
+        237,
+        733
+      ],
+      "length": 55.009,
+      "angle_deg": -1.042,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        531,
+        412,
+        532,
+        357
+      ],
+      "length": 55.009,
+      "angle_deg": -88.958,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        139,
+        640,
+        139,
+        585
+      ],
+      "length": 55.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        557,
+        535,
+        557,
+        480
+      ],
+      "length": 55.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        306,
+        424,
+        361,
+        424
+      ],
+      "length": 55.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        69,
+        255,
+        70,
+        310
+      ],
+      "length": 55.009,
+      "angle_deg": 88.958,
+      "confidence": 0.0439,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        181,
+        288,
+        194,
+        341
+      ],
+      "length": 54.571,
+      "angle_deg": 76.218,
+      "confidence": 0.0436,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        297,
+        984,
+        351,
+        978
+      ],
+      "length": 54.332,
+      "angle_deg": -6.34,
+      "confidence": 0.0434,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        188,
+        1014,
+        242,
+        1011
+      ],
+      "length": 54.083,
+      "angle_deg": -3.18,
+      "confidence": 0.0432,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        367,
+        463,
+        369,
+        517
+      ],
+      "length": 54.037,
+      "angle_deg": 87.879,
+      "confidence": 0.0432,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        219,
+        380,
+        273,
+        382
+      ],
+      "length": 54.037,
+      "angle_deg": 2.121,
+      "confidence": 0.0432,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        299,
+        592,
+        353,
+        592
+      ],
+      "length": 54.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0431,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        109,
+        1020,
+        147,
+        982
+      ],
+      "length": 53.74,
+      "angle_deg": -45.0,
+      "confidence": 0.0429,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        60,
+        287,
+        113,
+        285
+      ],
+      "length": 53.038,
+      "angle_deg": -2.161,
+      "confidence": 0.0424,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        97,
+        836,
+        97,
+        783
+      ],
+      "length": 53.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0423,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        352,
+        1002,
+        405,
+        1003
+      ],
+      "length": 53.009,
+      "angle_deg": 1.081,
+      "confidence": 0.0423,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        343,
+        673,
+        396,
+        672
+      ],
+      "length": 53.009,
+      "angle_deg": -1.081,
+      "confidence": 0.0423,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        84,
+        257,
+        115,
+        300
+      ],
+      "length": 53.009,
+      "angle_deg": 54.211,
+      "confidence": 0.0423,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        433,
+        414,
+        447,
+        465
+      ],
+      "length": 52.887,
+      "angle_deg": 74.65,
+      "confidence": 0.0422,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        422,
+        671,
+        449,
+        716
+      ],
+      "length": 52.479,
+      "angle_deg": 59.036,
+      "confidence": 0.0419,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        88,
+        158,
+        116,
+        202
+      ],
+      "length": 52.154,
+      "angle_deg": 57.529,
+      "confidence": 0.0417,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        567,
+        313,
+        572,
+        261
+      ],
+      "length": 52.24,
+      "angle_deg": -84.508,
+      "confidence": 0.0417,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        260,
+        408,
+        288,
+        452
+      ],
+      "length": 52.154,
+      "angle_deg": 57.529,
+      "confidence": 0.0417,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        277,
+        1001,
+        329,
+        1003
+      ],
+      "length": 52.038,
+      "angle_deg": 2.203,
+      "confidence": 0.0416,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        44,
+        592,
+        96,
+        592
+      ],
+      "length": 52.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        116,
+        838,
+        117,
+        786
+      ],
+      "length": 52.01,
+      "angle_deg": -88.898,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        527,
+        633,
+        579,
+        632
+      ],
+      "length": 52.01,
+      "angle_deg": -1.102,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        163,
+        795,
+        163,
+        743
+      ],
+      "length": 52.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        667,
+        437,
+        719,
+        436
+      ],
+      "length": 52.01,
+      "angle_deg": -1.102,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        494,
+        478,
+        494,
+        426
+      ],
+      "length": 52.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        31,
+        832,
+        83,
+        832
+      ],
+      "length": 52.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        491,
+        844,
+        492,
+        792
+      ],
+      "length": 52.01,
+      "angle_deg": -88.898,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        110,
+        787,
+        110,
+        839
+      ],
+      "length": 52.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        415,
+        667,
+        441,
+        712
+      ],
+      "length": 51.971,
+      "angle_deg": 59.982,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        447,
+        324,
+        447,
+        272
+      ],
+      "length": 52.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        488,
+        971,
+        489,
+        919
+      ],
+      "length": 52.01,
+      "angle_deg": -88.898,
+      "confidence": 0.0415,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        257,
+        410,
+        285,
+        453
+      ],
+      "length": 51.313,
+      "angle_deg": 56.929,
+      "confidence": 0.041,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        515,
+        832,
+        566,
+        832
+      ],
+      "length": 51.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        229,
+        86,
+        280,
+        86
+      ],
+      "length": 51.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        104,
+        787,
+        105,
+        838
+      ],
+      "length": 51.01,
+      "angle_deg": 88.877,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        136,
+        1007,
+        136,
+        956
+      ],
+      "length": 51.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        465,
+        948,
+        516,
+        947
+      ],
+      "length": 51.01,
+      "angle_deg": -1.123,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        103,
+        838,
+        103,
+        787
+      ],
+      "length": 51.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        227,
+        941,
+        227,
+        890
+      ],
+      "length": 51.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        482,
+        904,
+        518,
+        940
+      ],
+      "length": 50.912,
+      "angle_deg": 45.0,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        400,
+        724,
+        436,
+        688
+      ],
+      "length": 50.912,
+      "angle_deg": -45.0,
+      "confidence": 0.0407,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        417,
+        672,
+        442,
+        716
+      ],
+      "length": 50.606,
+      "angle_deg": 60.396,
+      "confidence": 0.0404,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        145,
+        256,
+        173,
+        298
+      ],
+      "length": 50.478,
+      "angle_deg": 56.31,
+      "confidence": 0.0403,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        285,
+        981,
+        335,
+        986
+      ],
+      "length": 50.249,
+      "angle_deg": 5.711,
+      "confidence": 0.0401,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        572,
+        951,
+        622,
+        950
+      ],
+      "length": 50.01,
+      "angle_deg": -1.146,
+      "confidence": 0.04,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        96,
+        227,
+        96,
+        177
+      ],
+      "length": 50.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0399,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        173,
+        658,
+        223,
+        658
+      ],
+      "length": 50.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0399,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        262,
+        408,
+        288,
+        450
+      ],
+      "length": 49.396,
+      "angle_deg": 58.241,
+      "confidence": 0.0395,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        443,
+        686,
+        469,
+        728
+      ],
+      "length": 49.396,
+      "angle_deg": 58.241,
+      "confidence": 0.0395,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        482,
+        897,
+        517,
+        932
+      ],
+      "length": 49.497,
+      "angle_deg": 45.0,
+      "confidence": 0.0395,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        481,
+        958,
+        482,
+        909
+      ],
+      "length": 49.01,
+      "angle_deg": -88.831,
+      "confidence": 0.0392,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        177,
+        430,
+        226,
+        430
+      ],
+      "length": 49.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0391,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        226,
+        331,
+        226,
+        282
+      ],
+      "length": 49.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0391,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        633,
+        780,
+        682,
+        780
+      ],
+      "length": 49.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0391,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        293,
+        934,
+        342,
+        934
+      ],
+      "length": 49.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0391,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        123,
+        1004,
+        131,
+        956
+      ],
+      "length": 48.662,
+      "angle_deg": -80.538,
+      "confidence": 0.0389,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        375,
+        972,
+        377,
+        1020
+      ],
+      "length": 48.042,
+      "angle_deg": 87.614,
+      "confidence": 0.0384,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        149,
+        256,
+        150,
+        304
+      ],
+      "length": 48.01,
+      "angle_deg": 88.807,
+      "confidence": 0.0384,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        580,
+        1007,
+        628,
+        1010
+      ],
+      "length": 48.094,
+      "angle_deg": 3.576,
+      "confidence": 0.0384,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        672,
+        622,
+        674,
+        574
+      ],
+      "length": 48.042,
+      "angle_deg": -87.614,
+      "confidence": 0.0384,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        672,
+        464,
+        706,
+        430
+      ],
+      "length": 48.083,
+      "angle_deg": -45.0,
+      "confidence": 0.0384,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        26,
+        143,
+        26,
+        95
+      ],
+      "length": 48.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0383,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        388,
+        265,
+        388,
+        217
+      ],
+      "length": 48.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0383,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        156,
+        852,
+        156,
+        804
+      ],
+      "length": 48.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0383,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        169,
+        642,
+        169,
+        594
+      ],
+      "length": 48.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0383,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        569,
+        305,
+        573,
+        258
+      ],
+      "length": 47.17,
+      "angle_deg": -85.135,
+      "confidence": 0.0377,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        364,
+        480,
+        366,
+        527
+      ],
+      "length": 47.043,
+      "angle_deg": 87.563,
+      "confidence": 0.0376,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        591,
+        304,
+        593,
+        257
+      ],
+      "length": 47.043,
+      "angle_deg": -87.563,
+      "confidence": 0.0376,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        630,
+        743,
+        633,
+        790
+      ],
+      "length": 47.096,
+      "angle_deg": 86.348,
+      "confidence": 0.0376,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        125,
+        592,
+        172,
+        592
+      ],
+      "length": 47.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0375,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        105,
+        144,
+        152,
+        144
+      ],
+      "length": 47.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0375,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        125,
+        613,
+        172,
+        613
+      ],
+      "length": 47.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0375,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        432,
+        688,
+        456,
+        728
+      ],
+      "length": 46.648,
+      "angle_deg": 59.036,
+      "confidence": 0.0373,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        566,
+        916,
+        578,
+        961
+      ],
+      "length": 46.573,
+      "angle_deg": 75.069,
+      "confidence": 0.0372,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        569,
+        920,
+        580,
+        965
+      ],
+      "length": 46.325,
+      "angle_deg": 76.264,
+      "confidence": 0.037,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        443,
+        688,
+        468,
+        727
+      ],
+      "length": 46.325,
+      "angle_deg": 57.339,
+      "confidence": 0.037,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        556,
+        902,
+        558,
+        856
+      ],
+      "length": 46.043,
+      "angle_deg": -87.51,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        619,
+        481,
+        621,
+        527
+      ],
+      "length": 46.043,
+      "angle_deg": 87.51,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        117,
+        982,
+        163,
+        981
+      ],
+      "length": 46.011,
+      "angle_deg": -1.245,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        43,
+        312,
+        89,
+        311
+      ],
+      "length": 46.011,
+      "angle_deg": -1.245,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        390,
+        972,
+        392,
+        1018
+      ],
+      "length": 46.043,
+      "angle_deg": 87.51,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        291,
+        1007,
+        337,
+        1005
+      ],
+      "length": 46.043,
+      "angle_deg": -2.49,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        107,
+        965,
+        153,
+        964
+      ],
+      "length": 46.011,
+      "angle_deg": -1.245,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        600,
+        835,
+        646,
+        838
+      ],
+      "length": 46.098,
+      "angle_deg": 3.731,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        166,
+        865,
+        167,
+        819
+      ],
+      "length": 46.011,
+      "angle_deg": -88.755,
+      "confidence": 0.0368,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        440,
+        461,
+        440,
+        415
+      ],
+      "length": 46.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0367,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        160,
+        570,
+        160,
+        524
+      ],
+      "length": 46.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0367,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        164,
+        594,
+        164,
+        640
+      ],
+      "length": 46.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0367,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        308,
+        1023,
+        313,
+        978
+      ],
+      "length": 45.277,
+      "angle_deg": -83.66,
+      "confidence": 0.0362,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        381,
+        669,
+        384,
+        714
+      ],
+      "length": 45.1,
+      "angle_deg": 86.186,
+      "confidence": 0.036,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        441,
+        686,
+        465,
+        724
+      ],
+      "length": 44.944,
+      "angle_deg": 57.724,
+      "confidence": 0.0359,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        99,
+        740,
+        144,
+        740
+      ],
+      "length": 45.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0359,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        651,
+        80,
+        696,
+        80
+      ],
+      "length": 45.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0359,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        314,
+        157,
+        314,
+        112
+      ],
+      "length": 45.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0359,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        127,
+        798,
+        127,
+        753
+      ],
+      "length": 45.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0359,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        593,
+        224,
+        594,
+        180
+      ],
+      "length": 44.011,
+      "angle_deg": -88.698,
+      "confidence": 0.0352,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        226,
+        461,
+        227,
+        417
+      ],
+      "length": 44.011,
+      "angle_deg": -88.698,
+      "confidence": 0.0352,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        616,
+        484,
+        618,
+        528
+      ],
+      "length": 44.045,
+      "angle_deg": 87.397,
+      "confidence": 0.0352,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        367,
+        1016,
+        411,
+        1015
+      ],
+      "length": 44.011,
+      "angle_deg": -1.302,
+      "confidence": 0.0352,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        61,
+        600,
+        105,
+        598
+      ],
+      "length": 44.045,
+      "angle_deg": -2.603,
+      "confidence": 0.0352,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        181,
+        782,
+        225,
+        782
+      ],
+      "length": 44.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0351,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        586,
+        823,
+        586,
+        779
+      ],
+      "length": 44.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0351,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        575,
+        779,
+        575,
+        823
+      ],
+      "length": 44.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0351,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        573,
+        823,
+        573,
+        779
+      ],
+      "length": 44.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0351,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        129,
+        256,
+        173,
+        256
+      ],
+      "length": 44.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0351,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        148,
+        783,
+        148,
+        827
+      ],
+      "length": 44.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0351,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        526,
+        593,
+        557,
+        562
+      ],
+      "length": 43.841,
+      "angle_deg": -45.0,
+      "confidence": 0.035,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        511,
+        676,
+        542,
+        645
+      ],
+      "length": 43.841,
+      "angle_deg": -45.0,
+      "confidence": 0.035,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        455,
+        671,
+        480,
+        707
+      ],
+      "length": 43.829,
+      "angle_deg": 55.222,
+      "confidence": 0.035,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        88,
+        166,
+        112,
+        202
+      ],
+      "length": 43.267,
+      "angle_deg": 56.31,
+      "confidence": 0.0346,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        324,
+        826,
+        324,
+        783
+      ],
+      "length": 43.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        563,
+        436,
+        606,
+        436
+      ],
+      "length": 43.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        365,
+        650,
+        367,
+        693
+      ],
+      "length": 43.046,
+      "angle_deg": 87.337,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        578,
+        973,
+        621,
+        970
+      ],
+      "length": 43.105,
+      "angle_deg": -3.991,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        152,
+        957,
+        195,
+        957
+      ],
+      "length": 43.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        94,
+        497,
+        94,
+        454
+      ],
+      "length": 43.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        432,
+        453,
+        432,
+        410
+      ],
+      "length": 43.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        610,
+        963,
+        632,
+        1000
+      ],
+      "length": 43.046,
+      "angle_deg": 59.265,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        656,
+        426,
+        699,
+        427
+      ],
+      "length": 43.012,
+      "angle_deg": 1.332,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        590,
+        963,
+        633,
+        963
+      ],
+      "length": 43.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        340,
+        734,
+        383,
+        734
+      ],
+      "length": 43.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        44,
+        315,
+        87,
+        314
+      ],
+      "length": 43.012,
+      "angle_deg": -1.332,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        562,
+        597,
+        605,
+        599
+      ],
+      "length": 43.046,
+      "angle_deg": 2.663,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        307,
+        719,
+        329,
+        682
+      ],
+      "length": 43.046,
+      "angle_deg": -59.265,
+      "confidence": 0.0344,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        366,
+        560,
+        388,
+        596
+      ],
+      "length": 42.19,
+      "angle_deg": 58.57,
+      "confidence": 0.0337,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        623,
+        789,
+        623,
+        747
+      ],
+      "length": 42.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0336,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        526,
+        297,
+        568,
+        297
+      ],
+      "length": 42.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0336,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        626,
+        141,
+        626,
+        183
+      ],
+      "length": 42.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0336,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        296,
+        963,
+        338,
+        963
+      ],
+      "length": 42.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0336,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        587,
+        121,
+        629,
+        121
+      ],
+      "length": 42.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0336,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        628,
+        580,
+        670,
+        580
+      ],
+      "length": 42.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0336,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        141,
+        97,
+        183,
+        97
+      ],
+      "length": 42.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0336,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        66,
+        621,
+        78,
+        661
+      ],
+      "length": 41.761,
+      "angle_deg": 73.301,
+      "confidence": 0.0334,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        420,
+        672,
+        442,
+        707
+      ],
+      "length": 41.34,
+      "angle_deg": 57.848,
+      "confidence": 0.033,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        42,
+        834,
+        83,
+        834
+      ],
+      "length": 41.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        454,
+        587,
+        495,
+        586
+      ],
+      "length": 41.012,
+      "angle_deg": -1.397,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        137,
+        956,
+        138,
+        997
+      ],
+      "length": 41.012,
+      "angle_deg": 88.603,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        282,
+        990,
+        323,
+        987
+      ],
+      "length": 41.11,
+      "angle_deg": -4.185,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        599,
+        313,
+        601,
+        272
+      ],
+      "length": 41.049,
+      "angle_deg": -87.207,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        273,
+        987,
+        314,
+        987
+      ],
+      "length": 41.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        371,
+        645,
+        374,
+        686
+      ],
+      "length": 41.11,
+      "angle_deg": 85.815,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        181,
+        831,
+        222,
+        831
+      ],
+      "length": 41.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        191,
+        1011,
+        232,
+        1010
+      ],
+      "length": 41.012,
+      "angle_deg": -1.397,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        471,
+        1017,
+        512,
+        1017
+      ],
+      "length": 41.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        3,
+        537,
+        3,
+        578
+      ],
+      "length": 41.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0328,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        524,
+        679,
+        528,
+        639
+      ],
+      "length": 40.2,
+      "angle_deg": -84.289,
+      "confidence": 0.0321,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        190,
+        738,
+        230,
+        737
+      ],
+      "length": 40.012,
+      "angle_deg": -1.432,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        153,
+        238,
+        193,
+        238
+      ],
+      "length": 40.0,
+      "angle_deg": 0.0,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        555,
+        819,
+        557,
+        779
+      ],
+      "length": 40.05,
+      "angle_deg": -87.138,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        154,
+        783,
+        154,
+        823
+      ],
+      "length": 40.0,
+      "angle_deg": 90.0,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        30,
+        1022,
+        70,
+        1020
+      ],
+      "length": 40.05,
+      "angle_deg": -2.862,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        582,
+        537,
+        583,
+        497
+      ],
+      "length": 40.012,
+      "angle_deg": -88.568,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        163,
+        497,
+        163,
+        457
+      ],
+      "length": 40.0,
+      "angle_deg": -90.0,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        90,
+        579,
+        91,
+        619
+      ],
+      "length": 40.012,
+      "angle_deg": 88.568,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        386,
+        179,
+        388,
+        139
+      ],
+      "length": 40.05,
+      "angle_deg": -87.138,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        530,
+        667,
+        530,
+        627
+      ],
+      "length": 40.0,
+      "angle_deg": -90.0,
+      "confidence": 0.032,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        173,
+        286,
+        194,
+        320
+      ],
+      "length": 39.962,
+      "angle_deg": 58.299,
+      "confidence": 0.0319,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        637,
+        861,
+        637,
+        900
+      ],
+      "length": 39.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        458,
+        952,
+        497,
+        952
+      ],
+      "length": 39.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        360,
+        814,
+        360,
+        775
+      ],
+      "length": 39.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        139,
+        295,
+        139,
+        256
+      ],
+      "length": 39.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        186,
+        673,
+        225,
+        673
+      ],
+      "length": 39.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        360,
+        521,
+        360,
+        482
+      ],
+      "length": 39.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        570,
+        627,
+        609,
+        627
+      ],
+      "length": 39.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        618,
+        203,
+        618,
+        164
+      ],
+      "length": 39.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        524,
+        639,
+        563,
+        637
+      ],
+      "length": 39.051,
+      "angle_deg": -2.936,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        4,
+        608,
+        4,
+        569
+      ],
+      "length": 39.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        610,
+        78,
+        649,
+        78
+      ],
+      "length": 39.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        612,
+        792,
+        612,
+        831
+      ],
+      "length": 39.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0312,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        653,
+        294,
+        661,
+        256
+      ],
+      "length": 38.833,
+      "angle_deg": -78.111,
+      "confidence": 0.031,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        436,
+        692,
+        456,
+        725
+      ],
+      "length": 38.588,
+      "angle_deg": 58.782,
+      "confidence": 0.0308,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        341,
+        606,
+        359,
+        640
+      ],
+      "length": 38.471,
+      "angle_deg": 62.103,
+      "confidence": 0.0307,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        187,
+        784,
+        225,
+        784
+      ],
+      "length": 38.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0304,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        345,
+        334,
+        346,
+        372
+      ],
+      "length": 38.013,
+      "angle_deg": 88.493,
+      "confidence": 0.0304,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        587,
+        276,
+        625,
+        276
+      ],
+      "length": 38.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0304,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        126,
+        121,
+        164,
+        121
+      ],
+      "length": 38.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0304,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        457,
+        590,
+        495,
+        589
+      ],
+      "length": 38.013,
+      "angle_deg": -1.507,
+      "confidence": 0.0304,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        631,
+        878,
+        669,
+        878
+      ],
+      "length": 38.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0304,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        60,
+        297,
+        62,
+        259
+      ],
+      "length": 38.053,
+      "angle_deg": -86.987,
+      "confidence": 0.0304,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        623,
+        455,
+        624,
+        493
+      ],
+      "length": 38.013,
+      "angle_deg": 88.493,
+      "confidence": 0.0304,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        261,
+        408,
+        281,
+        440
+      ],
+      "length": 37.736,
+      "angle_deg": 57.995,
+      "confidence": 0.0301,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        388,
+        705,
+        425,
+        698
+      ],
+      "length": 37.656,
+      "angle_deg": -10.713,
+      "confidence": 0.0301,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        575,
+        616,
+        585,
+        580
+      ],
+      "length": 37.363,
+      "angle_deg": -74.476,
+      "confidence": 0.0298,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        395,
+        203,
+        398,
+        166
+      ],
+      "length": 37.121,
+      "angle_deg": -85.365,
+      "confidence": 0.0297,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        141,
+        179,
+        160,
+        211
+      ],
+      "length": 37.216,
+      "angle_deg": 59.3,
+      "confidence": 0.0297,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        527,
+        615,
+        531,
+        578
+      ],
+      "length": 37.216,
+      "angle_deg": -83.83,
+      "confidence": 0.0297,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        189,
+        233,
+        192,
+        270
+      ],
+      "length": 37.121,
+      "angle_deg": 85.365,
+      "confidence": 0.0297,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        188,
+        833,
+        225,
+        833
+      ],
+      "length": 37.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        556,
+        217,
+        556,
+        180
+      ],
+      "length": 37.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        112,
+        972,
+        149,
+        973
+      ],
+      "length": 37.014,
+      "angle_deg": 1.548,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        74,
+        257,
+        76,
+        294
+      ],
+      "length": 37.054,
+      "angle_deg": 86.906,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        227,
+        1005,
+        264,
+        1006
+      ],
+      "length": 37.014,
+      "angle_deg": 1.548,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        124,
+        884,
+        161,
+        884
+      ],
+      "length": 37.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        203,
+        1014,
+        240,
+        1014
+      ],
+      "length": 37.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        155,
+        998,
+        192,
+        998
+      ],
+      "length": 37.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        483,
+        942,
+        520,
+        942
+      ],
+      "length": 37.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        560,
+        873,
+        561,
+        836
+      ],
+      "length": 37.014,
+      "angle_deg": -88.452,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        26,
+        12,
+        27,
+        49
+      ],
+      "length": 37.014,
+      "angle_deg": 88.452,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        581,
+        736,
+        618,
+        736
+      ],
+      "length": 37.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        18,
+        699,
+        18,
+        662
+      ],
+      "length": 37.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        490,
+        637,
+        490,
+        600
+      ],
+      "length": 37.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        113,
+        799,
+        113,
+        762
+      ],
+      "length": 37.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0296,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        134,
+        256,
+        155,
+        286
+      ],
+      "length": 36.62,
+      "angle_deg": 55.008,
+      "confidence": 0.0293,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        236,
+        675,
+        242,
+        711
+      ],
+      "length": 36.497,
+      "angle_deg": 80.538,
+      "confidence": 0.0292,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        239,
+        674,
+        245,
+        710
+      ],
+      "length": 36.497,
+      "angle_deg": 80.538,
+      "confidence": 0.0292,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        235,
+        675,
+        241,
+        711
+      ],
+      "length": 36.497,
+      "angle_deg": 80.538,
+      "confidence": 0.0292,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        482,
+        707,
+        487,
+        671
+      ],
+      "length": 36.346,
+      "angle_deg": -82.093,
+      "confidence": 0.029,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        391,
+        794,
+        394,
+        830
+      ],
+      "length": 36.125,
+      "angle_deg": 85.236,
+      "confidence": 0.0289,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        571,
+        305,
+        574,
+        269
+      ],
+      "length": 36.125,
+      "angle_deg": -85.236,
+      "confidence": 0.0289,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        632,
+        311,
+        632,
+        275
+      ],
+      "length": 36.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        126,
+        440,
+        162,
+        439
+      ],
+      "length": 36.014,
+      "angle_deg": -1.591,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        326,
+        1014,
+        328,
+        978
+      ],
+      "length": 36.056,
+      "angle_deg": -86.82,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        652,
+        985,
+        653,
+        949
+      ],
+      "length": 36.014,
+      "angle_deg": -88.409,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        89,
+        120,
+        125,
+        120
+      ],
+      "length": 36.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        339,
+        184,
+        375,
+        184
+      ],
+      "length": 36.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        353,
+        1017,
+        355,
+        981
+      ],
+      "length": 36.056,
+      "angle_deg": -86.82,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        137,
+        627,
+        138,
+        591
+      ],
+      "length": 36.014,
+      "angle_deg": -88.409,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        134,
+        740,
+        134,
+        776
+      ],
+      "length": 36.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        384,
+        981,
+        420,
+        981
+      ],
+      "length": 36.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        282,
+        967,
+        318,
+        968
+      ],
+      "length": 36.014,
+      "angle_deg": 1.591,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        158,
+        269,
+        178,
+        299
+      ],
+      "length": 36.056,
+      "angle_deg": 56.31,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        624,
+        573,
+        625,
+        609
+      ],
+      "length": 36.014,
+      "angle_deg": 88.409,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        417,
+        587,
+        453,
+        587
+      ],
+      "length": 36.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        90,
+        461,
+        91,
+        497
+      ],
+      "length": 36.014,
+      "angle_deg": 88.409,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        257,
+        415,
+        293,
+        416
+      ],
+      "length": 36.014,
+      "angle_deg": 1.591,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        257,
+        424,
+        277,
+        454
+      ],
+      "length": 36.056,
+      "angle_deg": 56.31,
+      "confidence": 0.0288,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        316,
+        951,
+        334,
+        920
+      ],
+      "length": 35.847,
+      "angle_deg": -59.859,
+      "confidence": 0.0286,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        598,
+        511,
+        613,
+        479
+      ],
+      "length": 35.341,
+      "angle_deg": -64.885,
+      "confidence": 0.0282,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        370,
+        517,
+        373,
+        482
+      ],
+      "length": 35.128,
+      "angle_deg": -85.101,
+      "confidence": 0.0281,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        135,
+        485,
+        135,
+        520
+      ],
+      "length": 35.0,
+      "angle_deg": 90.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        148,
+        764,
+        149,
+        799
+      ],
+      "length": 35.014,
+      "angle_deg": 88.363,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        489,
+        881,
+        524,
+        881
+      ],
+      "length": 35.0,
+      "angle_deg": 0.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        222,
+        669,
+        257,
+        669
+      ],
+      "length": 35.0,
+      "angle_deg": 0.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        490,
+        437,
+        525,
+        437
+      ],
+      "length": 35.0,
+      "angle_deg": 0.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        598,
+        789,
+        633,
+        789
+      ],
+      "length": 35.0,
+      "angle_deg": 0.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        561,
+        274,
+        596,
+        274
+      ],
+      "length": 35.0,
+      "angle_deg": 0.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        591,
+        782,
+        626,
+        782
+      ],
+      "length": 35.0,
+      "angle_deg": 0.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        228,
+        425,
+        263,
+        425
+      ],
+      "length": 35.0,
+      "angle_deg": 0.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        370,
+        482,
+        371,
+        517
+      ],
+      "length": 35.014,
+      "angle_deg": 88.363,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        183,
+        1016,
+        218,
+        1016
+      ],
+      "length": 35.0,
+      "angle_deg": 0.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        689,
+        460,
+        689,
+        425
+      ],
+      "length": 35.0,
+      "angle_deg": -90.0,
+      "confidence": 0.028,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        440,
+        686,
+        458,
+        716
+      ],
+      "length": 34.986,
+      "angle_deg": 59.036,
+      "confidence": 0.0279,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        241,
+        360,
+        259,
+        390
+      ],
+      "length": 34.986,
+      "angle_deg": 59.036,
+      "confidence": 0.0279,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        142,
+        179,
+        160,
+        209
+      ],
+      "length": 34.986,
+      "angle_deg": 59.036,
+      "confidence": 0.0279,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        155,
+        179,
+        160,
+        213
+      ],
+      "length": 34.366,
+      "angle_deg": 81.634,
+      "confidence": 0.0275,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        276,
+        676,
+        310,
+        679
+      ],
+      "length": 34.132,
+      "angle_deg": 5.042,
+      "confidence": 0.0273,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        189,
+        317,
+        191,
+        283
+      ],
+      "length": 34.059,
+      "angle_deg": -86.634,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        279,
+        1008,
+        313,
+        1008
+      ],
+      "length": 34.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        685,
+        79,
+        719,
+        79
+      ],
+      "length": 34.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        521,
+        901,
+        555,
+        901
+      ],
+      "length": 34.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        87,
+        640,
+        88,
+        606
+      ],
+      "length": 34.015,
+      "angle_deg": -88.315,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        134,
+        829,
+        168,
+        829
+      ],
+      "length": 34.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        71,
+        604,
+        105,
+        603
+      ],
+      "length": 34.015,
+      "angle_deg": -1.685,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        135,
+        1013,
+        169,
+        1013
+      ],
+      "length": 34.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        601,
+        271,
+        601,
+        237
+      ],
+      "length": 34.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        497,
+        385,
+        498,
+        351
+      ],
+      "length": 34.015,
+      "angle_deg": -88.315,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        73,
+        1022,
+        107,
+        1021
+      ],
+      "length": 34.015,
+      "angle_deg": -1.685,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        229,
+        971,
+        263,
+        971
+      ],
+      "length": 34.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        363,
+        141,
+        397,
+        141
+      ],
+      "length": 34.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        609,
+        168,
+        611,
+        202
+      ],
+      "length": 34.059,
+      "angle_deg": 86.634,
+      "confidence": 0.0272,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        539,
+        255,
+        554,
+        225
+      ],
+      "length": 33.541,
+      "angle_deg": -63.435,
+      "confidence": 0.0268,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        126,
+        1009,
+        131,
+        976
+      ],
+      "length": 33.377,
+      "angle_deg": -81.384,
+      "confidence": 0.0267,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        592,
+        41,
+        595,
+        8
+      ],
+      "length": 33.136,
+      "angle_deg": -84.806,
+      "confidence": 0.0265,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        322,
+        308,
+        322,
+        275
+      ],
+      "length": 33.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        561,
+        587,
+        594,
+        587
+      ],
+      "length": 33.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        167,
+        870,
+        168,
+        903
+      ],
+      "length": 33.015,
+      "angle_deg": 88.264,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        494,
+        433,
+        527,
+        433
+      ],
+      "length": 33.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        147,
+        996,
+        180,
+        996
+      ],
+      "length": 33.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        106,
+        960,
+        107,
+        993
+      ],
+      "length": 33.015,
+      "angle_deg": 88.264,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        105,
+        978,
+        138,
+        978
+      ],
+      "length": 33.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        236,
+        128,
+        269,
+        128
+      ],
+      "length": 33.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        23,
+        427,
+        56,
+        427
+      ],
+      "length": 33.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        406,
+        133,
+        439,
+        133
+      ],
+      "length": 33.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        449,
+        132,
+        482,
+        133
+      ],
+      "length": 33.015,
+      "angle_deg": 1.736,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        188,
+        601,
+        188,
+        568
+      ],
+      "length": 33.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        41,
+        595,
+        74,
+        594
+      ],
+      "length": 33.015,
+      "angle_deg": -1.736,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        556,
+        498,
+        556,
+        465
+      ],
+      "length": 33.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        562,
+        624,
+        562,
+        591
+      ],
+      "length": 33.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0264,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        532,
+        956,
+        564,
+        952
+      ],
+      "length": 32.249,
+      "angle_deg": -7.125,
+      "confidence": 0.0258,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        494,
+        645,
+        503,
+        676
+      ],
+      "length": 32.28,
+      "angle_deg": 73.811,
+      "confidence": 0.0258,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        126,
+        742,
+        158,
+        739
+      ],
+      "length": 32.14,
+      "angle_deg": -5.356,
+      "confidence": 0.0257,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        561,
+        309,
+        564,
+        277
+      ],
+      "length": 32.14,
+      "angle_deg": -84.644,
+      "confidence": 0.0257,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        525,
+        645,
+        557,
+        644
+      ],
+      "length": 32.016,
+      "angle_deg": -1.79,
+      "confidence": 0.0256,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        102,
+        961,
+        102,
+        993
+      ],
+      "length": 32.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0256,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        636,
+        813,
+        636,
+        781
+      ],
+      "length": 32.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0256,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        307,
+        735,
+        339,
+        734
+      ],
+      "length": 32.016,
+      "angle_deg": -1.79,
+      "confidence": 0.0256,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        349,
+        370,
+        350,
+        338
+      ],
+      "length": 32.016,
+      "angle_deg": -88.21,
+      "confidence": 0.0256,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        492,
+        833,
+        524,
+        833
+      ],
+      "length": 32.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0256,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        234,
+        267,
+        234,
+        299
+      ],
+      "length": 32.0,
+      "angle_deg": 90.0,
+      "confidence": 0.0256,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        497,
+        983,
+        497,
+        951
+      ],
+      "length": 32.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0256,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        498,
+        971,
+        529,
+        968
+      ],
+      "length": 31.145,
+      "angle_deg": -5.528,
+      "confidence": 0.0249,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        319,
+        339,
+        350,
+        339
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        137,
+        653,
+        168,
+        653
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        619,
+        163,
+        619,
+        132
+      ],
+      "length": 31.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        411,
+        726,
+        442,
+        725
+      ],
+      "length": 31.016,
+      "angle_deg": -1.848,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        592,
+        976,
+        623,
+        975
+      ],
+      "length": 31.016,
+      "angle_deg": -1.848,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        115,
+        735,
+        146,
+        734
+      ],
+      "length": 31.016,
+      "angle_deg": -1.848,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        592,
+        992,
+        623,
+        990
+      ],
+      "length": 31.064,
+      "angle_deg": -3.691,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        429,
+        432,
+        460,
+        432
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        345,
+        618,
+        376,
+        616
+      ],
+      "length": 31.064,
+      "angle_deg": -3.691,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        531,
+        334,
+        531,
+        303
+      ],
+      "length": 31.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        553,
+        783,
+        584,
+        783
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        103,
+        993,
+        134,
+        991
+      ],
+      "length": 31.064,
+      "angle_deg": -3.691,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        456,
+        666,
+        487,
+        666
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        277,
+        726,
+        308,
+        725
+      ],
+      "length": 31.016,
+      "angle_deg": -1.848,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        608,
+        896,
+        639,
+        896
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        390,
+        474,
+        390,
+        443
+      ],
+      "length": 31.0,
+      "angle_deg": -90.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        400,
+        799,
+        431,
+        799
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        304,
+        990,
+        335,
+        989
+      ],
+      "length": 31.016,
+      "angle_deg": -1.848,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        93,
+        742,
+        124,
+        742
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        75,
+        655,
+        106,
+        655
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        182,
+        390,
+        184,
+        359
+      ],
+      "length": 31.064,
+      "angle_deg": -86.309,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        324,
+        117,
+        355,
+        117
+      ],
+      "length": 31.0,
+      "angle_deg": 0.0,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        625,
+        575,
+        656,
+        574
+      ],
+      "length": 31.016,
+      "angle_deg": -1.848,
+      "confidence": 0.0248,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        475,
+        677,
+        481,
+        707
+      ],
+      "length": 30.594,
+      "angle_deg": 78.69,
+      "confidence": 0.0244,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        499,
+        491,
+        499,
+        461
+      ],
+      "length": 30.0,
+      "angle_deg": -90.0,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        362,
+        388,
+        392,
+        388
+      ],
+      "length": 30.0,
+      "angle_deg": 0.0,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        122,
+        988,
+        152,
+        987
+      ],
+      "length": 30.017,
+      "angle_deg": -1.909,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        192,
+        414,
+        193,
+        384
+      ],
+      "length": 30.017,
+      "angle_deg": -88.091,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        278,
+        1005,
+        308,
+        1003
+      ],
+      "length": 30.067,
+      "angle_deg": -3.814,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        352,
+        486,
+        353,
+        516
+      ],
+      "length": 30.017,
+      "angle_deg": 88.091,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        380,
+        993,
+        410,
+        993
+      ],
+      "length": 30.0,
+      "angle_deg": 0.0,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        447,
+        464,
+        447,
+        434
+      ],
+      "length": 30.0,
+      "angle_deg": -90.0,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        386,
+        962,
+        416,
+        961
+      ],
+      "length": 30.017,
+      "angle_deg": -1.909,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        604,
+        902,
+        634,
+        902
+      ],
+      "length": 30.0,
+      "angle_deg": 0.0,
+      "confidence": 0.024,
+      "source": "hough"
+    },
+    {
+      "coords": [
+        92,
+        960,
+        122,
+        960
+      ],
+      "length": 30.0,
+      "angle_deg": 0.0,
+      "confidence": 0.024,
+      "source": "hough"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "winner": "lsd",
+  "selection_rule": "max avg_line_manhattan_ratio, then min avg_runtime_sec, then min avg_line_count",
+  "rows": [
+    {
+      "label": "lsd",
+      "path": "reports\\cmp_real_eval_lines_lsd30_summary.json",
+      "status": "ok",
+      "num_ok": 28,
+      "num_failed": 2,
+      "avg_line_manhattan_ratio": 0.9452769524240632,
+      "avg_line_count": 510.0,
+      "avg_runtime_sec": 0.5665571428571429,
+      "avg_window_iou_nonempty_gt": 0.13948622448822412,
+      "avg_door_iou_nonempty_gt": 0.026666917349050356
+    },
+    {
+      "label": "hough",
+      "path": "reports\\cmp_real_eval_lines_hough30_summary.json",
+      "status": "ok",
+      "num_ok": 28,
+      "num_failed": 2,
+      "avg_line_manhattan_ratio": 0.817698962800167,
+      "avg_line_count": 1019.0714285714286,
+      "avg_runtime_sec": 0.5712642857142857,
+      "avg_window_iou_nonempty_gt": 0.13948622448822412,
+      "avg_door_iou_nonempty_gt": 0.026666917349050356
+    }
+  ]
+}

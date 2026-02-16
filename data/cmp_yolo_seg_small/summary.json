@@ -1,0 +1,13 @@
+{
+  "dataset_dir": "C:\\Projects\\Diploma\\data\\cmp_facade_base\\base",
+  "outdir": "C:\\Projects\\Diploma\\data\\cmp_yolo_seg_small",
+  "num_total": 180,
+  "num_train": 144,
+  "num_val": 36,
+  "num_train_objects": 4681,
+  "num_val_objects": 1584,
+  "class_to_id": {
+    "window": 0,
+    "door": 1
+  }
+}

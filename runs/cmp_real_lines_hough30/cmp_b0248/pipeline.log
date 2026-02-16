@@ -1,0 +1,8 @@
+2026-02-15 01:24:19 | INFO | Pipeline start: input=data\cmp_facade_base\base\cmp_b0248.jpg outdir=runs\cmp_real_lines_hough30\cmp_b0248 config=configs/mvp_c_hough.yaml device=cpu
+2026-02-15 01:24:19 | INFO | Seed set to 42
+2026-02-15 01:24:19 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:24:19 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:24:19 | INFO | Segmentation stage (contour): windows=29 doors=4
+2026-02-15 01:24:19 | INFO | Lines stage (hough): 1088 segments
+2026-02-15 01:24:19 | INFO | Vectorization stage: windows=29 doors=4 lines=1088
+2026-02-15 01:24:19 | INFO | Pipeline finished successfully in 0.59 sec

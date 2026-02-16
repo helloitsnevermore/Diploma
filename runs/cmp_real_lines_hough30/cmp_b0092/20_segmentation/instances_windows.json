@@ -1,0 +1,1000 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "contour_baseline",
+  "image_width": 844,
+  "image_height": 1024,
+  "instances": [
+    {
+      "bbox": [
+        0,
+        0,
+        198,
+        140
+      ],
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          198,
+          0
+        ],
+        [
+          198,
+          140
+        ],
+        [
+          0,
+          140
+        ]
+      ],
+      "confidence": 0.5413,
+      "area_ratio": 0.002649,
+      "source": "contour",
+      "id": "window_0001",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        529,
+        0,
+        282,
+        237
+      ],
+      "polygon": [
+        [
+          529,
+          0
+        ],
+        [
+          811,
+          0
+        ],
+        [
+          811,
+          237
+        ],
+        [
+          529,
+          237
+        ]
+      ],
+      "confidence": 0.5166,
+      "area_ratio": 0.002575,
+      "source": "contour",
+      "id": "window_0002",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        33,
+        215,
+        247,
+        237
+      ],
+      "polygon": [
+        [
+          33,
+          215
+        ],
+        [
+          280,
+          215
+        ],
+        [
+          280,
+          452
+        ],
+        [
+          33,
+          452
+        ]
+      ],
+      "confidence": 0.5317,
+      "area_ratio": 0.004289,
+      "source": "contour",
+      "id": "window_0003",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        12,
+        250,
+        500,
+        771
+      ],
+      "polygon": [
+        [
+          12,
+          250
+        ],
+        [
+          512,
+          250
+        ],
+        [
+          512,
+          1021
+        ],
+        [
+          12,
+          1021
+        ]
+      ],
+      "confidence": 0.5102,
+      "area_ratio": 0.009127,
+      "source": "contour",
+      "id": "window_0004",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        511,
+        268,
+        96,
+        117
+      ],
+      "polygon": [
+        [
+          511,
+          268
+        ],
+        [
+          607,
+          268
+        ],
+        [
+          607,
+          385
+        ],
+        [
+          511,
+          385
+        ]
+      ],
+      "confidence": 0.7544,
+      "area_ratio": 0.006613,
+      "source": "contour",
+      "id": "window_0005",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        127,
+        271,
+        95,
+        116
+      ],
+      "polygon": [
+        [
+          127,
+          271
+        ],
+        [
+          222,
+          271
+        ],
+        [
+          222,
+          387
+        ],
+        [
+          127,
+          387
+        ]
+      ],
+      "confidence": 0.7563,
+      "area_ratio": 0.006537,
+      "source": "contour",
+      "id": "window_0006",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        631,
+        273,
+        80,
+        112
+      ],
+      "polygon": [
+        [
+          631,
+          273
+        ],
+        [
+          711,
+          273
+        ],
+        [
+          711,
+          385
+        ],
+        [
+          631,
+          385
+        ]
+      ],
+      "confidence": 0.638,
+      "area_ratio": 0.002861,
+      "source": "contour",
+      "id": "window_0007",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        275,
+        274,
+        95,
+        112
+      ],
+      "polygon": [
+        [
+          275,
+          274
+        ],
+        [
+          370,
+          274
+        ],
+        [
+          370,
+          386
+        ],
+        [
+          275,
+          386
+        ]
+      ],
+      "confidence": 0.7641,
+      "area_ratio": 0.006503,
+      "source": "contour",
+      "id": "window_0008",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        393,
+        274,
+        93,
+        113
+      ],
+      "polygon": [
+        [
+          393,
+          274
+        ],
+        [
+          486,
+          274
+        ],
+        [
+          486,
+          387
+        ],
+        [
+          393,
+          387
+        ]
+      ],
+      "confidence": 0.7401,
+      "area_ratio": 0.005838,
+      "source": "contour",
+      "id": "window_0009",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        758,
+        274,
+        55,
+        110
+      ],
+      "polygon": [
+        [
+          758,
+          274
+        ],
+        [
+          813,
+          274
+        ],
+        [
+          813,
+          384
+        ],
+        [
+          758,
+          384
+        ]
+      ],
+      "confidence": 0.8133,
+      "area_ratio": 0.004386,
+      "source": "contour",
+      "id": "window_0010",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        535,
+        316,
+        32,
+        58
+      ],
+      "polygon": [
+        [
+          535,
+          316
+        ],
+        [
+          567,
+          316
+        ],
+        [
+          567,
+          374
+        ],
+        [
+          535,
+          374
+        ]
+      ],
+      "confidence": 0.9355,
+      "area_ratio": 0.00187,
+      "source": "contour",
+      "id": "window_0011",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        301,
+        317,
+        48,
+        58
+      ],
+      "polygon": [
+        [
+          301,
+          317
+        ],
+        [
+          349,
+          317
+        ],
+        [
+          349,
+          375
+        ],
+        [
+          301,
+          375
+        ]
+      ],
+      "confidence": 0.8837,
+      "area_ratio": 0.002472,
+      "source": "contour",
+      "id": "window_0012",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        779,
+        317,
+        28,
+        54
+      ],
+      "polygon": [
+        [
+          779,
+          317
+        ],
+        [
+          807,
+          317
+        ],
+        [
+          807,
+          371
+        ],
+        [
+          779,
+          371
+        ]
+      ],
+      "confidence": 0.9449,
+      "area_ratio": 0.001557,
+      "source": "contour",
+      "id": "window_0013",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        126,
+        471,
+        95,
+        115
+      ],
+      "polygon": [
+        [
+          126,
+          471
+        ],
+        [
+          221,
+          471
+        ],
+        [
+          221,
+          586
+        ],
+        [
+          126,
+          586
+        ]
+      ],
+      "confidence": 0.6375,
+      "area_ratio": 0.003476,
+      "source": "contour",
+      "id": "window_0014",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        516,
+        471,
+        89,
+        115
+      ],
+      "polygon": [
+        [
+          516,
+          471
+        ],
+        [
+          605,
+          471
+        ],
+        [
+          605,
+          586
+        ],
+        [
+          516,
+          586
+        ]
+      ],
+      "confidence": 0.6002,
+      "area_ratio": 0.002373,
+      "source": "contour",
+      "id": "window_0015",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        633,
+        471,
+        96,
+        117
+      ],
+      "polygon": [
+        [
+          633,
+          471
+        ],
+        [
+          729,
+          471
+        ],
+        [
+          729,
+          588
+        ],
+        [
+          633,
+          588
+        ]
+      ],
+      "confidence": 0.791,
+      "area_ratio": 0.007564,
+      "source": "contour",
+      "id": "window_0016",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        274,
+        474,
+        95,
+        113
+      ],
+      "polygon": [
+        [
+          274,
+          474
+        ],
+        [
+          369,
+          474
+        ],
+        [
+          369,
+          587
+        ],
+        [
+          274,
+          587
+        ]
+      ],
+      "confidence": 0.6038,
+      "area_ratio": 0.002579,
+      "source": "contour",
+      "id": "window_0017",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        393,
+        474,
+        95,
+        113
+      ],
+      "polygon": [
+        [
+          393,
+          474
+        ],
+        [
+          488,
+          474
+        ],
+        [
+          488,
+          587
+        ],
+        [
+          393,
+          587
+        ]
+      ],
+      "confidence": 0.5929,
+      "area_ratio": 0.002307,
+      "source": "contour",
+      "id": "window_0018",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        655,
+        515,
+        52,
+        62
+      ],
+      "polygon": [
+        [
+          655,
+          515
+        ],
+        [
+          707,
+          515
+        ],
+        [
+          707,
+          577
+        ],
+        [
+          655,
+          577
+        ]
+      ],
+      "confidence": 0.8115,
+      "area_ratio": 0.002324,
+      "source": "contour",
+      "id": "window_0019",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        273,
+        673,
+        97,
+        116
+      ],
+      "polygon": [
+        [
+          273,
+          673
+        ],
+        [
+          370,
+          673
+        ],
+        [
+          370,
+          789
+        ],
+        [
+          273,
+          789
+        ]
+      ],
+      "confidence": 0.7828,
+      "area_ratio": 0.007364,
+      "source": "contour",
+      "id": "window_0020",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        123,
+        675,
+        97,
+        113
+      ],
+      "polygon": [
+        [
+          123,
+          675
+        ],
+        [
+          220,
+          675
+        ],
+        [
+          220,
+          788
+        ],
+        [
+          123,
+          788
+        ]
+      ],
+      "confidence": 0.5879,
+      "area_ratio": 0.002229,
+      "source": "contour",
+      "id": "window_0021",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        392,
+        675,
+        96,
+        113
+      ],
+      "polygon": [
+        [
+          392,
+          675
+        ],
+        [
+          488,
+          675
+        ],
+        [
+          488,
+          788
+        ],
+        [
+          392,
+          788
+        ]
+      ],
+      "confidence": 0.7994,
+      "area_ratio": 0.007516,
+      "source": "contour",
+      "id": "window_0022",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        512,
+        675,
+        97,
+        112
+      ],
+      "polygon": [
+        [
+          512,
+          675
+        ],
+        [
+          609,
+          675
+        ],
+        [
+          609,
+          787
+        ],
+        [
+          512,
+          787
+        ]
+      ],
+      "confidence": 0.5828,
+      "area_ratio": 0.00208,
+      "source": "contour",
+      "id": "window_0023",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        636,
+        675,
+        96,
+        113
+      ],
+      "polygon": [
+        [
+          636,
+          675
+        ],
+        [
+          732,
+          675
+        ],
+        [
+          732,
+          788
+        ],
+        [
+          636,
+          788
+        ]
+      ],
+      "confidence": 0.5711,
+      "area_ratio": 0.001786,
+      "source": "contour",
+      "id": "window_0024",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        526,
+        874,
+        71,
+        126
+      ],
+      "polygon": [
+        [
+          526,
+          874
+        ],
+        [
+          597,
+          874
+        ],
+        [
+          597,
+          1000
+        ],
+        [
+          526,
+          1000
+        ]
+      ],
+      "confidence": 0.5936,
+      "area_ratio": 0.001937,
+      "source": "contour",
+      "id": "window_0025",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        639,
+        875,
+        90,
+        86
+      ],
+      "polygon": [
+        [
+          639,
+          875
+        ],
+        [
+          729,
+          875
+        ],
+        [
+          729,
+          961
+        ],
+        [
+          639,
+          961
+        ]
+      ],
+      "confidence": 0.8299,
+      "area_ratio": 0.005909,
+      "source": "contour",
+      "id": "window_0026",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        131,
+        876,
+        84,
+        88
+      ],
+      "polygon": [
+        [
+          131,
+          876
+        ],
+        [
+          215,
+          876
+        ],
+        [
+          215,
+          964
+        ],
+        [
+          131,
+          964
+        ]
+      ],
+      "confidence": 0.6059,
+      "area_ratio": 0.001812,
+      "source": "contour",
+      "id": "window_0027",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        273,
+        877,
+        96,
+        87
+      ],
+      "polygon": [
+        [
+          273,
+          877
+        ],
+        [
+          369,
+          877
+        ],
+        [
+          369,
+          964
+        ],
+        [
+          273,
+          964
+        ]
+      ],
+      "confidence": 0.8084,
+      "area_ratio": 0.00596,
+      "source": "contour",
+      "id": "window_0028",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        394,
+        877,
+        92,
+        86
+      ],
+      "polygon": [
+        [
+          394,
+          877
+        ],
+        [
+          486,
+          877
+        ],
+        [
+          486,
+          963
+        ],
+        [
+          394,
+          963
+        ]
+      ],
+      "confidence": 0.8207,
+      "area_ratio": 0.005873,
+      "source": "contour",
+      "id": "window_0029",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        657,
+        879,
+        55,
+        73
+      ],
+      "polygon": [
+        [
+          657,
+          879
+        ],
+        [
+          712,
+          879
+        ],
+        [
+          712,
+          952
+        ],
+        [
+          657,
+          952
+        ]
+      ],
+      "confidence": 0.9562,
+      "area_ratio": 0.004239,
+      "source": "contour",
+      "id": "window_0030",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        299,
+        882,
+        50,
+        73
+      ],
+      "polygon": [
+        [
+          299,
+          882
+        ],
+        [
+          349,
+          882
+        ],
+        [
+          349,
+          955
+        ],
+        [
+          299,
+          955
+        ]
+      ],
+      "confidence": 0.9599,
+      "area_ratio": 0.003884,
+      "source": "contour",
+      "id": "window_0031",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        417,
+        882,
+        52,
+        73
+      ],
+      "polygon": [
+        [
+          417,
+          882
+        ],
+        [
+          469,
+          882
+        ],
+        [
+          469,
+          955
+        ],
+        [
+          417,
+          955
+        ]
+      ],
+      "confidence": 0.9555,
+      "area_ratio": 0.004002,
+      "source": "contour",
+      "id": "window_0032",
+      "type": "window"
+    }
+  ]
+}

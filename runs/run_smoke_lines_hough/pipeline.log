@@ -1,0 +1,8 @@
+2026-02-15 01:24:42 | INFO | Pipeline start: input=test_input outdir=runs\run_smoke_lines_hough config=configs/mvp_c_hough.yaml device=cpu
+2026-02-15 01:24:42 | INFO | Seed set to 42
+2026-02-15 01:24:42 | INFO | Collecting 3 images (of 3 found)
+2026-02-15 01:24:42 | INFO | Geometry stage (homography): evaluating 3 frames with 3 Canny variants
+2026-02-15 01:24:42 | INFO | Segmentation stage (contour): windows=32 doors=0
+2026-02-15 01:24:42 | INFO | Lines stage (hough): 93 segments
+2026-02-15 01:24:42 | INFO | Vectorization stage: windows=32 doors=0 lines=93
+2026-02-15 01:24:42 | INFO | Pipeline finished successfully in 0.42 sec

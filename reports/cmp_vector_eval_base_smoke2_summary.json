@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "num_ok": 2,
+  "num_failed": 0,
+  "avg_rectification_score": 0.3583,
+  "avg_runtime_sec": 0.2639,
+  "avg_window_iou": 0.17207984922560546,
+  "avg_door_iou": 0.0,
+  "avg_window_iou_nonempty_gt": 0.17207984922560546,
+  "avg_door_iou_nonempty_gt": 0.0,
+  "avg_window_count_abs_error": 17,
+  "avg_door_count_abs_error": 7.5,
+  "door_presence_recall_nonempty_gt": 0.0,
+  "avg_vector_line_count": 266,
+  "avg_vector_line_manhattan_ratio": 0.9832666933226709,
+  "source": {
+    "dataset": "CMP Facade Database (base split)",
+    "url": "https://cmp.felk.cvut.cz/~tylecr1/facade/",
+    "evaluated_images": 2,
+    "limit": 2,
+    "outdir_root": "C:\\Projects\\Diploma\\runs\\cmp_vector_base_smoke2"
+  }
+}

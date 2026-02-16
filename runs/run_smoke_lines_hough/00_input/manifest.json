@@ -1,0 +1,12 @@
+{
+  "input": "C:\\Projects\\Diploma\\test_input",
+  "kind": "images_dir",
+  "fps": 2.0,
+  "max_frames": 120,
+  "frames": [
+    "frame_00000.png",
+    "frame_00001.png",
+    "frame_00002.png"
+  ],
+  "num_frames": 3
+}

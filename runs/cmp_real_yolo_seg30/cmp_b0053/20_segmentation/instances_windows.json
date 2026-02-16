@@ -1,0 +1,101 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "yolo_seg",
+  "image_width": 1024,
+  "image_height": 1015,
+  "instances": [
+    {
+      "bbox": [
+        580,
+        771,
+        99,
+        78
+      ],
+      "polygon": [
+        [
+          581,
+          771
+        ],
+        [
+          581,
+          848
+        ],
+        [
+          678,
+          848
+        ],
+        [
+          678,
+          771
+        ]
+      ],
+      "confidence": 0.0314,
+      "area_ratio": 0.00743,
+      "source": "yolo_seg",
+      "id": "window_0001",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        288,
+        773,
+        105,
+        73
+      ],
+      "polygon": [
+        [
+          289,
+          773
+        ],
+        [
+          289,
+          846
+        ],
+        [
+          392,
+          846
+        ],
+        [
+          392,
+          773
+        ]
+      ],
+      "confidence": 0.0318,
+      "area_ratio": 0.007375,
+      "source": "yolo_seg",
+      "id": "window_0002",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        287,
+        984,
+        102,
+        30
+      ],
+      "polygon": [
+        [
+          287,
+          984
+        ],
+        [
+          287,
+          1014
+        ],
+        [
+          389,
+          1014
+        ],
+        [
+          389,
+          984
+        ]
+      ],
+      "confidence": 0.0305,
+      "area_ratio": 0.002944,
+      "source": "yolo_seg",
+      "id": "window_0003",
+      "type": "window"
+    }
+  ]
+}

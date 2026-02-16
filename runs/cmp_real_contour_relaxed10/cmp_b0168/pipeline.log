@@ -1,0 +1,16 @@
+2026-02-15 01:12:34 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0168.jpg outdir=c:\Projects\Diploma\runs\cmp_real_contour_relaxed10\cmp_b0168 config=c:\Projects\Diploma\configs\mvp_real_eval.yaml device=cpu
+2026-02-15 01:12:34 | INFO | Seed set to 42
+2026-02-15 01:12:34 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:12:34 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:12:34 | INFO | Segmentation stage (contour): windows=4 doors=1
+2026-02-15 01:12:35 | INFO | Lines stage: 1010 segments
+2026-02-15 01:12:35 | INFO | Vectorization stage: windows=4 doors=1 lines=1010
+2026-02-15 01:12:35 | INFO | Pipeline finished successfully in 0.87 sec
+2026-02-15 01:13:23 | INFO | Pipeline start: input=c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0168.jpg outdir=c:\Projects\Diploma\runs\cmp_real_contour_relaxed10\cmp_b0168 config=c:\Projects\Diploma\configs\mvp_real_eval.yaml device=cpu
+2026-02-15 01:13:23 | INFO | Seed set to 42
+2026-02-15 01:13:23 | INFO | Input stage cache hit: reuse 1 frames
+2026-02-15 01:13:23 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:13:24 | INFO | Segmentation stage (contour): windows=4 doors=1
+2026-02-15 01:13:24 | INFO | Lines stage: 1010 segments
+2026-02-15 01:13:24 | INFO | Vectorization stage: windows=4 doors=1 lines=1010
+2026-02-15 01:13:24 | INFO | Pipeline finished successfully in 0.89 sec

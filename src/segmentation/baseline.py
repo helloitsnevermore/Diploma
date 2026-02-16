@@ -4,11 +4,46 @@ from pathlib import Path
 from typing import Any
 
 import cv2
+import numpy as np
 
 from src.io_utils import write_json
 
 
 def run_segmentation(
+    ortho_path: Path,
+    out_dir: Path,
+    cfg: dict[str, Any],
+    logger,
+) -> dict[str, Any]:
+    backend = str(cfg.get("backend", "contour_baseline")).strip().lower()
+    if backend in {"yolo_seg", "yolo", "ultralytics_yolo_seg"}:
+        try:
+            return _run_yolo_inference(ortho_path, out_dir, cfg, logger, task="seg")
+        except Exception as exc:  # noqa: BLE001
+            if not bool(cfg.get("allow_fallback", True)):
+                raise
+            logger.warning("YOLO segmentation failed, fallback to contour baseline: %s", exc)
+            result = _run_contour_segmentation(ortho_path, out_dir, cfg, logger)
+            windows_meta = _read_json_safe(out_dir / "instances_windows.json")
+            windows_meta["fallback_reason"] = str(exc)
+            write_json(out_dir / "instances_windows.json", windows_meta)
+            return result
+    if backend in {"yolo_det", "ultralytics_yolo_det"}:
+        try:
+            return _run_yolo_inference(ortho_path, out_dir, cfg, logger, task="det")
+        except Exception as exc:  # noqa: BLE001
+            if not bool(cfg.get("allow_fallback", True)):
+                raise
+            logger.warning("YOLO segmentation failed, fallback to contour baseline: %s", exc)
+            result = _run_contour_segmentation(ortho_path, out_dir, cfg, logger)
+            windows_meta = _read_json_safe(out_dir / "instances_windows.json")
+            windows_meta["fallback_reason"] = str(exc)
+            write_json(out_dir / "instances_windows.json", windows_meta)
+            return result
+    return _run_contour_segmentation(ortho_path, out_dir, cfg, logger)
+
+
+def _run_contour_segmentation(
     ortho_path: Path,
     out_dir: Path,
     cfg: dict[str, Any],
@@ -63,24 +98,135 @@ def run_segmentation(
         if confidence < min_confidence:
             continue
 
-        polygon = _rect_to_polygon(x, y, w, h)
         entity = {
             "bbox": [int(x), int(y), int(w), int(h)],
-            "polygon": polygon,
+            "polygon": _rect_to_polygon(x, y, w, h),
             "confidence": round(float(confidence), 4),
             "area_ratio": round(float(area_ratio), 6),
+            "source": "contour",
         }
 
         bottom_norm = (y + h) / max(float(height), 1.0)
         if aspect >= door_aspect_min and bottom_norm >= door_bottom_zone:
             doors.append(entity)
             continue
-
         if window_aspect_min <= aspect <= window_aspect_max:
             windows.append(entity)
 
-    windows.sort(key=lambda item: (item["bbox"][1], item["bbox"][0]))
-    doors.sort(key=lambda item: (item["bbox"][1], item["bbox"][0]))
+    logger.info("Segmentation stage (contour): windows=%d doors=%d", len(windows), len(doors))
+    return _save_segmentation_outputs(image, out_dir, windows, doors, backend="contour_baseline")
+
+
+def _run_yolo_inference(
+    ortho_path: Path,
+    out_dir: Path,
+    cfg: dict[str, Any],
+    logger,
+    task: str,
+) -> dict[str, Any]:
+    try:
+        from ultralytics import YOLO  # pylint: disable=import-outside-toplevel
+    except Exception as exc:  # noqa: BLE001
+        raise RuntimeError(f"Ultralytics is unavailable: {exc}") from exc
+
+    image = cv2.imread(str(ortho_path))
+    if image is None:
+        raise RuntimeError(f"Cannot read orthoimage: {ortho_path}")
+    height, width = image.shape[:2]
+
+    model_path = str(cfg.get("model_path") or cfg.get("weights") or "").strip()
+    if not model_path:
+        raise RuntimeError("YOLO backend requires `segmentation.model_path`")
+    model = YOLO(model_path)
+
+    min_confidence = float(cfg.get("min_confidence", 0.25))
+    iou_threshold = float(cfg.get("iou_threshold", 0.5))
+    imgsz = int(cfg.get("imgsz", 640))
+    max_det = int(cfg.get("max_det", 400))
+    device = str(cfg.get("device", "cpu"))
+
+    predictions = model.predict(
+        source=str(ortho_path),
+        conf=min_confidence,
+        iou=iou_threshold,
+        imgsz=imgsz,
+        max_det=max_det,
+        device=device,
+        verbose=False,
+        retina_masks=(task == "seg"),
+    )
+    if not predictions:
+        raise RuntimeError("YOLO predict returned no results")
+
+    pred = predictions[0]
+    boxes = pred.boxes
+    masks_xy = pred.masks.xy if (task == "seg" and pred.masks is not None) else None
+    if boxes is None or len(boxes) == 0:
+        logger.info("Segmentation stage (yolo): windows=0 doors=0")
+        return _save_segmentation_outputs(image, out_dir, [], [], backend="yolo_seg")
+
+    xyxy = boxes.xyxy.detach().cpu().numpy()
+    confs = boxes.conf.detach().cpu().numpy()
+    clss = boxes.cls.detach().cpu().numpy().astype(np.int64)
+
+    windows: list[dict[str, Any]] = []
+    doors: list[dict[str, Any]] = []
+    min_area_ratio = float(cfg.get("min_area_ratio", 0.0008))
+    max_area_ratio = float(cfg.get("max_area_ratio", 0.35))
+    image_area = float(width * height)
+
+    for idx, (bbox_xyxy, conf, cls_id) in enumerate(zip(xyxy, confs, clss)):
+        if cls_id not in (0, 1):
+            continue
+        x1, y1, x2, y2 = bbox_xyxy.tolist()
+        x1 = max(0, min(int(round(x1)), width - 1))
+        y1 = max(0, min(int(round(y1)), height - 1))
+        x2 = max(0, min(int(round(x2)), width - 1))
+        y2 = max(0, min(int(round(y2)), height - 1))
+        if x2 <= x1 or y2 <= y1:
+            continue
+
+        bw = x2 - x1
+        bh = y2 - y1
+        area_ratio = float((bw * bh) / max(image_area, 1.0))
+        if area_ratio < min_area_ratio or area_ratio > max_area_ratio:
+            continue
+
+        polygon = _rect_to_polygon(x1, y1, bw, bh)
+        if masks_xy is not None and idx < len(masks_xy):
+            poly_raw = masks_xy[idx]
+            if poly_raw is not None and len(poly_raw) >= 3:
+                polygon = [
+                    [int(np.clip(round(point[0]), 0, width - 1)), int(np.clip(round(point[1]), 0, height - 1))]
+                    for point in poly_raw
+                ]
+
+        entity = {
+            "bbox": [int(x1), int(y1), int(bw), int(bh)],
+            "polygon": polygon,
+            "confidence": round(float(conf), 4),
+            "area_ratio": round(float(area_ratio), 6),
+            "source": f"yolo_{task}",
+        }
+        if int(cls_id) == 0:
+            windows.append(entity)
+        else:
+            doors.append(entity)
+
+    logger.info("Segmentation stage (yolo_%s): windows=%d doors=%d", task, len(windows), len(doors))
+    return _save_segmentation_outputs(image, out_dir, windows, doors, backend=f"yolo_{task}")
+
+
+def _save_segmentation_outputs(
+    image: np.ndarray,
+    out_dir: Path,
+    windows: list[dict[str, Any]],
+    doors: list[dict[str, Any]],
+    backend: str,
+) -> dict[str, Any]:
+    height, width = image.shape[:2]
+    windows = sorted(windows, key=lambda item: (item["bbox"][1], item["bbox"][0]))
+    doors = sorted(doors, key=lambda item: (item["bbox"][1], item["bbox"][0]))
 
     for idx, item in enumerate(windows, start=1):
         item["id"] = f"window_{idx:04d}"
@@ -91,12 +237,14 @@ def run_segmentation(
 
     windows_payload = {
         "format_version": "mvp-0.1",
+        "backend": backend,
         "image_width": width,
         "image_height": height,
         "instances": windows,
     }
     doors_payload = {
         "format_version": "mvp-0.1",
+        "backend": backend,
         "image_width": width,
         "image_height": height,
         "instances": doors,
@@ -118,7 +266,6 @@ def run_segmentation(
     preview_path = out_dir / "masks_preview.png"
     cv2.imwrite(str(preview_path), preview)
 
-    logger.info("Segmentation stage: windows=%d doors=%d", len(windows), len(doors))
     return {
         "windows": windows,
         "doors": doors,
@@ -131,9 +278,12 @@ def run_segmentation(
 
 
 def _rect_to_polygon(x: int, y: int, w: int, h: int) -> list[list[int]]:
-    return [
-        [int(x), int(y)],
-        [int(x + w), int(y)],
-        [int(x + w), int(y + h)],
-        [int(x), int(y + h)],
-    ]
+    return [[int(x), int(y)], [int(x + w), int(y)], [int(x + w), int(y + h)], [int(x), int(y + h)]]
+
+
+def _read_json_safe(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    import json
+
+    return json.loads(path.read_text(encoding="utf-8"))

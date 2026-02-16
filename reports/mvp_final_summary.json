@@ -1,0 +1,276 @@
+{
+  "generated_on": "2026-02-15",
+  "stage_winners": {
+    "A_seq": "pycolmap",
+    "A_single": "homography_baseline",
+    "B_segmentation": "contour",
+    "C_lines": "lsd",
+    "D_vectorize": "aggressive",
+    "E_export": "full"
+  },
+  "recommended": {
+    "default_config": "configs/mvp_final.yaml",
+    "quality_config": "configs/mvp_final_quality.yaml",
+    "one_command_default": "python scripts/run_mvp_final.py --input <video_or_images_dir> --outdir runs/run_final_0001 --profile default --device cpu --seed 42",
+    "one_command_quality": "python scripts/run_mvp_final.py --input <video_or_images_dir> --outdir runs/run_final_quality_0001 --profile quality --device cpu --seed 42"
+  },
+  "notes": [
+    "Stage A sequential comparison: PyCOLMAP has higher rectification score but much slower runtime.",
+    "Stage A single-image comparison: PyCOLMAP profile falls back to homography baseline.",
+    "CMP 30-image evaluations across B-E have 2 geometry-gate failures (cmp_b0326, cmp_b0352).",
+    "Default final profile prioritizes robustness/speed on mixed single-image and short-sequence inputs."
+  ],
+  "evidence": {
+    "A_seq": [
+      {
+        "config": "c:\\Projects\\Diploma\\configs\\mvp.yaml",
+        "run_dir": "c:\\Projects\\Diploma\\runs\\geometry_compare_seq\\01_mvp",
+        "status": "ok",
+        "error": "",
+        "backend": "homography_baseline",
+        "rectification_score": 0.5459,
+        "manhattan_ratio": 0.9286,
+        "coverage": 0.3,
+        "rotation_deg": 0.0,
+        "reprojection_error": 0.0,
+        "num_attempts": 24,
+        "total_time_sec": 2.9876,
+        "geometry_time_sec": 2.2185,
+        "svg_path": "c:\\Projects\\Diploma\\runs\\geometry_compare_seq\\01_mvp\\40_vector\\result.svg"
+      },
+      {
+        "config": "c:\\Projects\\Diploma\\configs\\mvp_a1_pycolmap.yaml",
+        "run_dir": "c:\\Projects\\Diploma\\runs\\geometry_compare_seq\\02_mvp_a1_pycolmap",
+        "status": "ok",
+        "error": "",
+        "backend": "pycolmap",
+        "rectification_score": 0.7737,
+        "manhattan_ratio": 0.9,
+        "coverage": 0.5455,
+        "rotation_deg": -18.0,
+        "reprojection_error": 0.1336,
+        "num_attempts": 1,
+        "total_time_sec": 34.0813,
+        "geometry_time_sec": 32.9728,
+        "svg_path": "c:\\Projects\\Diploma\\runs\\geometry_compare_seq\\02_mvp_a1_pycolmap\\40_vector\\result.svg"
+      }
+    ],
+    "A_single": [
+      {
+        "config": "c:\\Projects\\Diploma\\configs\\mvp.yaml",
+        "run_dir": "c:\\Projects\\Diploma\\runs\\geometry_compare_single\\01_mvp",
+        "status": "ok",
+        "error": "",
+        "backend": "homography_baseline",
+        "rectification_score": 0.5328,
+        "manhattan_ratio": 0.495,
+        "coverage": 0.3,
+        "rotation_deg": 0.0,
+        "reprojection_error": 0.0,
+        "num_attempts": 3,
+        "total_time_sec": 0.7981,
+        "geometry_time_sec": 0.3711,
+        "svg_path": "c:\\Projects\\Diploma\\runs\\geometry_compare_single\\01_mvp\\40_vector\\result.svg"
+      },
+      {
+        "config": "c:\\Projects\\Diploma\\configs\\mvp_a1_pycolmap.yaml",
+        "run_dir": "c:\\Projects\\Diploma\\runs\\geometry_compare_single\\02_mvp_a1_pycolmap",
+        "status": "ok",
+        "error": "",
+        "backend": "homography_baseline",
+        "rectification_score": 0.5328,
+        "manhattan_ratio": 0.495,
+        "coverage": 0.3,
+        "rotation_deg": 0.0,
+        "reprojection_error": 0.0,
+        "num_attempts": 3,
+        "total_time_sec": 0.7232,
+        "geometry_time_sec": 0.3758,
+        "svg_path": "c:\\Projects\\Diploma\\runs\\geometry_compare_single\\02_mvp_a1_pycolmap\\40_vector\\result.svg"
+      }
+    ],
+    "B": {
+      "winner": "contour",
+      "selection_rule": "max door_presence_recall_nonempty_gt, then max avg_door_iou_nonempty_gt, then max avg_window_iou_nonempty_gt, then min avg_runtime_sec, then min avg_window_count_abs_error, then min avg_door_count_abs_error",
+      "rows": [
+        {
+          "label": "contour",
+          "path": "reports\\cmp_real_eval_contour_relaxed30_v2_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "avg_window_iou_nonempty_gt": 0.13948622448822412,
+          "avg_door_iou_nonempty_gt": 0.026666917349050356,
+          "door_presence_recall_nonempty_gt": 0.95,
+          "avg_window_count_abs_error": 22.178571428571427,
+          "avg_door_count_abs_error": 3.0,
+          "avg_runtime_sec": 0.5829535714285714
+        },
+        {
+          "label": "yolo_det",
+          "path": "reports\\cmp_real_eval_yolo_det30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "avg_window_iou_nonempty_gt": 0.035605648009871045,
+          "avg_door_iou_nonempty_gt": 0.0,
+          "door_presence_recall_nonempty_gt": 0.0,
+          "avg_window_count_abs_error": 29.821428571428573,
+          "avg_door_count_abs_error": 1.5,
+          "avg_runtime_sec": 0.7877535714285714
+        },
+        {
+          "label": "yolo_seg",
+          "path": "reports\\cmp_real_eval_yolo_seg30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "avg_window_iou_nonempty_gt": 0.05870683102986584,
+          "avg_door_iou_nonempty_gt": 0.0,
+          "door_presence_recall_nonempty_gt": 0.0,
+          "avg_window_count_abs_error": 32.17857142857143,
+          "avg_door_count_abs_error": 1.5,
+          "avg_runtime_sec": 1.0559
+        }
+      ]
+    },
+    "C": {
+      "winner": "lsd",
+      "selection_rule": "max avg_line_manhattan_ratio, then min avg_runtime_sec, then min avg_line_count",
+      "rows": [
+        {
+          "label": "lsd",
+          "path": "reports\\cmp_real_eval_lines_lsd30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "avg_line_manhattan_ratio": 0.9452769524240632,
+          "avg_line_count": 510.0,
+          "avg_runtime_sec": 0.5665571428571429,
+          "avg_window_iou_nonempty_gt": 0.13948622448822412,
+          "avg_door_iou_nonempty_gt": 0.026666917349050356
+        },
+        {
+          "label": "hough",
+          "path": "reports\\cmp_real_eval_lines_hough30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "avg_line_manhattan_ratio": 0.817698962800167,
+          "avg_line_count": 1019.0714285714286,
+          "avg_runtime_sec": 0.5712642857142857,
+          "avg_window_iou_nonempty_gt": 0.13948622448822412,
+          "avg_door_iou_nonempty_gt": 0.026666917349050356
+        }
+      ]
+    },
+    "D": {
+      "winner": "aggressive",
+      "selection_rule": "max avg_openings_iou_nonempty_gt, then min avg_window_count_abs_error, then min avg_door_count_abs_error, then max avg_vector_line_manhattan_ratio, then min avg_runtime_sec",
+      "rows": [
+        {
+          "label": "base",
+          "path": "reports\\cmp_vector_eval_base30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "avg_window_iou_nonempty_gt": 0.13958613516475132,
+          "avg_door_iou_nonempty_gt": 0.0270182232915538,
+          "avg_openings_iou_nonempty_gt": 0.08330217922815256,
+          "avg_window_count_abs_error": 22.178571428571427,
+          "avg_door_count_abs_error": 3.0,
+          "avg_vector_line_manhattan_ratio": 0.9470889593651333,
+          "avg_vector_line_count": 510.0,
+          "avg_runtime_sec": 0.510275
+        },
+        {
+          "label": "strict",
+          "path": "reports\\cmp_vector_eval_strict30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "avg_window_iou_nonempty_gt": 0.13973144129572246,
+          "avg_door_iou_nonempty_gt": 0.026726338619012538,
+          "avg_openings_iou_nonempty_gt": 0.08322888995736749,
+          "avg_window_count_abs_error": 22.178571428571427,
+          "avg_door_count_abs_error": 3.0,
+          "avg_vector_line_manhattan_ratio": 0.9456108498760308,
+          "avg_vector_line_count": 510.0,
+          "avg_runtime_sec": 0.46671071428571426
+        },
+        {
+          "label": "aggressive",
+          "path": "reports\\cmp_vector_eval_aggressive30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "avg_window_iou_nonempty_gt": 0.13957197370307675,
+          "avg_door_iou_nonempty_gt": 0.027660786280518324,
+          "avg_openings_iou_nonempty_gt": 0.08361637999179754,
+          "avg_window_count_abs_error": 22.178571428571427,
+          "avg_door_count_abs_error": 3.0,
+          "avg_vector_line_manhattan_ratio": 0.9629433835236091,
+          "avg_vector_line_count": 510.0,
+          "avg_runtime_sec": 0.43593571428571426
+        }
+      ]
+    },
+    "E": {
+      "winner": "full",
+      "selection_rule": "max expected_outputs_count, then max export_valid_rate, then min avg_runtime_sec, then min avg_total_export_size_kb",
+      "rows": [
+        {
+          "label": "full",
+          "path": "reports\\cmp_export_eval_full30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "expected_outputs_count": 3,
+          "expect_svg": true,
+          "expect_dxf": true,
+          "expect_pdf": true,
+          "export_valid_rate": 1.0,
+          "svg_valid_rate_expected": 1.0,
+          "dxf_valid_rate_expected": 1.0,
+          "pdf_valid_rate_expected": 1.0,
+          "avg_runtime_sec": 0.38035,
+          "avg_total_export_size_kb": 206.58014787946428
+        },
+        {
+          "label": "no_pdf",
+          "path": "reports\\cmp_export_eval_no_pdf30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "expected_outputs_count": 2,
+          "expect_svg": true,
+          "expect_dxf": true,
+          "expect_pdf": false,
+          "export_valid_rate": 1.0,
+          "svg_valid_rate_expected": 1.0,
+          "dxf_valid_rate_expected": 1.0,
+          "pdf_valid_rate_expected": 1.0,
+          "avg_runtime_sec": 0.3591714285714286,
+          "avg_total_export_size_kb": 115.67030552455357
+        },
+        {
+          "label": "svg_only",
+          "path": "reports\\cmp_export_eval_svg_only30_summary.json",
+          "status": "ok",
+          "num_ok": 28,
+          "num_failed": 2,
+          "expected_outputs_count": 1,
+          "expect_svg": true,
+          "expect_dxf": false,
+          "expect_pdf": false,
+          "export_valid_rate": 1.0,
+          "svg_valid_rate_expected": 1.0,
+          "dxf_valid_rate_expected": 1.0,
+          "pdf_valid_rate_expected": 1.0,
+          "avg_runtime_sec": 0.37219285714285716,
+          "avg_total_export_size_kb": 60.996512276785715
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+2026-02-15 01:37:57 | INFO | Pipeline start: input=data\cmp_facade_base\base\cmp_b0378.jpg outdir=runs\cmp_export_svg_only_smoke2\cmp_b0378 config=configs/mvp_e_svg_only.yaml device=cpu
+2026-02-15 01:37:57 | INFO | Seed set to 42
+2026-02-15 01:37:57 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:37:57 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:37:57 | INFO | Segmentation stage (contour): windows=7 doors=10
+2026-02-15 01:37:57 | INFO | Lines stage (lsd): 122 segments
+2026-02-15 01:37:58 | INFO | Vectorization stage: windows=7 doors=10 lines=122 (snap=9.00 angle=18.00 strength=1.50)
+2026-02-15 01:37:58 | INFO | Pipeline finished successfully in 0.16 sec

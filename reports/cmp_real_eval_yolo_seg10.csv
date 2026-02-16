@@ -1,0 +1,11 @@
+image,status,error,rectification_score,runtime_sec,gt_windows_count,pred_windows_count,window_count_abs_error,window_iou,gt_doors_count,pred_doors_count,door_count_abs_error,door_iou,line_count,line_manhattan_ratio,image_width,image_height,image_path
+cmp_b0001.jpg,ok,,0.3412,2.8179,74,120,46,0.18359114684626118,5,0,5,0.0,410,0.9804878048780488,543,1024,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0001.jpg
+cmp_b0042.jpg,ok,,0.5328,1.2043,54,1,53,0.0,1,0,1,0.0,736,0.9375,933,1024,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0042.jpg
+cmp_b0084.jpg,ok,,0.4508,1.4065,12,70,58,0.133103455626852,2,0,2,0.0,817,0.8849449204406364,1024,995,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0084.jpg
+cmp_b0126.jpg,ok,,0.4762,0.8752,33,5,28,0.014087950371298475,0,0,0,1.0,629,0.9491255961844197,1024,752,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0126.jpg
+cmp_b0168.jpg,ok,,0.3724,0.9914,48,9,39,0.04313627044893519,1,0,1,0.0,1010,0.9752475247524752,1024,974,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0168.jpg
+cmp_b0210.jpg,ok,,0.6032,0.7933,21,9,12,0.02241018858264357,1,0,1,0.0,404,0.9306930693069307,1024,594,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0210.jpg
+cmp_b0252.jpg,ok,,0.4462,1.0534,22,46,24,0.09626052201295948,0,0,0,1.0,617,0.93354943273906,888,1024,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0252.jpg
+cmp_b0294.jpg,ok,,0.7015,0.3628,28,1,27,0.0,2,0,2,0.0,166,0.8855421686746988,487,321,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0294.jpg
+cmp_b0336.jpg,ok,,0.5262,0.4422,22,0,22,0.0,0,0,0,1.0,207,0.9903381642512077,631,458,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0336.jpg
+cmp_b0378.jpg,ok,,0.3754,0.4434,10,24,14,0.18330615354586038,0,0,0,1.0,122,0.9836065573770492,538,408,c:\Projects\Diploma\data\cmp_facade_base\base\cmp_b0378.jpg

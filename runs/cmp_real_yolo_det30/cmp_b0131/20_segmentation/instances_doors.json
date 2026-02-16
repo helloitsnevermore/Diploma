@@ -1,0 +1,7 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "yolo_det",
+  "image_width": 851,
+  "image_height": 1024,
+  "instances": []
+}

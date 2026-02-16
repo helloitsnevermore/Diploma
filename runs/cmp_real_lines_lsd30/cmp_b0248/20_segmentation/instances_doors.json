@@ -1,0 +1,132 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "contour_baseline",
+  "image_width": 1024,
+  "image_height": 648,
+  "instances": [
+    {
+      "bbox": [
+        104,
+        448,
+        38,
+        72
+      ],
+      "polygon": [
+        [
+          104,
+          448
+        ],
+        [
+          142,
+          448
+        ],
+        [
+          142,
+          520
+        ],
+        [
+          104,
+          520
+        ]
+      ],
+      "confidence": 0.685,
+      "area_ratio": 0.001526,
+      "source": "contour",
+      "id": "door_0001",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        450,
+        510,
+        44,
+        80
+      ],
+      "polygon": [
+        [
+          450,
+          510
+        ],
+        [
+          494,
+          510
+        ],
+        [
+          494,
+          590
+        ],
+        [
+          450,
+          590
+        ]
+      ],
+      "confidence": 0.6495,
+      "area_ratio": 0.001586,
+      "source": "contour",
+      "id": "door_0002",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        196,
+        561,
+        46,
+        87
+      ],
+      "polygon": [
+        [
+          196,
+          561
+        ],
+        [
+          242,
+          561
+        ],
+        [
+          242,
+          648
+        ],
+        [
+          196,
+          648
+        ]
+      ],
+      "confidence": 0.802,
+      "area_ratio": 0.003643,
+      "source": "contour",
+      "id": "door_0003",
+      "type": "door"
+    },
+    {
+      "bbox": [
+        203,
+        583,
+        32,
+        60
+      ],
+      "polygon": [
+        [
+          203,
+          583
+        ],
+        [
+          235,
+          583
+        ],
+        [
+          235,
+          643
+        ],
+        [
+          203,
+          643
+        ]
+      ],
+      "confidence": 0.8178,
+      "area_ratio": 0.001839,
+      "source": "contour",
+      "id": "door_0004",
+      "type": "door"
+    }
+  ]
+}

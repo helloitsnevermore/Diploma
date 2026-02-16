@@ -1,0 +1,31 @@
+image,status,error,rectification_score,runtime_sec,gt_windows_count,pred_windows_count,window_count_abs_error,window_iou,gt_doors_count,pred_doors_count,door_count_abs_error,door_iou,line_count,line_manhattan_ratio,image_width,image_height,image_path
+cmp_b0001.jpg,ok,,0.3412,2.4413,74,120,46,0.16283366018601478,5,0,5,0.0,410,0.9804878048780488,543,1024,data\cmp_facade_base\base\cmp_b0001.jpg
+cmp_b0014.jpg,ok,,0.5742,0.9019,21,0,21,0.0,1,0,1,0.0,593,0.954468802698145,753,1024,data\cmp_facade_base\base\cmp_b0014.jpg
+cmp_b0027.jpg,ok,,0.707,0.8476,38,8,30,0.02995543935112948,0,0,0,1.0,552,0.9293478260869565,745,1024,data\cmp_facade_base\base\cmp_b0027.jpg
+cmp_b0040.jpg,ok,,0.6186,0.9514,22,3,19,0.000187694733285784,1,0,1,0.0,731,0.9110807113543091,687,1024,data\cmp_facade_base\base\cmp_b0040.jpg
+cmp_b0053.jpg,ok,,0.6015,0.965,14,0,14,0.0,2,0,2,0.0,628,0.9506369426751592,1024,1015,data\cmp_facade_base\base\cmp_b0053.jpg
+cmp_b0066.jpg,ok,,0.6382,1.3742,270,120,150,0.11817294005116451,0,0,0,1.0,482,0.983402489626556,616,1024,data\cmp_facade_base\base\cmp_b0066.jpg
+cmp_b0079.jpg,ok,,0.4999,0.9558,82,120,38,0.16803832989842485,0,0,0,1.0,417,0.8848920863309353,601,1024,data\cmp_facade_base\base\cmp_b0079.jpg
+cmp_b0092.jpg,ok,,0.3061,0.7747,26,5,21,0.029249065733725592,1,0,1,0.0,435,0.967816091954023,844,1024,data\cmp_facade_base\base\cmp_b0092.jpg
+cmp_b0105.jpg,ok,,0.7037,0.7424,39,1,38,0.0003527621274579961,0,0,0,1.0,518,0.9227799227799228,1024,507,data\cmp_facade_base\base\cmp_b0105.jpg
+cmp_b0118.jpg,ok,,0.484,0.8501,21,2,19,0.0248565473586702,1,0,1,0.0,622,0.9035369774919614,1024,704,data\cmp_facade_base\base\cmp_b0118.jpg
+cmp_b0131.jpg,ok,,0.4745,0.8316,27,1,26,0.0,1,0,1,0.0,682,0.9633431085043989,851,1024,data\cmp_facade_base\base\cmp_b0131.jpg
+cmp_b0144.jpg,ok,,0.5049,0.7331,14,4,10,0.0113278986207163,1,0,1,0.0,648,0.8996913580246914,1024,677,data\cmp_facade_base\base\cmp_b0144.jpg
+cmp_b0157.jpg,ok,,0.484,0.8374,31,0,31,0.0,3,0,3,0.0,649,0.9861325115562404,768,1024,data\cmp_facade_base\base\cmp_b0157.jpg
+cmp_b0170.jpg,ok,,0.471,0.9979,40,13,27,0.049648162627052385,1,0,1,0.0,945,0.9746031746031746,858,1024,data\cmp_facade_base\base\cmp_b0170.jpg
+cmp_b0183.jpg,ok,,0.4236,0.7171,8,0,8,0.0,1,0,1,0.0,557,0.9353680430879713,720,1024,data\cmp_facade_base\base\cmp_b0183.jpg
+cmp_b0196.jpg,ok,,0.4261,0.5173,40,43,3,0.03756905601557017,2,0,2,0.0,363,0.8925619834710744,1024,468,data\cmp_facade_base\base\cmp_b0196.jpg
+cmp_b0209.jpg,ok,,0.4694,0.5978,12,6,6,0.0,2,0,2,0.0,456,1.0,1024,558,data\cmp_facade_base\base\cmp_b0209.jpg
+cmp_b0222.jpg,ok,,0.4822,0.6426,41,14,27,0.03173811166062527,1,0,1,0.0,580,0.9327586206896552,768,1024,data\cmp_facade_base\base\cmp_b0222.jpg
+cmp_b0235.jpg,ok,,0.3861,0.5798,36,120,84,0.05903352035498749,2,0,2,0.0,321,0.9314641744548287,768,1024,data\cmp_facade_base\base\cmp_b0235.jpg
+cmp_b0248.jpg,ok,,0.5985,0.6518,47,96,49,0.10683348569644809,3,0,3,0.0,645,0.9457364341085271,1024,648,data\cmp_facade_base\base\cmp_b0248.jpg
+cmp_b0261.jpg,ok,,0.5284,0.9054,41,68,27,0.0688836977699354,2,0,2,0.0,1139,0.9666374012291484,1024,943,data\cmp_facade_base\base\cmp_b0261.jpg
+cmp_b0274.jpg,ok,,0.673,0.817,40,10,30,0.05009029176066049,1,0,1,0.0,670,0.9746268656716418,680,1024,data\cmp_facade_base\base\cmp_b0274.jpg
+cmp_b0287.jpg,ok,,0.4574,0.3791,18,0,18,0.0,0,0,0,1.0,186,0.9623655913978495,507,474,data\cmp_facade_base\base\cmp_b0287.jpg
+cmp_b0300.jpg,ok,,0.5943,0.463,12,0,12,0.0,0,0,0,1.0,239,0.899581589958159,595,441,data\cmp_facade_base\base\cmp_b0300.jpg
+cmp_b0313.jpg,ok,,0.3824,0.3616,31,0,31,0.0,7,0,7,0.0,164,0.9817073170731707,573,362,data\cmp_facade_base\base\cmp_b0313.jpg
+cmp_b0326.jpg,failed,Homography geometry failed quality gate: rectification_score=0.288 < 0.300,0.0,0.0,0,0,0,0.0,0,0,0,0.0,0,0.0,0,0,data\cmp_facade_base\base\cmp_b0326.jpg
+cmp_b0339.jpg,ok,,0.3981,0.5616,23,11,12,0.04818748033052044,0,0,0,1.0,313,0.8913738019169329,1011,578,data\cmp_facade_base\base\cmp_b0339.jpg
+cmp_b0352.jpg,failed,Homography geometry failed quality gate: rectification_score=0.268 < 0.300,0.0,0.0,0,0,0,0.0,0,0,0,0.0,0,0.0,0,0,data\cmp_facade_base\base\cmp_b0352.jpg
+cmp_b0365.jpg,ok,,0.5749,0.3551,28,0,28,0.0,4,0,4,0.0,213,0.9577464788732394,529,365,data\cmp_facade_base\base\cmp_b0365.jpg
+cmp_b0378.jpg,ok,,0.3754,0.3035,10,0,10,0.0,0,0,0,1.0,122,0.9836065573770492,538,408,data\cmp_facade_base\base\cmp_b0378.jpg

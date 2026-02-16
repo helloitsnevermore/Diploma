@@ -1,0 +1,6 @@
+path: C:/Projects/Diploma/data/cmp_yolo_det_small
+train: images/train
+val: images/val
+names:
+  0: window
+  1: door

@@ -1,0 +1,8 @@
+2026-02-15 01:39:33 | INFO | Pipeline start: input=test_input outdir=runs\run_smoke_e_full config=configs/mvp_e_full.yaml device=cpu
+2026-02-15 01:39:33 | INFO | Seed set to 42
+2026-02-15 01:39:33 | INFO | Collecting 3 images (of 3 found)
+2026-02-15 01:39:33 | INFO | Geometry stage (homography): evaluating 3 frames with 3 Canny variants
+2026-02-15 01:39:33 | INFO | Segmentation stage (contour): windows=32 doors=0
+2026-02-15 01:39:33 | INFO | Lines stage (lsd): 136 segments
+2026-02-15 01:39:33 | INFO | Vectorization stage: windows=32 doors=0 lines=136 (snap=9.00 angle=18.00 strength=1.50)
+2026-02-15 01:39:33 | INFO | Pipeline finished successfully in 0.42 sec

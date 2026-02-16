@@ -1,0 +1,10 @@
+{
+  "input": "C:\\Projects\\Diploma\\data\\cmp_facade_base\\base\\cmp_b0300.jpg",
+  "kind": "image_file",
+  "fps": 2.0,
+  "max_frames": 120,
+  "frames": [
+    "frame_00000.png"
+  ],
+  "num_frames": 1
+}

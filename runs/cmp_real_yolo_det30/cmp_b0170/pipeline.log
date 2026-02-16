@@ -1,0 +1,8 @@
+2026-02-15 01:17:47 | INFO | Pipeline start: input=data\cmp_facade_base\base\cmp_b0170.jpg outdir=runs\cmp_real_yolo_det30\cmp_b0170 config=configs/mvp_b_yolo_det_cmp.yaml device=cpu
+2026-02-15 01:17:47 | INFO | Seed set to 42
+2026-02-15 01:17:47 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:17:47 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:17:48 | INFO | Segmentation stage (yolo_det): windows=13 doors=0
+2026-02-15 01:17:48 | INFO | Lines stage: 945 segments
+2026-02-15 01:17:48 | INFO | Vectorization stage: windows=13 doors=0 lines=945
+2026-02-15 01:17:48 | INFO | Pipeline finished successfully in 1.00 sec

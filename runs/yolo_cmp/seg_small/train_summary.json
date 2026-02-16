@@ -1,0 +1,16 @@
+{
+  "save_dir": "C:\\Projects\\Diploma\\runs\\yolo_cmp\\seg_small",
+  "best_pt": "C:\\Projects\\Diploma\\runs\\yolo_cmp\\seg_small\\weights\\best.pt",
+  "last_pt": "C:\\Projects\\Diploma\\runs\\yolo_cmp\\seg_small\\weights\\last.pt",
+  "metrics": {
+    "metrics/precision(B)": 0.0008788657119136571,
+    "metrics/recall(B)": 0.06157317859445519,
+    "metrics/mAP50(B)": 0.000455374435091243,
+    "metrics/mAP50-95(B)": 8.621797498530597e-05,
+    "metrics/precision(M)": 0.0009380513179742631,
+    "metrics/recall(M)": 0.07672469374597034,
+    "metrics/mAP50(M)": 0.0004970254122478295,
+    "metrics/mAP50-95(M)": 0.00014376635104199732,
+    "fitness": 0.00022998432602730327
+  }
+}

@@ -1,0 +1,8 @@
+2026-02-15 01:30:49 | INFO | Pipeline start: input=data\cmp_facade_base\base\cmp_b0079.jpg outdir=runs\cmp_vector_aggressive30\cmp_b0079 config=configs/mvp_d_vector_aggressive.yaml device=cpu
+2026-02-15 01:30:49 | INFO | Seed set to 42
+2026-02-15 01:30:49 | INFO | Collecting 1 images (of 1 found)
+2026-02-15 01:30:49 | INFO | Geometry stage (homography): evaluating 1 frames with 3 Canny variants
+2026-02-15 01:30:49 | INFO | Segmentation stage (contour): windows=43 doors=1
+2026-02-15 01:30:49 | INFO | Lines stage (lsd): 417 segments
+2026-02-15 01:30:49 | INFO | Vectorization stage: windows=43 doors=1 lines=417 (snap=9.00 angle=18.00 strength=1.50)
+2026-02-15 01:30:49 | INFO | Pipeline finished successfully in 0.39 sec

@@ -1,0 +1,1155 @@
+{
+  "format_version": "mvp-0.1",
+  "backend": "yolo_seg",
+  "image_width": 680,
+  "image_height": 1024,
+  "instances": [
+    {
+      "bbox": [
+        431,
+        266,
+        56,
+        63
+      ],
+      "polygon": [
+        [
+          432,
+          266
+        ],
+        [
+          432,
+          329
+        ],
+        [
+          486,
+          329
+        ],
+        [
+          486,
+          266
+        ]
+      ],
+      "confidence": 0.0321,
+      "area_ratio": 0.005067,
+      "source": "yolo_seg",
+      "id": "window_0001",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        271,
+        283,
+        56,
+        62
+      ],
+      "polygon": [
+        [
+          272,
+          283
+        ],
+        [
+          272,
+          345
+        ],
+        [
+          326,
+          345
+        ],
+        [
+          326,
+          283
+        ]
+      ],
+      "confidence": 0.0319,
+      "area_ratio": 0.004986,
+      "source": "yolo_seg",
+      "id": "window_0002",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        272,
+        315,
+        54,
+        62
+      ],
+      "polygon": [
+        [
+          272,
+          316
+        ],
+        [
+          272,
+          376
+        ],
+        [
+          326,
+          376
+        ],
+        [
+          326,
+          316
+        ]
+      ],
+      "confidence": 0.0316,
+      "area_ratio": 0.004808,
+      "source": "yolo_seg",
+      "id": "window_0003",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        303,
+        315,
+        56,
+        62
+      ],
+      "polygon": [
+        [
+          303,
+          315
+        ],
+        [
+          303,
+          377
+        ],
+        [
+          359,
+          377
+        ],
+        [
+          359,
+          315
+        ]
+      ],
+      "confidence": 0.0306,
+      "area_ratio": 0.004986,
+      "source": "yolo_seg",
+      "id": "window_0004",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        351,
+        316,
+        56,
+        61
+      ],
+      "polygon": [
+        [
+          352,
+          316
+        ],
+        [
+          352,
+          376
+        ],
+        [
+          406,
+          376
+        ],
+        [
+          406,
+          316
+        ]
+      ],
+      "confidence": 0.0305,
+      "area_ratio": 0.004906,
+      "source": "yolo_seg",
+      "id": "window_0005",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        288,
+        330,
+        54,
+        62
+      ],
+      "polygon": [
+        [
+          288,
+          331
+        ],
+        [
+          288,
+          391
+        ],
+        [
+          342,
+          391
+        ],
+        [
+          342,
+          331
+        ]
+      ],
+      "confidence": 0.0321,
+      "area_ratio": 0.004808,
+      "source": "yolo_seg",
+      "id": "window_0006",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        321,
+        330,
+        53,
+        62
+      ],
+      "polygon": [
+        [
+          322,
+          331
+        ],
+        [
+          322,
+          391
+        ],
+        [
+          374,
+          391
+        ],
+        [
+          374,
+          331
+        ]
+      ],
+      "confidence": 0.0311,
+      "area_ratio": 0.004719,
+      "source": "yolo_seg",
+      "id": "window_0007",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        367,
+        331,
+        56,
+        60
+      ],
+      "polygon": [
+        [
+          368,
+          331
+        ],
+        [
+          368,
+          391
+        ],
+        [
+          422,
+          391
+        ],
+        [
+          422,
+          331
+        ]
+      ],
+      "confidence": 0.0317,
+      "area_ratio": 0.004825,
+      "source": "yolo_seg",
+      "id": "window_0008",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        447,
+        332,
+        57,
+        57
+      ],
+      "polygon": [
+        [
+          448,
+          333
+        ],
+        [
+          448,
+          388
+        ],
+        [
+          503,
+          388
+        ],
+        [
+          503,
+          333
+        ]
+      ],
+      "confidence": 0.031,
+      "area_ratio": 0.004666,
+      "source": "yolo_seg",
+      "id": "window_0009",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        304,
+        347,
+        55,
+        60
+      ],
+      "polygon": [
+        [
+          305,
+          347
+        ],
+        [
+          305,
+          407
+        ],
+        [
+          358,
+          407
+        ],
+        [
+          358,
+          347
+        ]
+      ],
+      "confidence": 0.0333,
+      "area_ratio": 0.004739,
+      "source": "yolo_seg",
+      "id": "window_0010",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        352,
+        347,
+        54,
+        61
+      ],
+      "polygon": [
+        [
+          353,
+          347
+        ],
+        [
+          353,
+          408
+        ],
+        [
+          406,
+          408
+        ],
+        [
+          406,
+          347
+        ]
+      ],
+      "confidence": 0.0367,
+      "area_ratio": 0.004731,
+      "source": "yolo_seg",
+      "id": "window_0011",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        384,
+        348,
+        55,
+        59
+      ],
+      "polygon": [
+        [
+          385,
+          348
+        ],
+        [
+          385,
+          407
+        ],
+        [
+          438,
+          407
+        ],
+        [
+          438,
+          348
+        ]
+      ],
+      "confidence": 0.0326,
+      "area_ratio": 0.00466,
+      "source": "yolo_seg",
+      "id": "window_0012",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        448,
+        462,
+        54,
+        54
+      ],
+      "polygon": [
+        [
+          449,
+          462
+        ],
+        [
+          449,
+          515
+        ],
+        [
+          502,
+          515
+        ],
+        [
+          502,
+          462
+        ]
+      ],
+      "confidence": 0.0313,
+      "area_ratio": 0.004188,
+      "source": "yolo_seg",
+      "id": "window_0013",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        274,
+        477,
+        51,
+        57
+      ],
+      "polygon": [
+        [
+          274,
+          477
+        ],
+        [
+          274,
+          533
+        ],
+        [
+          324,
+          533
+        ],
+        [
+          324,
+          477
+        ]
+      ],
+      "confidence": 0.0311,
+      "area_ratio": 0.004175,
+      "source": "yolo_seg",
+      "id": "window_0014",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        434,
+        479,
+        53,
+        52
+      ],
+      "polygon": [
+        [
+          434,
+          480
+        ],
+        [
+          434,
+          530
+        ],
+        [
+          486,
+          530
+        ],
+        [
+          486,
+          480
+        ]
+      ],
+      "confidence": 0.0376,
+      "area_ratio": 0.003958,
+      "source": "yolo_seg",
+      "id": "window_0015",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        290,
+        491,
+        51,
+        60
+      ],
+      "polygon": [
+        [
+          290,
+          492
+        ],
+        [
+          290,
+          551
+        ],
+        [
+          340,
+          551
+        ],
+        [
+          340,
+          492
+        ]
+      ],
+      "confidence": 0.03,
+      "area_ratio": 0.004395,
+      "source": "yolo_seg",
+      "id": "window_0016",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        324,
+        491,
+        48,
+        60
+      ],
+      "polygon": [
+        [
+          325,
+          492
+        ],
+        [
+          325,
+          551
+        ],
+        [
+          372,
+          551
+        ],
+        [
+          372,
+          492
+        ]
+      ],
+      "confidence": 0.0346,
+      "area_ratio": 0.004136,
+      "source": "yolo_seg",
+      "id": "window_0017",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        307,
+        492,
+        50,
+        59
+      ],
+      "polygon": [
+        [
+          308,
+          492
+        ],
+        [
+          308,
+          550
+        ],
+        [
+          356,
+          550
+        ],
+        [
+          356,
+          492
+        ]
+      ],
+      "confidence": 0.0333,
+      "area_ratio": 0.004237,
+      "source": "yolo_seg",
+      "id": "window_0018",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        449,
+        494,
+        54,
+        52
+      ],
+      "polygon": [
+        [
+          449,
+          495
+        ],
+        [
+          449,
+          546
+        ],
+        [
+          502,
+          546
+        ],
+        [
+          502,
+          495
+        ]
+      ],
+      "confidence": 0.0392,
+      "area_ratio": 0.004033,
+      "source": "yolo_seg",
+      "id": "window_0019",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        193,
+        495,
+        53,
+        49
+      ],
+      "polygon": [
+        [
+          193,
+          496
+        ],
+        [
+          193,
+          544
+        ],
+        [
+          246,
+          544
+        ],
+        [
+          246,
+          496
+        ]
+      ],
+      "confidence": 0.0316,
+      "area_ratio": 0.00373,
+      "source": "yolo_seg",
+      "id": "window_0020",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        273,
+        607,
+        53,
+        53
+      ],
+      "polygon": [
+        [
+          274,
+          607
+        ],
+        [
+          274,
+          659
+        ],
+        [
+          326,
+          659
+        ],
+        [
+          326,
+          607
+        ]
+      ],
+      "confidence": 0.0342,
+      "area_ratio": 0.004034,
+      "source": "yolo_seg",
+      "id": "window_0021",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        304,
+        607,
+        55,
+        53
+      ],
+      "polygon": [
+        [
+          304,
+          607
+        ],
+        [
+          304,
+          659
+        ],
+        [
+          359,
+          659
+        ],
+        [
+          359,
+          607
+        ]
+      ],
+      "confidence": 0.0303,
+      "area_ratio": 0.004186,
+      "source": "yolo_seg",
+      "id": "window_0022",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        433,
+        607,
+        54,
+        52
+      ],
+      "polygon": [
+        [
+          433,
+          608
+        ],
+        [
+          433,
+          659
+        ],
+        [
+          487,
+          659
+        ],
+        [
+          487,
+          608
+        ]
+      ],
+      "confidence": 0.0327,
+      "area_ratio": 0.004033,
+      "source": "yolo_seg",
+      "id": "window_0023",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        273,
+        638,
+        54,
+        53
+      ],
+      "polygon": [
+        [
+          274,
+          639
+        ],
+        [
+          274,
+          691
+        ],
+        [
+          326,
+          691
+        ],
+        [
+          326,
+          639
+        ]
+      ],
+      "confidence": 0.0351,
+      "area_ratio": 0.00411,
+      "source": "yolo_seg",
+      "id": "window_0024",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        304,
+        638,
+        55,
+        54
+      ],
+      "polygon": [
+        [
+          304,
+          638
+        ],
+        [
+          304,
+          692
+        ],
+        [
+          358,
+          692
+        ],
+        [
+          358,
+          638
+        ]
+      ],
+      "confidence": 0.0355,
+      "area_ratio": 0.004265,
+      "source": "yolo_seg",
+      "id": "window_0025",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        352,
+        639,
+        55,
+        53
+      ],
+      "polygon": [
+        [
+          352,
+          639
+        ],
+        [
+          352,
+          691
+        ],
+        [
+          407,
+          691
+        ],
+        [
+          407,
+          639
+        ]
+      ],
+      "confidence": 0.0352,
+      "area_ratio": 0.004186,
+      "source": "yolo_seg",
+      "id": "window_0026",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        432,
+        639,
+        56,
+        52
+      ],
+      "polygon": [
+        [
+          433,
+          640
+        ],
+        [
+          433,
+          691
+        ],
+        [
+          487,
+          691
+        ],
+        [
+          487,
+          640
+        ]
+      ],
+      "confidence": 0.041,
+      "area_ratio": 0.004182,
+      "source": "yolo_seg",
+      "id": "window_0027",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        289,
+        653,
+        53,
+        55
+      ],
+      "polygon": [
+        [
+          290,
+          654
+        ],
+        [
+          290,
+          708
+        ],
+        [
+          342,
+          708
+        ],
+        [
+          342,
+          654
+        ]
+      ],
+      "confidence": 0.0309,
+      "area_ratio": 0.004186,
+      "source": "yolo_seg",
+      "id": "window_0028",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        447,
+        655,
+        57,
+        51
+      ],
+      "polygon": [
+        [
+          448,
+          655
+        ],
+        [
+          448,
+          705
+        ],
+        [
+          503,
+          705
+        ],
+        [
+          503,
+          655
+        ]
+      ],
+      "confidence": 0.0398,
+      "area_ratio": 0.004175,
+      "source": "yolo_seg",
+      "id": "window_0029",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        287,
+        802,
+        57,
+        44
+      ],
+      "polygon": [
+        [
+          288,
+          802
+        ],
+        [
+          288,
+          846
+        ],
+        [
+          344,
+          846
+        ],
+        [
+          344,
+          802
+        ]
+      ],
+      "confidence": 0.0306,
+      "area_ratio": 0.003602,
+      "source": "yolo_seg",
+      "id": "window_0030",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        288,
+        819,
+        57,
+        40
+      ],
+      "polygon": [
+        [
+          288,
+          820
+        ],
+        [
+          288,
+          859
+        ],
+        [
+          344,
+          859
+        ],
+        [
+          344,
+          820
+        ]
+      ],
+      "confidence": 0.0375,
+      "area_ratio": 0.003274,
+      "source": "yolo_seg",
+      "id": "window_0031",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        447,
+        820,
+        58,
+        39
+      ],
+      "polygon": [
+        [
+          448,
+          820
+        ],
+        [
+          448,
+          859
+        ],
+        [
+          504,
+          859
+        ],
+        [
+          504,
+          820
+        ]
+      ],
+      "confidence": 0.0342,
+      "area_ratio": 0.003249,
+      "source": "yolo_seg",
+      "id": "window_0032",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        288,
+        835,
+        56,
+        40
+      ],
+      "polygon": [
+        [
+          289,
+          836
+        ],
+        [
+          289,
+          874
+        ],
+        [
+          344,
+          874
+        ],
+        [
+          344,
+          836
+        ]
+      ],
+      "confidence": 0.0386,
+      "area_ratio": 0.003217,
+      "source": "yolo_seg",
+      "id": "window_0033",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        178,
+        915,
+        53,
+        43
+      ],
+      "polygon": [
+        [
+          179,
+          915
+        ],
+        [
+          179,
+          958
+        ],
+        [
+          230,
+          958
+        ],
+        [
+          230,
+          915
+        ]
+      ],
+      "confidence": 0.0362,
+      "area_ratio": 0.003273,
+      "source": "yolo_seg",
+      "id": "window_0034",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        273,
+        918,
+        54,
+        36
+      ],
+      "polygon": [
+        [
+          274,
+          918
+        ],
+        [
+          274,
+          954
+        ],
+        [
+          327,
+          954
+        ],
+        [
+          327,
+          918
+        ]
+      ],
+      "confidence": 0.0339,
+      "area_ratio": 0.002792,
+      "source": "yolo_seg",
+      "id": "window_0035",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        272,
+        934,
+        56,
+        35
+      ],
+      "polygon": [
+        [
+          273,
+          934
+        ],
+        [
+          273,
+          968
+        ],
+        [
+          328,
+          968
+        ],
+        [
+          328,
+          934
+        ]
+      ],
+      "confidence": 0.0416,
+      "area_ratio": 0.002815,
+      "source": "yolo_seg",
+      "id": "window_0036",
+      "type": "window"
+    },
+    {
+      "bbox": [
+        304,
+        934,
+        57,
+        35
+      ],
+      "polygon": [
+        [
+          304,
+          935
+        ],
+        [
+          304,
+          968
+        ],
+        [
+          361,
+          968
+        ],
+        [
+          361,
+          935
+        ]
+      ],
+      "confidence": 0.0313,
+      "area_ratio": 0.002865,
+      "source": "yolo_seg",
+      "id": "window_0037",
+      "type": "window"
+    }
+  ]
+}

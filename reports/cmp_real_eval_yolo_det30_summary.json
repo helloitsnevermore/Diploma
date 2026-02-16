@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "num_ok": 28,
+  "num_failed": 2,
+  "avg_rectification_score": 0.5063785714285715,
+  "avg_runtime_sec": 0.7877535714285714,
+  "avg_window_iou": 0.035605648009871045,
+  "avg_door_iou": 0.2857142857142857,
+  "avg_window_iou_nonempty_gt": 0.035605648009871045,
+  "avg_door_iou_nonempty_gt": 0.0,
+  "avg_window_count_abs_error": 29.821428571428573,
+  "avg_door_count_abs_error": 1.5,
+  "door_presence_recall_nonempty_gt": 0.0,
+  "avg_line_manhattan_ratio": 0.9452769524240632,
+  "source": {
+    "dataset": "CMP Facade Database (base split)",
+    "url": "https://cmp.felk.cvut.cz/~tylecr1/facade/",
+    "evaluated_images": 30,
+    "limit": 30,
+    "outdir_root": "C:\\Projects\\Diploma\\runs\\cmp_real_yolo_det30"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "00_input": 0.0329,
+  "10_geometry": 0.2732,
+  "20_segmentation": 0.0648,
+  "30_lines": 0.1411,
+  "40_vectorize": 0.025,
+  "50_export": 0.0199,
+  "total": 0.557
+}
